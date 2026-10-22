@@ -1,15 +1,15 @@
 {
   "scope": "Prospective analysis Git tree; this inventory excludes only its own bytes to avoid a self-hash cycle.",
   "files": 1421,
-  "bytes": 144109917,
+  "bytes": 144109916,
   "largest_file_bytes": 9540263,
   "archives_gitignored": true,
   "manuscript_and_submission_absent": true,
   "records": [
     {
       "path": ".github/workflows/reproducibility.yml",
-      "bytes": 841,
-      "sha256": "4d8ce3f0e46f36b520f7d87401d9247e3e81f4657be41c78d019a498e2294f4f"
+      "bytes": 840,
+      "sha256": "3e4fe34b407fa8c139da79981d635b1b19d7c405cfb2caef6c0ca266b769c99a"
     },
     {
       "path": ".gitignore",
