@@ -1,0 +1,3 @@
+case,delta_t_lower,delta_t_upper,delta_t_lower_open,delta_t_upper_open,delta_u_lower,delta_u_upper,delta_u_lower_open,delta_u_upper_open
+A,-0.5904781187781474,-0.5904781187781474,False,False,0.9342958277604829,inf,True,True
+B,0.2660611084021456,0.2660611084021456,False,False,-inf,-0.0250280057019312,True,True

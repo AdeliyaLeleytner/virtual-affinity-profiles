@@ -1,0 +1,19 @@
+{
+  "scope": "Measured-outcome illustration only; no new performance estimate or model fit.",
+  "molecule_rendering": "Cached source icons; RDKit needed only for explicit optional regeneration",
+  "rdkit_asset_generator": "2025.03.6",
+  "inputs": {
+    "data/figure6_choices/selected_cases.csv": "66e5aafd850cb84157a9bd50e3dd1f423950f76f4c0ccad65458a120b021fc7b",
+    "data/figure6_choices/actual_four_cells.csv": "449cebc21b07a679fd88dcbcd619d4ff8ea6d046a9f42440fe432575602c0f4b",
+    "data/figure6_choices/all_source_variant_decisions.csv": "d7245d6de4bee51f57c72b41f5c03c6ec2642a2a497ae736e0dc667e48d0a652",
+    "data/figure6_choices/observed_delta_bounds.csv": "272c99403592fe3fe4c723a28fa3d56d53e4ccc2614b1e19f0c3187a6f9e00e8",
+    "data/figure6_choices/selection_receipt.json": "c1bbd89407e1c27b17f91b7b0d93573dea51ffe4dd687c33aff426bcafb0af6b",
+    "data/figure6_choices/nesso_unit_identity.json": "f2ab0024a19eb4d6be0e7cbc22b9a3022e7df9262be687019e53a2657bcaece7",
+    "assets/figure6_choices/molecular_depiction_receipt.json": "2503530cd4076b2ae7e60b0a087d926f8c1c365b5c0144cf330fc621e3dad753"
+  },
+  "outputs": {
+    "pdf": "d63f3e3fac80d4398153d3222a9766c274556ef1e044fc4a03bc4501a891ef8a",
+    "svg": "f30417b21594031cbd1177d9f469dbcbd2a1d8ad797423ca240c01bb6ec168c0",
+    "png": "22f6788427e11ac795ec19503ce687e0fdea4f170bc53e9cb6992bd09c9aede9"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Nominal Nesso units only; mathematical change of concentration reference, no empirical calibration or model fitting.",
+  "raw": "s = log10(IC50 / micromolar)",
+  "oriented": "z = -s = nominal predicted pIC50 - 6",
+  "difference_identity": "Delta z = Delta nominal predicted pIC50; the additive constant 6 cancels",
+  "applies_to": "Only Nesso affinity_pred_value in the selected case B; no unit assignment to Vina, GNINA, AD4 or other readouts.",
+  "source_files": {
+    "source-evidence/independent_results/methods/method_provenance.json": "c9c5fec127f09a7f9300a58da65465575d1b820aefec2b41ee3183c1b3a875a2",
+    "source-evidence/independent_results/methods/evidence/data/affinity_method_sources_v1/nesso/docs/prediction.md": "56b277122f68fb3b889283028b74bcbbe1ac5c84762b0a807155f2fd147641f6",
+    "source-evidence/independent_results/methods/evidence/src/evaluate_nesso_raw.py": "fa9c8d688c1623cf199389192aebecd84e618fb617f61680c7360f59826130e8"
+  },
+  "documentation_line": 154,
+  "raw_orientation_line": 40
+}

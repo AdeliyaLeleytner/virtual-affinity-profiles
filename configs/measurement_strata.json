@@ -1,0 +1,11 @@
+{
+  "measurement_strata": {
+    "input_dir": "outputs/profile_postprocessing_run02",
+    "output_dir": "outputs/profile_measurement_strata_run02",
+    "resamples": 400,
+    "seed": 20261022,
+    "scientific_thresholds": null,
+    "new_model_training": false,
+    "scope": "Additional measurement classes; preserve primary all-identified results. Exact four-cell versus censor-involving interval-identified D. Direction and joint two-assay choice metrics only."
+  }
+}

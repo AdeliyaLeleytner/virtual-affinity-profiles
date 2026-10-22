@@ -1,0 +1,111 @@
+{
+  "schema": "profile_information_inputs_v1",
+  "molecule_axis": "molecules.csv molecule_index",
+  "record_axis": "binding_records.csv.gz actual assay/source row; no per-gene pooling",
+  "protein_axis": "proteins.csv protein_index",
+  "datasets": [
+    {
+      "dataset": "dockstring",
+      "source": "DOCKSTRING",
+      "score_file": "datasets/dockstring.npz",
+      "membership_column": "in_dockstring",
+      "native_gene_universe": [
+        "ADORA2A",
+        "ADRB1",
+        "ADRB2",
+        "AR",
+        "DRD2",
+        "DRD3",
+        "ESR1",
+        "ESR2",
+        "NR3C1",
+        "PGR"
+      ],
+      "n_anchor_identities": 416,
+      "native_policy": "one source receptor context per gene within source; no cross-source averaging"
+    },
+    {
+      "dataset": "own44",
+      "source": "Docking44",
+      "score_file": "datasets/own44.npz",
+      "membership_column": "in_own44",
+      "native_gene_universe": [
+        "ADORA2A",
+        "ADRA1A",
+        "ADRA2A",
+        "ADRB1",
+        "ADRB2",
+        "AR",
+        "AVPR1A",
+        "CCKAR",
+        "CHRM1",
+        "CHRM2",
+        "CHRM3",
+        "CHRNA4",
+        "CNR1",
+        "DRD1",
+        "DRD2",
+        "EDNRA",
+        "GABRA1",
+        "HRH1",
+        "HRH2",
+        "HTR1A",
+        "HTR2A",
+        "HTR2B",
+        "HTR3A",
+        "KCNH2",
+        "NR3C1",
+        "OPRD1",
+        "OPRK1",
+        "OPRM1",
+        "SLC6A2",
+        "SLC6A3",
+        "SLC6A4"
+      ],
+      "n_anchor_identities": 199,
+      "native_policy": "one source receptor context per gene within source; no cross-source averaging"
+    },
+    {
+      "dataset": "spd",
+      "source": "SPD native method outputs",
+      "score_file": "datasets/spd.npz",
+      "membership_column": "in_spd930",
+      "native_gene_universe": [
+        "KCNH2",
+        "ADRB1",
+        "SLC6A3",
+        "CHRM1",
+        "CHRM3",
+        "DRD2",
+        "SLC6A2",
+        "SLC6A4",
+        "NR3C1",
+        "HRH1"
+      ],
+      "n_anchor_identities": 929,
+      "n_score_identities": 930,
+      "primary_channels": [
+        "boltz_affinity",
+        "boltzina_vina_far_affinity",
+        "boltzina_vina_zero_affinity",
+        "gnina",
+        "nesso_affinity",
+        "raw_ad4",
+        "raw_gnina_own",
+        "vina"
+      ],
+      "cold_pair_provenance": "exact canonical gene ordering and all45pairs inherited from existing SPD three-regime calculation"
+    }
+  ],
+  "regimes": {
+    "new_molecules_known_proteins": "inherited outer_fold with train-only transformations; group-disjoint",
+    "new_proteins_known_molecules": "native_target_pair_holdouts; no labels from either held-out gene in any assay",
+    "both_cold": "intersection of held-out molecular group and held-out target pair; separate result"
+  },
+  "variant_rule": "Preserve row variants and weights. Source-identity weights total1 before feature-specific availability handling.",
+  "quantitative_endpoint": "6-log10(source IC50 in uM), not Kd; exact = gives point, > gives strict upper bound in p-coordinate",
+  "no_scientific_cutoffs": true,
+  "no_fits": true,
+  "new_molecular_splits": false,
+  "new_target_holdouts": "Broad dataset gene-pair enumeration extends inherited SPD leave-two-gene scheme; membership uses observed gene identities, not outcome magnitudes."
+}

@@ -1,0 +1,21 @@
+{
+  "generator": "RDKit MolDraw2DSVG and MolDraw2DCairo; cached prepared reference SMILES",
+  "rdkit": "2025.03.6",
+  "source_selected_cases_sha256": "66e5aafd850cb84157a9bd50e3dd1f423950f76f4c0ccad65458a120b021fc7b",
+  "reference_smiles": {
+    "A_a": "OCCN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1",
+    "A_b": "CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1",
+    "B_a": "Clc1ccc2c(c1)C(N1CCNCC1)=Nc1ccccc1O2",
+    "B_b": "CN1CCN(C2=Nc3ccccc3Oc3ccc(Cl)cc32)CC1"
+  },
+  "files": {
+    "A_a.png": "2f3ce6222dcf67e6ef1026baf6f6a10165b26a4544cffbd49a9625c016c21469",
+    "A_b.png": "234a47f6bbbd000d6259ad45aa8ed75e51b40d9ae56f98f4b1e2978461fbbac2",
+    "B_b.svg": "1ed1567bdb5e3d01f822bb41ee05bac3fc468a3b02d57427d38972c77653d1b5",
+    "B_a.svg": "4b4eade990af9ec41aa8fd8eabee4c47730e99a74a40243584611cc2550c0d48",
+    "B_a.png": "77dbd961bc57fe4f2d1bb5fec09df5b7aee242ed4a365c307654071d92188ac5",
+    "B_b.png": "6d4214b31b668bc94ba15825f2dcbba74bce5d2b312dac183d0c650e206d6c63",
+    "A_b.svg": "d3e603c561e8d74bdc10b5d0e556d51fc1d8635dd841fb4865bccd5707e81203",
+    "A_a.svg": "403f4ae0fe7abcb45444edb45298a9829cc396d4abd18169c14690d91c302c10"
+  }
+}

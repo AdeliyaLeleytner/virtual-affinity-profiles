@@ -1,0 +1,751 @@
+split,model,training_score_candidate_columns,deployment_whole_profile_union_count,deployment_whole_profile_union_columns,deployment_evaluated_contrast_union_count,training_selected_union_count,training_search_not_free,full_panel_mean_used,assay_index_a,assay_index_b,assay_id_a,assay_id_b,gene_a,gene_b,deployment_query_column_count,deployment_query_columns,n_saved_rectangles
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,1,3086,3087,ADRB1,ADRB2,2,"[3, 4]",18
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,2,3086,3157,ADRB1,DRD2,2,"[3, 46]",71
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[3, 38]",22
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,4,3086,3199,ADRB1,ESR1,2,"[3, 27]",7
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,5,3086,3217,ADRB1,ESR2,2,"[3, 9]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,6,3086,3218,ADRB1,NR3C1,2,"[3, 28]",27
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,7,3086,3279,ADRB1,PGR,2,"[3, 20]",4
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,8,3086,3295,ADRB1,DRD3,2,"[3, 47]",107
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,9,3086,31453,ADRB1,ESR1,2,"[3, 27]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,10,3086,41519,ADRB1,DRD3,2,"[3, 47]",3
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,11,3086,41629,ADRB1,AR,2,"[3, 24]",4
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,12,3086,41630,ADRB1,PGR,2,"[3, 20]",4
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,2,3087,3157,ADRB2,DRD2,2,"[4, 46]",27
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[4, 38]",15
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,4,3087,3199,ADRB2,ESR1,2,"[4, 27]",5
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,5,3087,3217,ADRB2,ESR2,2,"[4, 9]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,6,3087,3218,ADRB2,NR3C1,2,"[4, 28]",20
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,7,3087,3279,ADRB2,PGR,2,"[4, 20]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,8,3087,3295,ADRB2,DRD3,2,"[4, 47]",42
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,9,3087,31453,ADRB2,ESR1,2,"[4, 27]",1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,10,3087,41519,ADRB2,DRD3,2,"[4, 47]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,11,3087,41629,ADRB2,AR,2,"[4, 24]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,12,3087,41630,ADRB2,PGR,2,"[4, 20]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,3,3157,3177,DRD2,ADORA2A,2,"[38, 46]",36
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,4,3157,3199,DRD2,ESR1,2,"[27, 46]",11
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,5,3157,3217,DRD2,ESR2,2,"[9, 46]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 46]",55
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,7,3157,3279,DRD2,PGR,2,"[20, 46]",7
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,8,3157,3295,DRD2,DRD3,2,"[46, 47]",122
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,9,3157,31453,DRD2,ESR1,2,"[27, 46]",1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,10,3157,41519,DRD2,DRD3,2,"[46, 47]",1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,11,3157,41629,DRD2,AR,2,"[24, 46]",4
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,12,3157,41630,DRD2,PGR,2,"[20, 46]",4
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,4,3177,3199,ADORA2A,ESR1,2,"[27, 38]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,5,3177,3217,ADORA2A,ESR2,2,"[9, 38]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[28, 38]",14
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,7,3177,3279,ADORA2A,PGR,2,"[20, 38]",3
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,8,3177,3295,ADORA2A,DRD3,2,"[38, 47]",51
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,9,3177,31453,ADORA2A,ESR1,2,"[27, 38]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,10,3177,41519,ADORA2A,DRD3,2,"[38, 47]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,11,3177,41629,ADORA2A,AR,2,"[24, 38]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,12,3177,41630,ADORA2A,PGR,2,"[20, 38]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,5,3199,3217,ESR1,ESR2,2,"[9, 27]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,6,3199,3218,ESR1,NR3C1,2,"[27, 28]",5
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,7,3199,3279,ESR1,PGR,2,"[20, 27]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,8,3199,3295,ESR1,DRD3,2,"[27, 47]",15
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,10,3199,41519,ESR1,DRD3,2,"[27, 47]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,11,3199,41629,ESR1,AR,2,"[24, 27]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,12,3199,41630,ESR1,PGR,2,"[20, 27]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,6,3217,3218,ESR2,NR3C1,2,"[9, 28]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,7,3217,3279,ESR2,PGR,2,"[9, 20]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,8,3217,3295,ESR2,DRD3,2,"[9, 47]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,9,3217,31453,ESR2,ESR1,2,"[9, 27]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,10,3217,41519,ESR2,DRD3,2,"[9, 47]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,11,3217,41629,ESR2,AR,2,"[9, 24]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,12,3217,41630,ESR2,PGR,2,"[9, 20]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,7,3218,3279,NR3C1,PGR,2,"[20, 28]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 47]",68
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,9,3218,31453,NR3C1,ESR1,2,"[27, 28]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 47]",3
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,11,3218,41629,NR3C1,AR,2,"[24, 28]",3
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,12,3218,41630,NR3C1,PGR,2,"[20, 28]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,8,3279,3295,PGR,DRD3,2,"[20, 47]",9
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,9,3279,31453,PGR,ESR1,2,"[20, 27]",1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,10,3279,41519,PGR,DRD3,2,"[20, 47]",2
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,11,3279,41629,PGR,AR,2,"[20, 24]",0
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,9,3295,31453,DRD3,ESR1,2,"[27, 47]",1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,11,3295,41629,DRD3,AR,2,"[24, 47]",8
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,12,3295,41630,DRD3,PGR,2,"[20, 47]",8
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,10,31453,41519,ESR1,DRD3,2,"[27, 47]",47
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,11,31453,41629,ESR1,AR,2,"[24, 27]",10
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,12,31453,41630,ESR1,PGR,2,"[20, 27]",25
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,11,41519,41629,DRD3,AR,2,"[24, 47]",22
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,12,41519,41630,DRD3,PGR,2,"[20, 47]",50
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,11,12,41629,41630,AR,PGR,2,"[20, 24]",6
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,1,3086,3087,ADRB1,ADRB2,2,"[36, 57]",18
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,2,3086,3157,ADRB1,DRD2,2,"[49, 57]",71
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[12, 57]",22
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,4,3086,3199,ADRB1,ESR1,2,"[26, 57]",7
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,5,3086,3217,ADRB1,ESR2,2,"[1, 57]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,6,3086,3218,ADRB1,NR3C1,2,"[28, 57]",27
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,7,3086,3279,ADRB1,PGR,2,"[44, 57]",4
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,8,3086,3295,ADRB1,DRD3,2,"[49, 57]",107
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,9,3086,31453,ADRB1,ESR1,2,"[1, 57]",2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,10,3086,41519,ADRB1,DRD3,2,"[44, 57]",3
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,11,3086,41629,ADRB1,AR,2,"[20, 57]",4
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,12,3086,41630,ADRB1,PGR,2,"[28, 57]",4
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,2,3087,3157,ADRB2,DRD2,2,"[36, 49]",27
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[12, 36]",15
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,4,3087,3199,ADRB2,ESR1,2,"[26, 36]",5
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,5,3087,3217,ADRB2,ESR2,2,"[1, 36]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,6,3087,3218,ADRB2,NR3C1,2,"[28, 36]",20
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,7,3087,3279,ADRB2,PGR,2,"[36, 44]",2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,8,3087,3295,ADRB2,DRD3,2,"[36, 49]",42
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,9,3087,31453,ADRB2,ESR1,2,"[1, 36]",1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,10,3087,41519,ADRB2,DRD3,2,"[36, 44]",2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,11,3087,41629,ADRB2,AR,2,"[20, 36]",2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,12,3087,41630,ADRB2,PGR,2,"[28, 36]",2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,3,3157,3177,DRD2,ADORA2A,2,"[12, 49]",36
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,4,3157,3199,DRD2,ESR1,2,"[26, 49]",11
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,5,3157,3217,DRD2,ESR2,2,"[1, 49]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 49]",55
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,7,3157,3279,DRD2,PGR,2,"[44, 49]",7
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,8,3157,3295,DRD2,DRD3,1,[49],122
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,9,3157,31453,DRD2,ESR1,2,"[1, 49]",1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,10,3157,41519,DRD2,DRD3,2,"[44, 49]",1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,11,3157,41629,DRD2,AR,2,"[20, 49]",4
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,12,3157,41630,DRD2,PGR,2,"[28, 49]",4
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,4,3177,3199,ADORA2A,ESR1,2,"[12, 26]",2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,5,3177,3217,ADORA2A,ESR2,2,"[1, 12]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[12, 28]",14
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,7,3177,3279,ADORA2A,PGR,2,"[12, 44]",3
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,8,3177,3295,ADORA2A,DRD3,2,"[12, 49]",51
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,9,3177,31453,ADORA2A,ESR1,2,"[1, 12]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,10,3177,41519,ADORA2A,DRD3,2,"[12, 44]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,11,3177,41629,ADORA2A,AR,2,"[12, 20]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,12,3177,41630,ADORA2A,PGR,2,"[12, 28]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,4,5,3199,3217,ESR1,ESR2,2,"[1, 26]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,4,6,3199,3218,ESR1,NR3C1,2,"[26, 28]",5
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,4,7,3199,3279,ESR1,PGR,2,"[26, 44]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,4,8,3199,3295,ESR1,DRD3,2,"[26, 49]",15
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,4,10,3199,41519,ESR1,DRD3,2,"[26, 44]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,4,11,3199,41629,ESR1,AR,2,"[20, 26]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,4,12,3199,41630,ESR1,PGR,2,"[26, 28]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,5,6,3217,3218,ESR2,NR3C1,2,"[1, 28]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,5,7,3217,3279,ESR2,PGR,2,"[1, 44]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,5,8,3217,3295,ESR2,DRD3,2,"[1, 49]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,5,9,3217,31453,ESR2,ESR1,1,[1],0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,5,10,3217,41519,ESR2,DRD3,2,"[1, 44]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,5,11,3217,41629,ESR2,AR,2,"[1, 20]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,5,12,3217,41630,ESR2,PGR,2,"[1, 28]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,6,7,3218,3279,NR3C1,PGR,2,"[28, 44]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 49]",68
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,6,9,3218,31453,NR3C1,ESR1,2,"[1, 28]",2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 44]",3
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,6,11,3218,41629,NR3C1,AR,2,"[20, 28]",3
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,6,12,3218,41630,NR3C1,PGR,1,[28],2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,7,8,3279,3295,PGR,DRD3,2,"[44, 49]",9
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,7,9,3279,31453,PGR,ESR1,2,"[1, 44]",1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,7,10,3279,41519,PGR,DRD3,1,[44],2
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,7,11,3279,41629,PGR,AR,2,"[20, 44]",0
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,8,9,3295,31453,DRD3,ESR1,2,"[1, 49]",1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,8,11,3295,41629,DRD3,AR,2,"[20, 49]",8
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,8,12,3295,41630,DRD3,PGR,2,"[28, 49]",8
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,9,10,31453,41519,ESR1,DRD3,2,"[1, 44]",47
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,9,11,31453,41629,ESR1,AR,2,"[1, 20]",10
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,9,12,31453,41630,ESR1,PGR,2,"[1, 28]",25
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,10,11,41519,41629,DRD3,AR,2,"[20, 44]",22
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,10,12,41519,41630,DRD3,PGR,2,"[28, 44]",50
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,11,12,41629,41630,AR,PGR,2,"[20, 28]",6
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,1,3086,3087,ADRB1,ADRB2,2,"[3, 4]",12
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,2,3086,3157,ADRB1,DRD2,2,"[3, 46]",87
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[3, 38]",23
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,4,3086,3199,ADRB1,ESR1,2,"[3, 27]",5
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,5,3086,3217,ADRB1,ESR2,2,"[3, 9]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,6,3086,3218,ADRB1,NR3C1,2,"[3, 28]",24
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,7,3086,3279,ADRB1,PGR,2,"[3, 20]",1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,8,3086,3295,ADRB1,DRD3,2,"[3, 47]",82
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,9,3086,31453,ADRB1,ESR1,2,"[3, 27]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,10,3086,41519,ADRB1,DRD3,2,"[3, 47]",6
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,11,3086,41629,ADRB1,AR,2,"[3, 24]",4
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,12,3086,41630,ADRB1,PGR,2,"[3, 20]",4
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,2,3087,3157,ADRB2,DRD2,2,"[4, 46]",54
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[4, 38]",14
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,4,3087,3199,ADRB2,ESR1,2,"[4, 27]",7
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,5,3087,3217,ADRB2,ESR2,2,"[4, 9]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,6,3087,3218,ADRB2,NR3C1,2,"[4, 28]",28
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,7,3087,3279,ADRB2,PGR,2,"[4, 20]",7
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,8,3087,3295,ADRB2,DRD3,2,"[4, 47]",51
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,9,3087,31453,ADRB2,ESR1,2,"[4, 27]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,10,3087,41519,ADRB2,DRD3,2,"[4, 47]",8
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,11,3087,41629,ADRB2,AR,2,"[4, 24]",4
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,12,3087,41630,ADRB2,PGR,2,"[4, 20]",7
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,3,3157,3177,DRD2,ADORA2A,2,"[38, 46]",38
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,4,3157,3199,DRD2,ESR1,2,"[27, 46]",16
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,5,3157,3217,DRD2,ESR2,2,"[9, 46]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 46]",72
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,7,3157,3279,DRD2,PGR,2,"[20, 46]",20
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,8,3157,3295,DRD2,DRD3,2,"[46, 47]",180
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,9,3157,31453,DRD2,ESR1,2,"[27, 46]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,10,3157,41519,DRD2,DRD3,2,"[46, 47]",20
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,11,3157,41629,DRD2,AR,2,"[24, 46]",13
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,12,3157,41630,DRD2,PGR,2,"[20, 46]",19
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,4,3177,3199,ADORA2A,ESR1,2,"[27, 38]",2
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,5,3177,3217,ADORA2A,ESR2,2,"[9, 38]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[28, 38]",12
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,7,3177,3279,ADORA2A,PGR,2,"[20, 38]",2
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,8,3177,3295,ADORA2A,DRD3,2,"[38, 47]",33
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,9,3177,31453,ADORA2A,ESR1,2,"[27, 38]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,10,3177,41519,ADORA2A,DRD3,2,"[38, 47]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,11,3177,41629,ADORA2A,AR,2,"[24, 38]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,12,3177,41630,ADORA2A,PGR,2,"[20, 38]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,5,3199,3217,ESR1,ESR2,2,"[9, 27]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,6,3199,3218,ESR1,NR3C1,2,"[27, 28]",3
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,7,3199,3279,ESR1,PGR,2,"[20, 27]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,8,3199,3295,ESR1,DRD3,2,"[27, 47]",13
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,10,3199,41519,ESR1,DRD3,2,"[27, 47]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,11,3199,41629,ESR1,AR,2,"[24, 27]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,12,3199,41630,ESR1,PGR,2,"[20, 27]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,6,3217,3218,ESR2,NR3C1,2,"[9, 28]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,7,3217,3279,ESR2,PGR,2,"[9, 20]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,8,3217,3295,ESR2,DRD3,2,"[9, 47]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,9,3217,31453,ESR2,ESR1,2,"[9, 27]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,10,3217,41519,ESR2,DRD3,2,"[9, 47]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,11,3217,41629,ESR2,AR,2,"[9, 24]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,12,3217,41630,ESR2,PGR,2,"[9, 20]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,7,3218,3279,NR3C1,PGR,2,"[20, 28]",2
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 47]",56
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,9,3218,31453,NR3C1,ESR1,2,"[27, 28]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 47]",4
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,11,3218,41629,NR3C1,AR,2,"[24, 28]",2
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,12,3218,41630,NR3C1,PGR,2,"[20, 28]",1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,8,3279,3295,PGR,DRD3,2,"[20, 47]",16
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,9,3279,31453,PGR,ESR1,2,"[20, 27]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,10,3279,41519,PGR,DRD3,2,"[20, 47]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,11,3279,41629,PGR,AR,2,"[20, 24]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,9,3295,31453,DRD3,ESR1,2,"[27, 47]",0
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,11,3295,41629,DRD3,AR,2,"[24, 47]",6
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,12,3295,41630,DRD3,PGR,2,"[20, 47]",16
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,10,31453,41519,ESR1,DRD3,2,"[27, 47]",8
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,11,31453,41629,ESR1,AR,2,"[24, 27]",2
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,12,31453,41630,ESR1,PGR,2,"[20, 27]",3
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,11,41519,41629,DRD3,AR,2,"[24, 47]",18
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,12,41519,41630,DRD3,PGR,2,"[20, 47]",25
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,11,12,41629,41630,AR,PGR,2,"[20, 24]",4
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,1,3086,3087,ADRB1,ADRB2,2,"[36, 57]",12
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,2,3086,3157,ADRB1,DRD2,2,"[42, 57]",87
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[6, 57]",23
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,4,3086,3199,ADRB1,ESR1,2,"[26, 57]",5
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,5,3086,3217,ADRB1,ESR2,2,"[1, 57]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,6,3086,3218,ADRB1,NR3C1,2,"[28, 57]",24
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,7,3086,3279,ADRB1,PGR,2,"[23, 57]",1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,8,3086,3295,ADRB1,DRD3,2,"[42, 57]",82
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,9,3086,31453,ADRB1,ESR1,2,"[1, 57]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,10,3086,41519,ADRB1,DRD3,2,"[44, 57]",6
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,11,3086,41629,ADRB1,AR,2,"[28, 57]",4
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,12,3086,41630,ADRB1,PGR,2,"[22, 57]",4
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,2,3087,3157,ADRB2,DRD2,2,"[36, 42]",54
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[6, 36]",14
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,4,3087,3199,ADRB2,ESR1,2,"[26, 36]",7
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,5,3087,3217,ADRB2,ESR2,2,"[1, 36]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,6,3087,3218,ADRB2,NR3C1,2,"[28, 36]",28
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,7,3087,3279,ADRB2,PGR,2,"[23, 36]",7
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,8,3087,3295,ADRB2,DRD3,2,"[36, 42]",51
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,9,3087,31453,ADRB2,ESR1,2,"[1, 36]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,10,3087,41519,ADRB2,DRD3,2,"[36, 44]",8
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,11,3087,41629,ADRB2,AR,2,"[28, 36]",4
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,12,3087,41630,ADRB2,PGR,2,"[22, 36]",7
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,3,3157,3177,DRD2,ADORA2A,2,"[6, 42]",38
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,4,3157,3199,DRD2,ESR1,2,"[26, 42]",16
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,5,3157,3217,DRD2,ESR2,2,"[1, 42]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 42]",72
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,7,3157,3279,DRD2,PGR,2,"[23, 42]",20
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,8,3157,3295,DRD2,DRD3,1,[42],180
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,9,3157,31453,DRD2,ESR1,2,"[1, 42]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,10,3157,41519,DRD2,DRD3,2,"[42, 44]",20
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,11,3157,41629,DRD2,AR,2,"[28, 42]",13
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,12,3157,41630,DRD2,PGR,2,"[22, 42]",19
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,4,3177,3199,ADORA2A,ESR1,2,"[6, 26]",2
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,5,3177,3217,ADORA2A,ESR2,2,"[1, 6]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[6, 28]",12
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,7,3177,3279,ADORA2A,PGR,2,"[6, 23]",2
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,8,3177,3295,ADORA2A,DRD3,2,"[6, 42]",33
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,9,3177,31453,ADORA2A,ESR1,2,"[1, 6]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,10,3177,41519,ADORA2A,DRD3,2,"[6, 44]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,11,3177,41629,ADORA2A,AR,2,"[6, 28]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,12,3177,41630,ADORA2A,PGR,2,"[6, 22]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,4,5,3199,3217,ESR1,ESR2,2,"[1, 26]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,4,6,3199,3218,ESR1,NR3C1,2,"[26, 28]",3
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,4,7,3199,3279,ESR1,PGR,2,"[23, 26]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,4,8,3199,3295,ESR1,DRD3,2,"[26, 42]",13
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,4,10,3199,41519,ESR1,DRD3,2,"[26, 44]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,4,11,3199,41629,ESR1,AR,2,"[26, 28]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,4,12,3199,41630,ESR1,PGR,2,"[22, 26]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,5,6,3217,3218,ESR2,NR3C1,2,"[1, 28]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,5,7,3217,3279,ESR2,PGR,2,"[1, 23]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,5,8,3217,3295,ESR2,DRD3,2,"[1, 42]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,5,9,3217,31453,ESR2,ESR1,1,[1],0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,5,10,3217,41519,ESR2,DRD3,2,"[1, 44]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,5,11,3217,41629,ESR2,AR,2,"[1, 28]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,5,12,3217,41630,ESR2,PGR,2,"[1, 22]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,6,7,3218,3279,NR3C1,PGR,2,"[23, 28]",2
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 42]",56
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,6,9,3218,31453,NR3C1,ESR1,2,"[1, 28]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 44]",4
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,6,11,3218,41629,NR3C1,AR,1,[28],2
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,6,12,3218,41630,NR3C1,PGR,2,"[22, 28]",1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,7,8,3279,3295,PGR,DRD3,2,"[23, 42]",16
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,7,9,3279,31453,PGR,ESR1,2,"[1, 23]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,7,10,3279,41519,PGR,DRD3,2,"[23, 44]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,7,11,3279,41629,PGR,AR,2,"[23, 28]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,8,9,3295,31453,DRD3,ESR1,2,"[1, 42]",0
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,8,11,3295,41629,DRD3,AR,2,"[28, 42]",6
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,8,12,3295,41630,DRD3,PGR,2,"[22, 42]",16
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,9,10,31453,41519,ESR1,DRD3,2,"[1, 44]",8
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,9,11,31453,41629,ESR1,AR,2,"[1, 28]",2
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,9,12,31453,41630,ESR1,PGR,2,"[1, 22]",3
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,10,11,41519,41629,DRD3,AR,2,"[28, 44]",18
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,10,12,41519,41630,DRD3,PGR,2,"[22, 44]",25
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,11,12,41629,41630,AR,PGR,2,"[22, 28]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,1,3086,3087,ADRB1,ADRB2,2,"[3, 4]",6
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,2,3086,3157,ADRB1,DRD2,2,"[3, 46]",55
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[3, 38]",20
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,4,3086,3199,ADRB1,ESR1,2,"[3, 27]",25
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,5,3086,3217,ADRB1,ESR2,2,"[3, 9]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,6,3086,3218,ADRB1,NR3C1,2,"[3, 28]",20
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,7,3086,3279,ADRB1,PGR,2,"[3, 20]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,8,3086,3295,ADRB1,DRD3,2,"[3, 47]",47
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,9,3086,31453,ADRB1,ESR1,2,"[3, 27]",2
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,10,3086,41519,ADRB1,DRD3,2,"[3, 47]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,11,3086,41629,ADRB1,AR,2,"[3, 24]",2
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,12,3086,41630,ADRB1,PGR,2,"[3, 20]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,2,3087,3157,ADRB2,DRD2,2,"[4, 46]",18
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[4, 38]",2
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,4,3087,3199,ADRB2,ESR1,2,"[4, 27]",15
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,5,3087,3217,ADRB2,ESR2,2,"[4, 9]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,6,3087,3218,ADRB2,NR3C1,2,"[4, 28]",12
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,7,3087,3279,ADRB2,PGR,2,"[4, 20]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,8,3087,3295,ADRB2,DRD3,2,"[4, 47]",21
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,9,3087,31453,ADRB2,ESR1,2,"[4, 27]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,10,3087,41519,ADRB2,DRD3,2,"[4, 47]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,11,3087,41629,ADRB2,AR,2,"[4, 24]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,12,3087,41630,ADRB2,PGR,2,"[4, 20]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,3,3157,3177,DRD2,ADORA2A,2,"[38, 46]",33
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,4,3157,3199,DRD2,ESR1,2,"[27, 46]",36
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,5,3157,3217,DRD2,ESR2,2,"[9, 46]",5
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 46]",36
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,7,3157,3279,DRD2,PGR,2,"[20, 46]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,8,3157,3295,DRD2,DRD3,2,"[46, 47]",65
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,9,3157,31453,DRD2,ESR1,2,"[27, 46]",6
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,10,3157,41519,DRD2,DRD3,2,"[46, 47]",6
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,11,3157,41629,DRD2,AR,2,"[24, 46]",6
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,12,3157,41630,DRD2,PGR,2,"[20, 46]",10
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,4,3177,3199,ADORA2A,ESR1,2,"[27, 38]",5
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,5,3177,3217,ADORA2A,ESR2,2,"[9, 38]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[28, 38]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,7,3177,3279,ADORA2A,PGR,2,"[20, 38]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,8,3177,3295,ADORA2A,DRD3,2,"[38, 47]",19
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,9,3177,31453,ADORA2A,ESR1,2,"[27, 38]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,10,3177,41519,ADORA2A,DRD3,2,"[38, 47]",8
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,11,3177,41629,ADORA2A,AR,2,"[24, 38]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,12,3177,41630,ADORA2A,PGR,2,"[20, 38]",8
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,4,5,3199,3217,ESR1,ESR2,2,"[9, 27]",2
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,4,6,3199,3218,ESR1,NR3C1,2,"[27, 28]",8
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,4,7,3199,3279,ESR1,PGR,2,"[20, 27]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,4,8,3199,3295,ESR1,DRD3,2,"[27, 47]",35
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,4,10,3199,41519,ESR1,DRD3,2,"[27, 47]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,4,11,3199,41629,ESR1,AR,2,"[24, 27]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,4,12,3199,41630,ESR1,PGR,2,"[20, 27]",3
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,5,6,3217,3218,ESR2,NR3C1,2,"[9, 28]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,5,7,3217,3279,ESR2,PGR,2,"[9, 20]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,5,8,3217,3295,ESR2,DRD3,2,"[9, 47]",5
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,5,9,3217,31453,ESR2,ESR1,2,"[9, 27]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,5,10,3217,41519,ESR2,DRD3,2,"[9, 47]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,5,11,3217,41629,ESR2,AR,2,"[9, 24]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,5,12,3217,41630,ESR2,PGR,2,"[9, 20]",2
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,6,7,3218,3279,NR3C1,PGR,2,"[20, 28]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 47]",32
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,6,9,3218,31453,NR3C1,ESR1,2,"[27, 28]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 47]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,6,11,3218,41629,NR3C1,AR,2,"[24, 28]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,6,12,3218,41630,NR3C1,PGR,2,"[20, 28]",1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,7,8,3279,3295,PGR,DRD3,2,"[20, 47]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,7,9,3279,31453,PGR,ESR1,2,"[20, 27]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,7,10,3279,41519,PGR,DRD3,2,"[20, 47]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,7,11,3279,41629,PGR,AR,2,"[20, 24]",0
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,8,9,3295,31453,DRD3,ESR1,2,"[27, 47]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,8,11,3295,41629,DRD3,AR,2,"[24, 47]",4
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,8,12,3295,41630,DRD3,PGR,2,"[20, 47]",6
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,9,10,31453,41519,ESR1,DRD3,2,"[27, 47]",70
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,9,11,31453,41629,ESR1,AR,2,"[24, 27]",20
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,9,12,31453,41630,ESR1,PGR,2,"[20, 27]",27
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,10,11,41519,41629,DRD3,AR,2,"[24, 47]",60
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,10,12,41519,41630,DRD3,PGR,2,"[20, 47]",62
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,11,12,41629,41630,AR,PGR,2,"[20, 24]",23
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,1,3086,3087,ADRB1,ADRB2,2,"[36, 57]",6
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,2,3086,3157,ADRB1,DRD2,2,"[49, 57]",55
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[11, 57]",20
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,4,3086,3199,ADRB1,ESR1,2,"[41, 57]",25
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,5,3086,3217,ADRB1,ESR2,2,"[9, 57]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,6,3086,3218,ADRB1,NR3C1,2,"[28, 57]",20
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,7,3086,3279,ADRB1,PGR,2,"[10, 57]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,8,3086,3295,ADRB1,DRD3,2,"[49, 57]",47
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,9,3086,31453,ADRB1,ESR1,2,"[34, 57]",2
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,10,3086,41519,ADRB1,DRD3,2,"[44, 57]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,11,3086,41629,ADRB1,AR,2,"[44, 57]",2
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,12,3086,41630,ADRB1,PGR,2,"[19, 57]",4
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,2,3087,3157,ADRB2,DRD2,2,"[36, 49]",18
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[11, 36]",2
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,4,3087,3199,ADRB2,ESR1,2,"[36, 41]",15
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,5,3087,3217,ADRB2,ESR2,2,"[9, 36]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,6,3087,3218,ADRB2,NR3C1,2,"[28, 36]",12
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,7,3087,3279,ADRB2,PGR,2,"[10, 36]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,8,3087,3295,ADRB2,DRD3,2,"[36, 49]",21
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,9,3087,31453,ADRB2,ESR1,2,"[34, 36]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,10,3087,41519,ADRB2,DRD3,2,"[36, 44]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,11,3087,41629,ADRB2,AR,2,"[36, 44]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,12,3087,41630,ADRB2,PGR,2,"[19, 36]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,3,3157,3177,DRD2,ADORA2A,2,"[11, 49]",33
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,4,3157,3199,DRD2,ESR1,2,"[41, 49]",36
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,5,3157,3217,DRD2,ESR2,2,"[9, 49]",5
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 49]",36
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,7,3157,3279,DRD2,PGR,2,"[10, 49]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,8,3157,3295,DRD2,DRD3,1,[49],65
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,9,3157,31453,DRD2,ESR1,2,"[34, 49]",6
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,10,3157,41519,DRD2,DRD3,2,"[44, 49]",6
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,11,3157,41629,DRD2,AR,2,"[44, 49]",6
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,12,3157,41630,DRD2,PGR,2,"[19, 49]",10
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,4,3177,3199,ADORA2A,ESR1,2,"[11, 41]",5
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,5,3177,3217,ADORA2A,ESR2,2,"[9, 11]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[11, 28]",4
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,7,3177,3279,ADORA2A,PGR,2,"[10, 11]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,8,3177,3295,ADORA2A,DRD3,2,"[11, 49]",19
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,9,3177,31453,ADORA2A,ESR1,2,"[11, 34]",4
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,10,3177,41519,ADORA2A,DRD3,2,"[11, 44]",8
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,11,3177,41629,ADORA2A,AR,2,"[11, 44]",4
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,12,3177,41630,ADORA2A,PGR,2,"[11, 19]",8
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,4,5,3199,3217,ESR1,ESR2,2,"[9, 41]",2
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,4,6,3199,3218,ESR1,NR3C1,2,"[28, 41]",8
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,4,7,3199,3279,ESR1,PGR,2,"[10, 41]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,4,8,3199,3295,ESR1,DRD3,2,"[41, 49]",35
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,4,10,3199,41519,ESR1,DRD3,2,"[41, 44]",4
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,4,11,3199,41629,ESR1,AR,2,"[41, 44]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,4,12,3199,41630,ESR1,PGR,2,"[19, 41]",3
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,5,6,3217,3218,ESR2,NR3C1,2,"[9, 28]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,5,7,3217,3279,ESR2,PGR,2,"[9, 10]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,5,8,3217,3295,ESR2,DRD3,2,"[9, 49]",5
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,5,9,3217,31453,ESR2,ESR1,2,"[9, 34]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,5,10,3217,41519,ESR2,DRD3,2,"[9, 44]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,5,11,3217,41629,ESR2,AR,2,"[9, 44]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,5,12,3217,41630,ESR2,PGR,2,"[9, 19]",2
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,6,7,3218,3279,NR3C1,PGR,2,"[10, 28]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 49]",32
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,6,9,3218,31453,NR3C1,ESR1,2,"[28, 34]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 44]",4
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,6,11,3218,41629,NR3C1,AR,2,"[28, 44]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,6,12,3218,41630,NR3C1,PGR,2,"[19, 28]",1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,7,8,3279,3295,PGR,DRD3,2,"[10, 49]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,7,9,3279,31453,PGR,ESR1,2,"[10, 34]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,7,10,3279,41519,PGR,DRD3,2,"[10, 44]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,7,11,3279,41629,PGR,AR,2,"[10, 44]",0
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,8,9,3295,31453,DRD3,ESR1,2,"[34, 49]",4
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,8,11,3295,41629,DRD3,AR,2,"[44, 49]",4
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,8,12,3295,41630,DRD3,PGR,2,"[19, 49]",6
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,9,10,31453,41519,ESR1,DRD3,2,"[34, 44]",70
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,9,11,31453,41629,ESR1,AR,2,"[34, 44]",20
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,9,12,31453,41630,ESR1,PGR,2,"[19, 34]",27
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,10,11,41519,41629,DRD3,AR,1,[44],60
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,10,12,41519,41630,DRD3,PGR,2,"[19, 44]",62
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,11,12,41629,41630,AR,PGR,2,"[19, 44]",23
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,1,3086,3087,ADRB1,ADRB2,2,"[3, 4]",6
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,2,3086,3157,ADRB1,DRD2,2,"[3, 46]",74
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[3, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,4,3086,3199,ADRB1,ESR1,2,"[3, 27]",14
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,5,3086,3217,ADRB1,ESR2,2,"[3, 9]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,6,3086,3218,ADRB1,NR3C1,2,"[3, 28]",14
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,7,3086,3279,ADRB1,PGR,2,"[3, 20]",6
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,8,3086,3295,ADRB1,DRD3,2,"[3, 47]",66
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,9,3086,31453,ADRB1,ESR1,2,"[3, 27]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,10,3086,41519,ADRB1,DRD3,2,"[3, 47]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,11,3086,41629,ADRB1,AR,2,"[3, 24]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,12,3086,41630,ADRB1,PGR,2,"[3, 20]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,2,3087,3157,ADRB2,DRD2,2,"[4, 46]",16
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[4, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,4,3087,3199,ADRB2,ESR1,2,"[4, 27]",9
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,5,3087,3217,ADRB2,ESR2,2,"[4, 9]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,6,3087,3218,ADRB2,NR3C1,2,"[4, 28]",6
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,7,3087,3279,ADRB2,PGR,2,"[4, 20]",5
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,8,3087,3295,ADRB2,DRD3,2,"[4, 47]",19
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,9,3087,31453,ADRB2,ESR1,2,"[4, 27]",1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,10,3087,41519,ADRB2,DRD3,2,"[4, 47]",1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,11,3087,41629,ADRB2,AR,2,"[4, 24]",1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,12,3087,41630,ADRB2,PGR,2,"[4, 20]",3
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,3,3157,3177,DRD2,ADORA2A,2,"[38, 46]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,4,3157,3199,DRD2,ESR1,2,"[27, 46]",36
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,5,3157,3217,DRD2,ESR2,2,"[9, 46]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 46]",32
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,7,3157,3279,DRD2,PGR,2,"[20, 46]",21
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,8,3157,3295,DRD2,DRD3,2,"[46, 47]",154
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,9,3157,31453,DRD2,ESR1,2,"[27, 46]",5
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,10,3157,41519,DRD2,DRD3,2,"[46, 47]",12
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,11,3157,41629,DRD2,AR,2,"[24, 46]",5
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,12,3157,41630,DRD2,PGR,2,"[20, 46]",13
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,4,3177,3199,ADORA2A,ESR1,2,"[27, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,5,3177,3217,ADORA2A,ESR2,2,"[9, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[28, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,7,3177,3279,ADORA2A,PGR,2,"[20, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,8,3177,3295,ADORA2A,DRD3,2,"[38, 47]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,9,3177,31453,ADORA2A,ESR1,2,"[27, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,10,3177,41519,ADORA2A,DRD3,2,"[38, 47]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,11,3177,41629,ADORA2A,AR,2,"[24, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,12,3177,41630,ADORA2A,PGR,2,"[20, 38]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,4,5,3199,3217,ESR1,ESR2,2,"[9, 27]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,4,6,3199,3218,ESR1,NR3C1,2,"[27, 28]",5
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,4,7,3199,3279,ESR1,PGR,2,"[20, 27]",4
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,4,8,3199,3295,ESR1,DRD3,2,"[27, 47]",41
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,4,10,3199,41519,ESR1,DRD3,2,"[27, 47]",4
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,4,11,3199,41629,ESR1,AR,2,"[24, 27]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,4,12,3199,41630,ESR1,PGR,2,"[20, 27]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,5,6,3217,3218,ESR2,NR3C1,2,"[9, 28]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,5,7,3217,3279,ESR2,PGR,2,"[9, 20]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,5,8,3217,3295,ESR2,DRD3,2,"[9, 47]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,5,9,3217,31453,ESR2,ESR1,2,"[9, 27]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,5,10,3217,41519,ESR2,DRD3,2,"[9, 47]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,5,11,3217,41629,ESR2,AR,2,"[9, 24]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,5,12,3217,41630,ESR2,PGR,2,"[9, 20]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,6,7,3218,3279,NR3C1,PGR,2,"[20, 28]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 47]",34
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,6,9,3218,31453,NR3C1,ESR1,2,"[27, 28]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 47]",4
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,6,11,3218,41629,NR3C1,AR,2,"[24, 28]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,6,12,3218,41630,NR3C1,PGR,2,"[20, 28]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,7,8,3279,3295,PGR,DRD3,2,"[20, 47]",19
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,7,9,3279,31453,PGR,ESR1,2,"[20, 27]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,7,10,3279,41519,PGR,DRD3,2,"[20, 47]",3
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,7,11,3279,41629,PGR,AR,2,"[20, 24]",0
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,8,9,3295,31453,DRD3,ESR1,2,"[27, 47]",6
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,8,11,3295,41629,DRD3,AR,2,"[24, 47]",6
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,8,12,3295,41630,DRD3,PGR,2,"[20, 47]",17
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,9,10,31453,41519,ESR1,DRD3,2,"[27, 47]",10
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,9,11,31453,41629,ESR1,AR,2,"[24, 27]",2
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,9,12,31453,41630,ESR1,PGR,2,"[20, 27]",1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,10,11,41519,41629,DRD3,AR,2,"[24, 47]",30
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,10,12,41519,41630,DRD3,PGR,2,"[20, 47]",50
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,11,12,41629,41630,AR,PGR,2,"[20, 24]",6
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,1,3086,3087,ADRB1,ADRB2,2,"[36, 57]",6
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,2,3086,3157,ADRB1,DRD2,2,"[42, 57]",74
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[12, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,4,3086,3199,ADRB1,ESR1,2,"[35, 57]",14
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,5,3086,3217,ADRB1,ESR2,2,"[1, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,6,3086,3218,ADRB1,NR3C1,2,"[28, 57]",14
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,7,3086,3279,ADRB1,PGR,1,[57],6
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,8,3086,3295,ADRB1,DRD3,2,"[42, 57]",66
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,9,3086,31453,ADRB1,ESR1,2,"[1, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,10,3086,41519,ADRB1,DRD3,2,"[44, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,11,3086,41629,ADRB1,AR,2,"[28, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,12,3086,41630,ADRB1,PGR,2,"[22, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,2,3087,3157,ADRB2,DRD2,2,"[36, 42]",16
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[12, 36]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,4,3087,3199,ADRB2,ESR1,2,"[35, 36]",9
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,5,3087,3217,ADRB2,ESR2,2,"[1, 36]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,6,3087,3218,ADRB2,NR3C1,2,"[28, 36]",6
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,7,3087,3279,ADRB2,PGR,2,"[36, 57]",5
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,8,3087,3295,ADRB2,DRD3,2,"[36, 42]",19
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,9,3087,31453,ADRB2,ESR1,2,"[1, 36]",1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,10,3087,41519,ADRB2,DRD3,2,"[36, 44]",1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,11,3087,41629,ADRB2,AR,2,"[28, 36]",1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,12,3087,41630,ADRB2,PGR,2,"[22, 36]",3
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,3,3157,3177,DRD2,ADORA2A,2,"[12, 42]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,4,3157,3199,DRD2,ESR1,2,"[35, 42]",36
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,5,3157,3217,DRD2,ESR2,2,"[1, 42]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 42]",32
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,7,3157,3279,DRD2,PGR,2,"[42, 57]",21
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,8,3157,3295,DRD2,DRD3,1,[42],154
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,9,3157,31453,DRD2,ESR1,2,"[1, 42]",5
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,10,3157,41519,DRD2,DRD3,2,"[42, 44]",12
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,11,3157,41629,DRD2,AR,2,"[28, 42]",5
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,12,3157,41630,DRD2,PGR,2,"[22, 42]",13
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,4,3177,3199,ADORA2A,ESR1,2,"[12, 35]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,5,3177,3217,ADORA2A,ESR2,2,"[1, 12]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[12, 28]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,7,3177,3279,ADORA2A,PGR,2,"[12, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,8,3177,3295,ADORA2A,DRD3,2,"[12, 42]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,9,3177,31453,ADORA2A,ESR1,2,"[1, 12]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,10,3177,41519,ADORA2A,DRD3,2,"[12, 44]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,11,3177,41629,ADORA2A,AR,2,"[12, 28]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,12,3177,41630,ADORA2A,PGR,2,"[12, 22]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,4,5,3199,3217,ESR1,ESR2,2,"[1, 35]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,4,6,3199,3218,ESR1,NR3C1,2,"[28, 35]",5
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,4,7,3199,3279,ESR1,PGR,2,"[35, 57]",4
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,4,8,3199,3295,ESR1,DRD3,2,"[35, 42]",41
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,4,10,3199,41519,ESR1,DRD3,2,"[35, 44]",4
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,4,11,3199,41629,ESR1,AR,2,"[28, 35]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,4,12,3199,41630,ESR1,PGR,2,"[22, 35]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,5,6,3217,3218,ESR2,NR3C1,2,"[1, 28]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,5,7,3217,3279,ESR2,PGR,2,"[1, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,5,8,3217,3295,ESR2,DRD3,2,"[1, 42]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,5,9,3217,31453,ESR2,ESR1,1,[1],0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,5,10,3217,41519,ESR2,DRD3,2,"[1, 44]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,5,11,3217,41629,ESR2,AR,2,"[1, 28]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,5,12,3217,41630,ESR2,PGR,2,"[1, 22]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,6,7,3218,3279,NR3C1,PGR,2,"[28, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 42]",34
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,6,9,3218,31453,NR3C1,ESR1,2,"[1, 28]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 44]",4
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,6,11,3218,41629,NR3C1,AR,1,[28],0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,6,12,3218,41630,NR3C1,PGR,2,"[22, 28]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,7,8,3279,3295,PGR,DRD3,2,"[42, 57]",19
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,7,9,3279,31453,PGR,ESR1,2,"[1, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,7,10,3279,41519,PGR,DRD3,2,"[44, 57]",3
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,7,11,3279,41629,PGR,AR,2,"[28, 57]",0
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,8,9,3295,31453,DRD3,ESR1,2,"[1, 42]",6
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,8,11,3295,41629,DRD3,AR,2,"[28, 42]",6
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,8,12,3295,41630,DRD3,PGR,2,"[22, 42]",17
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,9,10,31453,41519,ESR1,DRD3,2,"[1, 44]",10
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,9,11,31453,41629,ESR1,AR,2,"[1, 28]",2
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,9,12,31453,41630,ESR1,PGR,2,"[1, 22]",1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,10,11,41519,41629,DRD3,AR,2,"[28, 44]",30
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,10,12,41519,41630,DRD3,PGR,2,"[22, 44]",50
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,11,12,41629,41630,AR,PGR,2,"[22, 28]",6
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,1,3086,3087,ADRB1,ADRB2,2,"[3, 4]",13
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,2,3086,3157,ADRB1,DRD2,2,"[3, 46]",54
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[3, 38]",55
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,4,3086,3199,ADRB1,ESR1,2,"[3, 27]",20
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,5,3086,3217,ADRB1,ESR2,2,"[3, 9]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,6,3086,3218,ADRB1,NR3C1,2,"[3, 28]",15
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,7,3086,3279,ADRB1,PGR,2,"[3, 20]",3
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,8,3086,3295,ADRB1,DRD3,2,"[3, 47]",78
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,9,3086,31453,ADRB1,ESR1,2,"[3, 27]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,10,3086,41519,ADRB1,DRD3,2,"[3, 47]",7
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,11,3086,41629,ADRB1,AR,2,"[3, 24]",3
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,12,3086,41630,ADRB1,PGR,2,"[3, 20]",3
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,2,3087,3157,ADRB2,DRD2,2,"[4, 46]",30
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[4, 38]",35
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,4,3087,3199,ADRB2,ESR1,2,"[4, 27]",15
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,5,3087,3217,ADRB2,ESR2,2,"[4, 9]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,6,3087,3218,ADRB2,NR3C1,2,"[4, 28]",11
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,7,3087,3279,ADRB2,PGR,2,"[4, 20]",4
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,8,3087,3295,ADRB2,DRD3,2,"[4, 47]",42
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,9,3087,31453,ADRB2,ESR1,2,"[4, 27]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,10,3087,41519,ADRB2,DRD3,2,"[4, 47]",7
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,11,3087,41629,ADRB2,AR,2,"[4, 24]",3
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,12,3087,41630,ADRB2,PGR,2,"[4, 20]",3
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,3,3157,3177,DRD2,ADORA2A,2,"[38, 46]",65
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,4,3157,3199,DRD2,ESR1,2,"[27, 46]",22
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,5,3157,3217,DRD2,ESR2,2,"[9, 46]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,6,3157,3218,DRD2,NR3C1,2,"[28, 46]",13
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,7,3157,3279,DRD2,PGR,2,"[20, 46]",5
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,8,3157,3295,DRD2,DRD3,2,"[46, 47]",107
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,9,3157,31453,DRD2,ESR1,2,"[27, 46]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,10,3157,41519,DRD2,DRD3,2,"[46, 47]",14
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,11,3157,41629,DRD2,AR,2,"[24, 46]",8
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,12,3157,41630,DRD2,PGR,2,"[20, 46]",8
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,4,3177,3199,ADORA2A,ESR1,2,"[27, 38]",18
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,5,3177,3217,ADORA2A,ESR2,2,"[9, 38]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[28, 38]",12
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,7,3177,3279,ADORA2A,PGR,2,"[20, 38]",2
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,8,3177,3295,ADORA2A,DRD3,2,"[38, 47]",98
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,9,3177,31453,ADORA2A,ESR1,2,"[27, 38]",2
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,10,3177,41519,ADORA2A,DRD3,2,"[38, 47]",6
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,11,3177,41629,ADORA2A,AR,2,"[24, 38]",4
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,12,3177,41630,ADORA2A,PGR,2,"[20, 38]",4
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,5,3199,3217,ESR1,ESR2,2,"[9, 27]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,6,3199,3218,ESR1,NR3C1,2,"[27, 28]",4
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,7,3199,3279,ESR1,PGR,2,"[20, 27]",2
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,8,3199,3295,ESR1,DRD3,2,"[27, 47]",37
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,10,3199,41519,ESR1,DRD3,2,"[27, 47]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,11,3199,41629,ESR1,AR,2,"[24, 27]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,12,3199,41630,ESR1,PGR,2,"[20, 27]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,6,3217,3218,ESR2,NR3C1,2,"[9, 28]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,7,3217,3279,ESR2,PGR,2,"[9, 20]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,8,3217,3295,ESR2,DRD3,2,"[9, 47]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,9,3217,31453,ESR2,ESR1,2,"[9, 27]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,10,3217,41519,ESR2,DRD3,2,"[9, 47]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,11,3217,41629,ESR2,AR,2,"[9, 24]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,12,3217,41630,ESR2,PGR,2,"[9, 20]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,7,3218,3279,NR3C1,PGR,2,"[20, 28]",1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 47]",26
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,9,3218,31453,NR3C1,ESR1,2,"[27, 28]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,10,3218,41519,NR3C1,DRD3,2,"[28, 47]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,11,3218,41629,NR3C1,AR,2,"[24, 28]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,12,3218,41630,NR3C1,PGR,2,"[20, 28]",0
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,8,3279,3295,PGR,DRD3,2,"[20, 47]",7
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,9,3279,31453,PGR,ESR1,2,"[20, 27]",1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,10,3279,41519,PGR,DRD3,2,"[20, 47]",2
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,11,3279,41629,PGR,AR,2,"[20, 24]",1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,9,3295,31453,DRD3,ESR1,2,"[27, 47]",1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,11,3295,41629,DRD3,AR,2,"[24, 47]",8
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,12,3295,41630,DRD3,PGR,2,"[20, 47]",7
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,10,31453,41519,ESR1,DRD3,2,"[27, 47]",5
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,11,31453,41629,ESR1,AR,2,"[24, 27]",3
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,12,31453,41630,ESR1,PGR,2,"[20, 27]",6
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,11,41519,41629,DRD3,AR,2,"[24, 47]",15
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,12,41519,41630,DRD3,PGR,2,"[20, 47]",35
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,11,12,41629,41630,AR,PGR,2,"[20, 24]",5
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,1,3086,3087,ADRB1,ADRB2,2,"[36, 57]",13
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,2,3086,3157,ADRB1,DRD2,2,"[25, 57]",54
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,3,3086,3177,ADRB1,ADORA2A,2,"[27, 57]",55
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,4,3086,3199,ADRB1,ESR1,2,"[28, 57]",20
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,5,3086,3217,ADRB1,ESR2,2,"[1, 57]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,6,3086,3218,ADRB1,NR3C1,2,"[28, 57]",15
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,7,3086,3279,ADRB1,PGR,2,"[10, 57]",3
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,8,3086,3295,ADRB1,DRD3,2,"[42, 57]",78
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,9,3086,31453,ADRB1,ESR1,2,"[1, 57]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,10,3086,41519,ADRB1,DRD3,2,"[6, 57]",7
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,11,3086,41629,ADRB1,AR,2,"[28, 57]",3
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,12,3086,41630,ADRB1,PGR,2,"[19, 57]",3
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,2,3087,3157,ADRB2,DRD2,2,"[25, 36]",30
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,3,3087,3177,ADRB2,ADORA2A,2,"[27, 36]",35
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,4,3087,3199,ADRB2,ESR1,2,"[28, 36]",15
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,5,3087,3217,ADRB2,ESR2,2,"[1, 36]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,6,3087,3218,ADRB2,NR3C1,2,"[28, 36]",11
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,7,3087,3279,ADRB2,PGR,2,"[10, 36]",4
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,8,3087,3295,ADRB2,DRD3,2,"[36, 42]",42
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,9,3087,31453,ADRB2,ESR1,2,"[1, 36]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,10,3087,41519,ADRB2,DRD3,2,"[6, 36]",7
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,11,3087,41629,ADRB2,AR,2,"[28, 36]",3
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,12,3087,41630,ADRB2,PGR,2,"[19, 36]",3
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,3,3157,3177,DRD2,ADORA2A,2,"[25, 27]",65
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,4,3157,3199,DRD2,ESR1,2,"[25, 28]",22
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,5,3157,3217,DRD2,ESR2,2,"[1, 25]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,6,3157,3218,DRD2,NR3C1,2,"[25, 28]",13
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,7,3157,3279,DRD2,PGR,2,"[10, 25]",5
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,8,3157,3295,DRD2,DRD3,2,"[25, 42]",107
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,9,3157,31453,DRD2,ESR1,2,"[1, 25]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,10,3157,41519,DRD2,DRD3,2,"[6, 25]",14
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,11,3157,41629,DRD2,AR,2,"[25, 28]",8
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,12,3157,41630,DRD2,PGR,2,"[19, 25]",8
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,4,3177,3199,ADORA2A,ESR1,2,"[27, 28]",18
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,5,3177,3217,ADORA2A,ESR2,2,"[1, 27]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,6,3177,3218,ADORA2A,NR3C1,2,"[27, 28]",12
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,7,3177,3279,ADORA2A,PGR,2,"[10, 27]",2
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,8,3177,3295,ADORA2A,DRD3,2,"[27, 42]",98
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,9,3177,31453,ADORA2A,ESR1,2,"[1, 27]",2
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,10,3177,41519,ADORA2A,DRD3,2,"[6, 27]",6
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,11,3177,41629,ADORA2A,AR,2,"[27, 28]",4
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,12,3177,41630,ADORA2A,PGR,2,"[19, 27]",4
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,4,5,3199,3217,ESR1,ESR2,2,"[1, 28]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,4,6,3199,3218,ESR1,NR3C1,1,[28],4
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,4,7,3199,3279,ESR1,PGR,2,"[10, 28]",2
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,4,8,3199,3295,ESR1,DRD3,2,"[28, 42]",37
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,4,10,3199,41519,ESR1,DRD3,2,"[6, 28]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,4,11,3199,41629,ESR1,AR,1,[28],0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,4,12,3199,41630,ESR1,PGR,2,"[19, 28]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,5,6,3217,3218,ESR2,NR3C1,2,"[1, 28]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,5,7,3217,3279,ESR2,PGR,2,"[1, 10]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,5,8,3217,3295,ESR2,DRD3,2,"[1, 42]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,5,9,3217,31453,ESR2,ESR1,1,[1],0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,5,10,3217,41519,ESR2,DRD3,2,"[1, 6]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,5,11,3217,41629,ESR2,AR,2,"[1, 28]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,5,12,3217,41630,ESR2,PGR,2,"[1, 19]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,6,7,3218,3279,NR3C1,PGR,2,"[10, 28]",1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,6,8,3218,3295,NR3C1,DRD3,2,"[28, 42]",26
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,6,9,3218,31453,NR3C1,ESR1,2,"[1, 28]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,6,10,3218,41519,NR3C1,DRD3,2,"[6, 28]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,6,11,3218,41629,NR3C1,AR,1,[28],0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,6,12,3218,41630,NR3C1,PGR,2,"[19, 28]",0
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,7,8,3279,3295,PGR,DRD3,2,"[10, 42]",7
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,7,9,3279,31453,PGR,ESR1,2,"[1, 10]",1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,7,10,3279,41519,PGR,DRD3,2,"[6, 10]",2
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,7,11,3279,41629,PGR,AR,2,"[10, 28]",1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,8,9,3295,31453,DRD3,ESR1,2,"[1, 42]",1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,8,11,3295,41629,DRD3,AR,2,"[28, 42]",8
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,8,12,3295,41630,DRD3,PGR,2,"[19, 42]",7
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,9,10,31453,41519,ESR1,DRD3,2,"[1, 6]",5
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,9,11,31453,41629,ESR1,AR,2,"[1, 28]",3
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,9,12,31453,41630,ESR1,PGR,2,"[1, 19]",6
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,10,11,41519,41629,DRD3,AR,2,"[6, 28]",15
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,10,12,41519,41630,DRD3,PGR,2,"[6, 19]",35
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,11,12,41629,41630,AR,PGR,2,"[19, 28]",5

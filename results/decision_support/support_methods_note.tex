@@ -1,0 +1,19 @@
+Counts are reported as identified $D$ direction / observed opposite changes in
+the two assays. For each endpoint, rectangles are eligible when its saved
+experimental truth is defined: nonzero interval-identified $D$ for direction,
+and opposite identified assay-change directions for the joint-choice endpoint.
+Unique molecular identities, chemical groups, genes and actual assay pairs are
+counted directly among those eligible comparison rows. Exact rectangles have
+four exact source measurements; censor-involving rectangles contain at least
+one censored measurement. The prediction cohort is already restricted to the
+saved common-model support. Zero-support endpoint/domain combinations remain
+explicit in the full support table.
+
+Rectangles reuse molecular and assay endpoints, so these counts describe
+support rather than independent replicates. Primary macro estimates give equal
+weight to defined actual assay pairs; the reported rectangle counts are not
+substituted for those weights. Endpoint-specific cohorts, generalization
+regimes and metadata-matched subsets can contain different molecules or assay
+pairs. All counts were checked against the original compact global-baseline
+context counts, using positive counts separately for each endpoint, rather than
+a shared union-of-endpoints support field.

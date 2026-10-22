@@ -1,0 +1,43 @@
+{
+  "version": "decision_endpoint_support_v1",
+  "continuous_usecols": [
+    "molecule_a",
+    "molecule_b",
+    "chemical_group_a",
+    "chemical_group_b",
+    "gene_a",
+    "gene_b",
+    "assay_id_a",
+    "assay_id_b",
+    "observed_D_exact",
+    "observed_D_direction",
+    "pareto_identified",
+    "quantitative_context_matched"
+  ],
+  "endpoints": {
+    "D_direction": "observed_D_direction != 0",
+    "joint_opposite": "pareto_identified == True"
+  },
+  "domains": {
+    "all_source_operational": "all saved common-prediction rectangles",
+    "metadata_matched_operational": "quantitative_context_matched == True"
+  },
+  "counts": {
+    "n_rectangles": "Eligible rectangle evaluation rows; exact means all four source measurements exact",
+    "n_molecular_identities": "Unique endpoints among eligible rectangle rows",
+    "n_chemical_groups": "Unique endpoints among eligible rectangle rows",
+    "n_genes": "Unique endpoints among eligible rectangle rows",
+    "n_actual_assay_pairs": "Unique endpoints among eligible rectangle rows",
+    "n_exact_rectangles": "Eligible rectangle evaluation rows; exact means all four source measurements exact",
+    "n_censor_involving_rectangles": "Eligible rectangle evaluation rows; exact means all four source measurements exact"
+  },
+  "main_table_count_order": [
+    "D_direction",
+    "joint_opposite"
+  ],
+  "independence_claim": false,
+  "primary_weighting": "Equal average of defined actual-assay-pair estimates; these counts are endpoint support, not observation weights",
+  "compact_validation": "Original global_chemistry D_sign_credit_count and pareto_correct_count summed across splits; actual assay pairs counted only where corresponding aggregate count is positive",
+  "point_table_use": "Metadata/domain discovery only; shared union support columns are not used",
+  "source_ids": "Paths relative to the publication-project root"
+}

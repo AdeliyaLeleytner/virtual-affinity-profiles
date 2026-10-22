@@ -1,0 +1,1355 @@
+{
+  "scope": "Numeric source checks only. Manuscript bytes, locations, paragraph anchors, prose and manuscript-dependent hashes are omitted.",
+  "checks": [
+    {
+      "claim_id": "G01",
+      "claimed": [
+        909,
+        8,
+        "1.43",
+        "2.93",
+        "55.1",
+        "83.3",
+        10
+      ],
+      "reproduced": [
+        909,
+        8,
+        "1.43",
+        "2.93",
+        "55.1",
+        "83.3",
+        10
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "figures/data/spd_readouts.csv",
+          "sha256": "b6474a3180929dfa0ff0d39babbc0af4e4d94bd1fbd6f4eb2bb5cee30fae6cfc"
+        }
+      ]
+    },
+    {
+      "claim_id": "G02",
+      "claimed": [
+        9,
+        93,
+        102,
+        384,
+        "1.63",
+        "78.3",
+        "0.973"
+      ],
+      "reproduced": [
+        9,
+        93,
+        102,
+        384,
+        "1.63",
+        "78.3",
+        "0.973"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "data/datasets/broad_columns.csv",
+          "sha256": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed"
+        },
+        {
+          "path": "figures/data/column_metadata.csv",
+          "sha256": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed"
+        },
+        {
+          "path": "figures/data/spectral_summary.csv",
+          "sha256": "0f3bbc3a4b1aaaa5d75b65a7ad0b942c576e82bab350ea431a4189e01e84a2d6"
+        },
+        {
+          "path": "figures/data/shared_mean_correlations.csv",
+          "sha256": "2df5ff885a9be70885f0cb47322f59cda0012dd2469e5220fdc5b40b5d583b8f"
+        }
+      ]
+    },
+    {
+      "claim_id": "G03",
+      "claimed": [
+        "1.63",
+        "20.35",
+        "78.3",
+        "15.9",
+        "22.65"
+      ],
+      "reproduced": [
+        "1.63",
+        "20.35",
+        "78.3",
+        "15.9",
+        "22.65"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "figures/data/spectral_summary.csv",
+          "sha256": "0f3bbc3a4b1aaaa5d75b65a7ad0b942c576e82bab350ea431a4189e01e84a2d6"
+        }
+      ]
+    },
+    {
+      "claim_id": "G04",
+      "claimed": [
+        8,
+        8,
+        "5.1",
+        "5.6",
+        "2.0"
+      ],
+      "reproduced": [
+        8,
+        8,
+        "5.1",
+        "5.6",
+        "2.0"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "figures/data/spd_readouts.csv",
+          "sha256": "b6474a3180929dfa0ff0d39babbc0af4e4d94bd1fbd6f4eb2bb5cee30fae6cfc"
+        }
+      ]
+    },
+    {
+      "claim_id": "G05",
+      "claimed": [
+        "0.678",
+        "0.613",
+        "0.114",
+        "0.133"
+      ],
+      "reproduced": [
+        "0.678",
+        "0.613",
+        "0.114",
+        "0.133"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "figures/data/shared_gene_main_figure.csv",
+          "sha256": "dbb3fc18c33e37b27011bb13faf60d3ee0c34ce42fea957d41c0494ba54cb5e3"
+        }
+      ]
+    },
+    {
+      "claim_id": "B01",
+      "claimed": [
+        "82.9",
+        "78.3",
+        "75.7",
+        "72.0",
+        "61.9",
+        "60.8",
+        "57.0",
+        "52.3"
+      ],
+      "reproduced": [
+        "82.9",
+        "78.3",
+        "75.7",
+        "72.0",
+        "61.9",
+        "60.8",
+        "57.0",
+        "52.3"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "12dfd8126bfbcbc4af30998daaf750bebec9a6cd54c5ef486d3516a033e1a5fc"
+        },
+        {
+          "path": "results/core_run02/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a932df6d0abcb033f5cd191cf883047ad1a246cfcd14a27d5b1ea333d657842b"
+        }
+      ]
+    },
+    {
+      "claim_id": "B02",
+      "claimed": [
+        "40.5",
+        "45.4",
+        "27.7",
+        "13.7",
+        "19.5",
+        "13.6"
+      ],
+      "reproduced": [
+        "40.5",
+        "45.4",
+        "27.7",
+        "13.7",
+        "19.5",
+        "13.6"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "12dfd8126bfbcbc4af30998daaf750bebec9a6cd54c5ef486d3516a033e1a5fc"
+        },
+        {
+          "path": "results/core_run02/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a932df6d0abcb033f5cd191cf883047ad1a246cfcd14a27d5b1ea333d657842b"
+        }
+      ]
+    },
+    {
+      "claim_id": "B03",
+      "claimed": [
+        387,
+        394,
+        381,
+        388
+      ],
+      "reproduced": [
+        387,
+        394,
+        381,
+        388
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "manuscript/tables/decision_support_full.csv",
+          "sha256": "a74d2cd7fb24d65d8e869805d46632ccd828031357986b64d06f57d0a2e8b2c4"
+        }
+      ]
+    },
+    {
+      "claim_id": "T1_0",
+      "claimed": [
+        "189/188",
+        "154/153",
+        "73/69",
+        "4621/3293"
+      ],
+      "reproduced": [
+        "189/188",
+        "154/153",
+        "73/69",
+        "4621/3293"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "manuscript/tables/decision_support_full.csv",
+          "sha256": "a74d2cd7fb24d65d8e869805d46632ccd828031357986b64d06f57d0a2e8b2c4"
+        }
+      ]
+    },
+    {
+      "claim_id": "T1_1",
+      "claimed": [
+        "189/188",
+        "154/153",
+        "75/73",
+        "24158/17005"
+      ],
+      "reproduced": [
+        "189/188",
+        "154/153",
+        "75/73",
+        "24158/17005"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "manuscript/tables/decision_support_full.csv",
+          "sha256": "a74d2cd7fb24d65d8e869805d46632ccd828031357986b64d06f57d0a2e8b2c4"
+        }
+      ]
+    },
+    {
+      "claim_id": "T1_2",
+      "claimed": [
+        "110/109",
+        "93/92",
+        "632/586",
+        "15438/7868"
+      ],
+      "reproduced": [
+        "110/109",
+        "93/92",
+        "632/586",
+        "15438/7868"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "manuscript/tables/decision_support_full.csv",
+          "sha256": "a74d2cd7fb24d65d8e869805d46632ccd828031357986b64d06f57d0a2e8b2c4"
+        }
+      ]
+    },
+    {
+      "claim_id": "T1_3",
+      "claimed": [
+        "110/108",
+        "93/91",
+        "119/110",
+        "10756/5526"
+      ],
+      "reproduced": [
+        "110/108",
+        "93/91",
+        "119/110",
+        "10756/5526"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "manuscript/tables/decision_support_full.csv",
+          "sha256": "a74d2cd7fb24d65d8e869805d46632ccd828031357986b64d06f57d0a2e8b2c4"
+        }
+      ]
+    },
+    {
+      "claim_id": "B04",
+      "claimed": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/fingerprint_run01/dockstring__dockstring__all_binding_genes__all_records/core/summary_preferences.csv",
+          "sha256": "de136bbdbdd3ff76e8a342198677978e8a4c99c5e7da50f1ef21cfe024df0acc"
+        },
+        {
+          "path": "results/fingerprint_run01/own44__own44__all_binding_genes__all_records/core/summary_preferences.csv",
+          "sha256": "3a39acb36a2df5389ca9f0c82485e13a324ca728b621d263024f45866fe8e636"
+        }
+      ]
+    },
+    {
+      "claim_id": "D00",
+      "claimed": [
+        "82.9",
+        "40.4",
+        "82.9",
+        "40.5",
+        "11.7",
+        "17.3",
+        "75.7",
+        "74.2",
+        "4.6",
+        "9.2",
+        "57.2",
+        "57.0"
+      ],
+      "reproduced": [
+        "82.9",
+        "40.4",
+        "82.9",
+        "40.5",
+        "11.7",
+        "17.3",
+        "75.7",
+        "74.2",
+        "4.6",
+        "9.2",
+        "57.2",
+        "57.0"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "ab81216ffee38f8291a08829247ba99860e522503aa1d034d8ece1a8c38607b3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "41dd416af143a0bcaca3d0c1c22641f065cca4cee197ee3f25787089b7298521"
+        }
+      ]
+    },
+    {
+      "claim_id": "T2_global_chemistry",
+      "claimed": [
+        "82.9 / 40.5",
+        "75.7 / 11.7",
+        "61.9 / 13.7",
+        "57.0 / 4.6"
+      ],
+      "reproduced": [
+        "82.9 / 40.5",
+        "75.7 / 11.7",
+        "61.9 / 13.7",
+        "57.0 / 4.6"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "ab81216ffee38f8291a08829247ba99860e522503aa1d034d8ece1a8c38607b3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "41dd416af143a0bcaca3d0c1c22641f065cca4cee197ee3f25787089b7298521"
+        }
+      ]
+    },
+    {
+      "claim_id": "T2_full_profile",
+      "claimed": [
+        "78.3 / 27.7",
+        "72.0 / 10.3",
+        "60.8 / 13.6",
+        "52.3 / 3.5"
+      ],
+      "reproduced": [
+        "78.3 / 27.7",
+        "72.0 / 10.3",
+        "60.8 / 13.6",
+        "52.3 / 3.5"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "ab81216ffee38f8291a08829247ba99860e522503aa1d034d8ece1a8c38607b3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "41dd416af143a0bcaca3d0c1c22641f065cca4cee197ee3f25787089b7298521"
+        }
+      ]
+    },
+    {
+      "claim_id": "T2_linear__pointwise",
+      "claimed": [
+        "82.9 / 40.4",
+        "75.0 / 14.0",
+        "61.3 / 14.9",
+        "56.2 / 4.4"
+      ],
+      "reproduced": [
+        "82.9 / 40.4",
+        "75.0 / 14.0",
+        "61.3 / 14.9",
+        "56.2 / 4.4"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "ab81216ffee38f8291a08829247ba99860e522503aa1d034d8ece1a8c38607b3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "41dd416af143a0bcaca3d0c1c22641f065cca4cee197ee3f25787089b7298521"
+        }
+      ]
+    },
+    {
+      "claim_id": "T2_linear__direction",
+      "claimed": [
+        "82.2 / 36.9",
+        "74.5 / 16.7",
+        "61.9 / 13.7",
+        "57.2 / 9.2"
+      ],
+      "reproduced": [
+        "82.2 / 36.9",
+        "74.5 / 16.7",
+        "61.9 / 13.7",
+        "57.2 / 9.2"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "ab81216ffee38f8291a08829247ba99860e522503aa1d034d8ece1a8c38607b3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "41dd416af143a0bcaca3d0c1c22641f065cca4cee197ee3f25787089b7298521"
+        }
+      ]
+    },
+    {
+      "claim_id": "T2_rbf__pointwise",
+      "claimed": [
+        "82.3 / 39.2",
+        "75.6 / 12.9",
+        "61.7 / 13.1",
+        "54.5 / 3.9"
+      ],
+      "reproduced": [
+        "82.3 / 39.2",
+        "75.6 / 12.9",
+        "61.7 / 13.1",
+        "54.5 / 3.9"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "ab81216ffee38f8291a08829247ba99860e522503aa1d034d8ece1a8c38607b3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "41dd416af143a0bcaca3d0c1c22641f065cca4cee197ee3f25787089b7298521"
+        }
+      ]
+    },
+    {
+      "claim_id": "T2_rbf__direction",
+      "claimed": [
+        "80.6 / 38.1",
+        "74.2 / 17.3",
+        "61.9 / 13.6",
+        "55.0 / 6.8"
+      ],
+      "reproduced": [
+        "80.6 / 38.1",
+        "74.2 / 17.3",
+        "61.9 / 13.6",
+        "55.0 / 6.8"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "ab81216ffee38f8291a08829247ba99860e522503aa1d034d8ece1a8c38607b3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "41dd416af143a0bcaca3d0c1c22641f065cca4cee197ee3f25787089b7298521"
+        }
+      ]
+    },
+    {
+      "claim_id": "D01",
+      "claimed": [
+        240,
+        106
+      ],
+      "reproduced": [
+        240,
+        106
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_0/complete.json",
+          "sha256": "41d39f2f7807f0306598f07611b97ec1dbf770ab6e7f1e234cf651ca05037eba"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_1/complete.json",
+          "sha256": "318746048d406c839cd671e877f2bf27462c7f407faf9457959c81bd75377f3a"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_2/complete.json",
+          "sha256": "3ceff3ee1f3fdc7b3b2e4d0df8d54488a4d956fceb0b16eb21a7bd79545f9600"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_3/complete.json",
+          "sha256": "ef1ab02089dd44f57f8e06ae90cd502aea6ee6489218a51fed7ebfea2908cd77"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_4/complete.json",
+          "sha256": "b0bfd7209446b14f12f86b0787810267bf02626b674acfbaa798fd0e03d4ac42"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_0/complete.json",
+          "sha256": "900a4005dbd580bdbfff45d7429aeb023ba0521f5886405a531247e82f2d8a33"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_1/complete.json",
+          "sha256": "db1690a8908ce18a9d2bbf90e35a04b776b8d9b937e78ebc23671bfc21509450"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_10/complete.json",
+          "sha256": "8127d5505fb673c12c042da343aa78cea536e8da76b1c0e802565f7d08de8cf0"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_11/complete.json",
+          "sha256": "c6a9679bceb71995ea6e70c2d44b32febe2b5ae8e7a3d002e34788ac7a97a97d"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_12/complete.json",
+          "sha256": "b704c1d129bb9f2e06d46fa5b4e4be7707257bf8e2b1f1760fb82ce7fb1c1426"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_13/complete.json",
+          "sha256": "8aa78bb22d4218f8dc102b0dbb5193bf0f95aaad96d1ed2fec99528e7a9aceb0"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_14/complete.json",
+          "sha256": "af3a364387a83d1fb6f2f1795b11e5c5a1e55025ca47b4e0a04012cdd79835b1"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_15/complete.json",
+          "sha256": "c95f8122b0f07200e7b88fd3fad5c4a0cb494238e8e7648b9ab9c272817524b8"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_16/complete.json",
+          "sha256": "94883ccb3deaa8abdb1a2628f3df7ffe0b523b67b909ffcf4657ee829e692cbe"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_17/complete.json",
+          "sha256": "803ec0c5e9b2a2f3e0ad5872e17ff49978f94f45b7944cd6e26268a4d5dcddd2"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_18/complete.json",
+          "sha256": "4c760e982d9a36ed76ba09aaeba57ea002b161921048ca4c41a88a6178e0c18e"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_19/complete.json",
+          "sha256": "2ff711a0ee6d373fc3b63b1579e7368b7ce16b0df70c7337cc291a13b61fb01b"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_2/complete.json",
+          "sha256": "3a478c581d82b131136a2aabf79d864eddf3e45a4288962e123196c35300a531"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_20/complete.json",
+          "sha256": "c1ee7be3cc521d628dd45fc6ec2fe52c437846d634a13f4e038b4490509665b8"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_21/complete.json",
+          "sha256": "4f02a40cdbb4408a1e525ac9415760cd5ec805d9d296b662d32de7db56f1753f"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_22/complete.json",
+          "sha256": "f6b566eb5e1f6be34973d2c4b05a4d3e9c324244c238746d1a37387088675e6c"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_23/complete.json",
+          "sha256": "51f3a22b23b3d0a0e44d694f13770af165c5e5501168bb8bf8bec46fe5a917df"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_24/complete.json",
+          "sha256": "06951f5c3407cc3b29bcf6b753d26c5a1f797ad6168f40b1ec28cfc43b1d6c72"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_25/complete.json",
+          "sha256": "382725ab6bac7842ac36abec891808d80f556422b14411e484d6d40bc60dd99d"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_26/complete.json",
+          "sha256": "f8147e7eb8567c4519363800f8b2578ec6510b026156cae51b38ef15af0f2df6"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_27/complete.json",
+          "sha256": "564fcd4379ebd6f39fb291645ebc630d568583fece6e5a20a1fe35db92e4949f"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_28/complete.json",
+          "sha256": "2027468db118c0ebf8e60295e5f827510f7b937969b495e4fa50340d0eaab0b2"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_29/complete.json",
+          "sha256": "555284999cf6303e3f02a5939895bfbaf23b96f6172c9e1e18756087d01073b3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_3/complete.json",
+          "sha256": "f283e73aa0c378bab8aaf1fc4b71f9d18fcd21d848dcc0900b519f5707ee6589"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_30/complete.json",
+          "sha256": "a1953acdc2baede3439773d8559ef788ee3221cd711f8c88ecaf46d5bf9ce9ef"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_31/complete.json",
+          "sha256": "18d62c430dfff1c9b2c5d8e110336d0f33efae939906bdd30a65b62cb178481a"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_32/complete.json",
+          "sha256": "26dc0e03abfda55f697be5127a10b99b8a362ff1155055f38b383d3243dbede8"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_33/complete.json",
+          "sha256": "7f70d92483d23627fe5de7583e7320ddd574185b39d403f2505ec552cca8c743"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_34/complete.json",
+          "sha256": "68c26f3ac7ad0846c1f051a97a684b07a83e469f55455427beb006ff292c4221"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_35/complete.json",
+          "sha256": "e72c5a61b5229b99ad75fe82cc1866497f1b06d9c1258829205d660eea529750"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_36/complete.json",
+          "sha256": "ee79c16a090dd711ddf2e0c1bf9f3744402437b1563d0afced61dfb22a17c2d8"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_37/complete.json",
+          "sha256": "4f82cdcc89318608cfb906f0cccbf843d1547640814334fef47762562de10f82"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_38/complete.json",
+          "sha256": "c51ba671e4dfdd67bfdc94addff09664c6e4a10603c530888c9b8ceb3f4bc527"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_39/complete.json",
+          "sha256": "5506dc5f42f44d6ebce07bc7e4726d6bc95b33d35d80c91216228735602f61d3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_4/complete.json",
+          "sha256": "e62b82db453cc185f093b00c6e08bd43139c27b52360355b9e4f6b5c75019562"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_40/complete.json",
+          "sha256": "351eb0d8724691af6b4dc29487359fd337be0aa0c159851f5995c4766e9ac9fa"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_41/complete.json",
+          "sha256": "5a91d4964aafba86146198c89568014aa4bb0d4bb25d6f590b508af9017b40d3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_42/complete.json",
+          "sha256": "1beb5db93e3b0a8bf6651c4a87e9b0149ddc18e4e8ecd5c8207e9d8b65892d0c"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_43/complete.json",
+          "sha256": "401cd997a03348409ac0239104cb9a8ae4bb1c490ac7dd48f9cfd5cada4dc94c"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_44/complete.json",
+          "sha256": "428149d1a6415ce67604384cad7f8af69323796fa2b6021b618b9dfb823e68c2"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_5/complete.json",
+          "sha256": "d143f18f5ef525100290f085f624e2b1dc33e434411e86e54e134a399ebaa95b"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_6/complete.json",
+          "sha256": "4a90853e269eacbd3080ae2d6b1bfb2ae7c1d0d6fa86b63b7e9229bdf93ffac4"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_7/complete.json",
+          "sha256": "9867545ff6c24e403711ccd08e4f1d714d6f2b5360edbe499322d37bae2d1154"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_8/complete.json",
+          "sha256": "257b1eca2dbf6a21e899cdd62dddc375fade35556bf50515442efb266828d025"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/core/new_proteins_known_molecules/pair_9/complete.json",
+          "sha256": "f4b7ac3175805dcf20c5a45e73557783e2c4af63f262a269339e215ce3e5add3"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_0/complete.json",
+          "sha256": "2bf1fc21d8f09732a7aaefeaf566609ab3d6807482989dc4f298b952a242fa02"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_1/complete.json",
+          "sha256": "6a04bbd5549639a5001ea049298033760ce56da74f16dac8177a7cd8d0b0c19a"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_2/complete.json",
+          "sha256": "b9ba6c115d956fe2f41537536b2566587acdf7e2ffb87e2c66f580ea5546a01a"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_3/complete.json",
+          "sha256": "e73a3ebff6d6621796086d04b58d968be7f4a26177a5707bef3b85db035cbbe1"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_4/complete.json",
+          "sha256": "7ff97c275e3fc4773837720cdcc10728b56f2bcfdb2b17fa839e9ab762d178eb"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_proteins_known_molecules/genes_fold_0/complete.json",
+          "sha256": "990c6ed4a08021cc835c73d19b54e2bde7827e2f888ce500f905705a648669e1"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_proteins_known_molecules/genes_fold_1/complete.json",
+          "sha256": "d5d393fa7cea9ab2b5834e347f2eaa04ed6c5e1808dcb58fb056b33bfb81e3a2"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_proteins_known_molecules/genes_fold_2/complete.json",
+          "sha256": "935a22049cb93416feff1a36a74afcf4349b27c28d482f834d9810de16c8e580"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_proteins_known_molecules/genes_fold_3/complete.json",
+          "sha256": "1a61a786a69aeab4f850443c3e018bf1f70dd0abfe57f25015138bb0a56ac744"
+        },
+        {
+          "path": "results/decoder_sensitivity_run01/own44__own44__native_genes__all_records/core/new_proteins_known_molecules/genes_fold_4/complete.json",
+          "sha256": "e1a1ceaf13f1e32e69fabf7f08505abdce126cdc4cb0a49f370198d0fd97615c"
+        }
+      ]
+    },
+    {
+      "claim_id": "D02",
+      "claimed": [
+        "1.333",
+        "1.283"
+      ],
+      "reproduced": [
+        "1.333",
+        "1.283"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a932df6d0abcb033f5cd191cf883047ad1a246cfcd14a27d5b1ea333d657842b"
+        }
+      ]
+    },
+    {
+      "claim_id": "S01",
+      "claimed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/spd__boltz_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "e203f5391a60a8404b8d779e9f98fb157a9676fa5f1b29c2e7920f95c3588a0b"
+        },
+        {
+          "path": "results/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "39ee78eefc67db06681e9bed5cc701a79dc835420e5ee381659eff9ba0ef8fa7"
+        },
+        {
+          "path": "results/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "623c4cfee3f2b3d7d1528a6a68473ecd7b2d7c835e1380e3443bf7e163ce5186"
+        },
+        {
+          "path": "results/core_run02/spd__gnina__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a92dad128806481de74f5320e6a6b5eaa7e0b4dc1893ba9e6ac8945fc8eed7a5"
+        },
+        {
+          "path": "results/core_run02/spd__nesso_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "d1614e35372f51a3b3e7192c279fa3a8503a10112a1a659704ba4500f88e7078"
+        },
+        {
+          "path": "results/core_run02/spd__raw_ad4__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "788e3539305196804d955684cf3f70d2ce4c56e41e34a141863d52906d6017c5"
+        },
+        {
+          "path": "results/core_run02/spd__raw_gnina_own__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "4613473601afc961adfb36bfe50192c831dfe158c259e056d9a80768cc1dc1ed"
+        },
+        {
+          "path": "results/core_run02/spd__vina__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a4d6553e2dfce60e97cf34b5008bdc4ae85bb5fe485e4e5e19677b1938113809"
+        }
+      ]
+    },
+    {
+      "claim_id": "S02",
+      "claimed": [
+        "75.4",
+        "78.4",
+        "79.2",
+        "32.8",
+        "38.1",
+        "40.4"
+      ],
+      "reproduced": [
+        "75.4",
+        "78.4",
+        "79.2",
+        "32.8",
+        "38.1",
+        "40.4"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/spd__nesso_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "d1614e35372f51a3b3e7192c279fa3a8503a10112a1a659704ba4500f88e7078"
+        }
+      ]
+    },
+    {
+      "claim_id": "S03",
+      "claimed": [
+        "57.9",
+        "60.3",
+        "70.7",
+        "70.4",
+        "58.4",
+        "58.3",
+        "70.5",
+        "71.0"
+      ],
+      "reproduced": [
+        "57.9",
+        "60.3",
+        "70.7",
+        "70.4",
+        "58.4",
+        "58.3",
+        "70.5",
+        "71.0"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/spd__boltz_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "e203f5391a60a8404b8d779e9f98fb157a9676fa5f1b29c2e7920f95c3588a0b"
+        },
+        {
+          "path": "results/core_run02/spd__nesso_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "d1614e35372f51a3b3e7192c279fa3a8503a10112a1a659704ba4500f88e7078"
+        }
+      ]
+    },
+    {
+      "claim_id": "S04",
+      "claimed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "reproduced": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/spd__boltz_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "e203f5391a60a8404b8d779e9f98fb157a9676fa5f1b29c2e7920f95c3588a0b"
+        },
+        {
+          "path": "results/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "39ee78eefc67db06681e9bed5cc701a79dc835420e5ee381659eff9ba0ef8fa7"
+        },
+        {
+          "path": "results/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "623c4cfee3f2b3d7d1528a6a68473ecd7b2d7c835e1380e3443bf7e163ce5186"
+        },
+        {
+          "path": "results/core_run02/spd__gnina__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a92dad128806481de74f5320e6a6b5eaa7e0b4dc1893ba9e6ac8945fc8eed7a5"
+        },
+        {
+          "path": "results/core_run02/spd__nesso_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "d1614e35372f51a3b3e7192c279fa3a8503a10112a1a659704ba4500f88e7078"
+        },
+        {
+          "path": "results/core_run02/spd__raw_ad4__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "788e3539305196804d955684cf3f70d2ce4c56e41e34a141863d52906d6017c5"
+        },
+        {
+          "path": "results/core_run02/spd__raw_gnina_own__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "4613473601afc961adfb36bfe50192c831dfe158c259e056d9a80768cc1dc1ed"
+        },
+        {
+          "path": "results/core_run02/spd__vina__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a4d6553e2dfce60e97cf34b5008bdc4ae85bb5fe485e4e5e19677b1938113809"
+        }
+      ]
+    },
+    {
+      "claim_id": "S05",
+      "claimed": [
+        "34.2",
+        "8.4",
+        "30.2",
+        "6.6"
+      ],
+      "reproduced": [
+        "34.2",
+        "8.4",
+        "30.2",
+        "6.6"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/spd__nesso_affinity__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "d1614e35372f51a3b3e7192c279fa3a8503a10112a1a659704ba4500f88e7078"
+        },
+        {
+          "path": "results/core_run02/spd__gnina__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a92dad128806481de74f5320e6a6b5eaa7e0b4dc1893ba9e6ac8945fc8eed7a5"
+        }
+      ]
+    },
+    {
+      "claim_id": "S06",
+      "claimed": [
+        "59.2",
+        "75.7",
+        "54.1",
+        "55.1"
+      ],
+      "reproduced": [
+        "59.2",
+        "75.7",
+        "54.1",
+        "55.1"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/core_run02/dockstring__dockstring__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "12dfd8126bfbcbc4af30998daaf750bebec9a6cd54c5ef486d3516a033e1a5fc"
+        },
+        {
+          "path": "results/core_run02/own44__own44__native_genes__all_records/core/summary_preferences.csv",
+          "sha256": "a932df6d0abcb033f5cd191cf883047ad1a246cfcd14a27d5b1ea333d657842b"
+        }
+      ]
+    },
+    {
+      "claim_id": "A01",
+      "claimed": [
+        "83.4",
+        "79.2",
+        "82.9",
+        "64.8",
+        "61.0",
+        "62.0"
+      ],
+      "reproduced": [
+        "83.4",
+        "79.2",
+        "82.9",
+        "64.8",
+        "61.0",
+        "62.0"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "figures/data/figure5_panel_acquisition_values.csv",
+          "sha256": "506d8ece4877a0ed63aa2711f0ca5e902e4dc46b7e386fc3de2fe38afb547187"
+        },
+        {
+          "path": "figures/data/figure_supplement_growth_level_chemistry_values.csv",
+          "sha256": "f696ea534c5c3db5356423d5e9e1c8631b8112400191b8be8ff6d1306ee2855e"
+        },
+        {
+          "path": "results/panel_growth_analysis/growth_analysis_receipt.json",
+          "sha256": "c5c5992f286a53d52955c105d39ccc504c691507b191eed80d3f7cc7ebf6e9f5"
+        }
+      ]
+    },
+    {
+      "claim_id": "A02",
+      "claimed": [
+        "19.1",
+        "23.6",
+        "64.8",
+        "62.0"
+      ],
+      "reproduced": [
+        "19.1",
+        "23.6",
+        "64.8",
+        "62.0"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/panel_growth_analysis/own44/all_measurements_paired_estimates.csv",
+          "sha256": "ab38119596e89713b24b4e147d25cd6c93ad1533bd929e03aa8429ef6a30b6e7"
+        }
+      ]
+    },
+    {
+      "claim_id": "A03",
+      "claimed": [
+        44,
+        1,
+        2,
+        false
+      ],
+      "reproduced": [
+        44,
+        1,
+        2,
+        false
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "results/panel_growth_analysis/own44/query_assay_pair_costs.csv",
+          "sha256": "80047156c80bd6c949330240aca6f2fb972f8218532f649a7f9a2214243bae6e"
+        }
+      ]
+    },
+    {
+      "claim_id": "I01",
+      "claimed": [
+        "-0.01366",
+        "-0.5905"
+      ],
+      "reproduced": [
+        "-0.01366",
+        "-0.5905"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "figures/data/figure6_choices/all_source_variant_decisions.csv",
+          "sha256": "d7245d6de4bee51f57c72b41f5c03c6ec2642a2a497ae736e0dc667e48d0a652"
+        },
+        {
+          "path": "figures/data/figure6_choices/observed_delta_bounds.csv",
+          "sha256": "272c99403592fe3fe4c723a28fa3d56d53e4ccc2614b1e19f0c3187a6f9e00e8"
+        }
+      ]
+    },
+    {
+      "claim_id": "I02",
+      "claimed": [
+        [
+          "amoxapine",
+          "loxapine",
+          "KCNH2",
+          "SLC6A3",
+          1
+        ]
+      ],
+      "reproduced": [
+        [
+          "amoxapine",
+          "loxapine",
+          "KCNH2",
+          "SLC6A3",
+          1
+        ]
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "figures/data/figure6_choices/selected_cases.csv",
+          "sha256": "66e5aafd850cb84157a9bd50e3dd1f423950f76f4c0ccad65458a120b021fc7b"
+        }
+      ]
+    },
+    {
+      "claim_id": "M01",
+      "claimed": [
+        33050,
+        105,
+        82,
+        74,
+        4247,
+        28803
+      ],
+      "reproduced": [
+        33050,
+        105,
+        82,
+        74,
+        4247,
+        28803
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "preparation/preparation_receipt.json",
+          "sha256": "a0db2a45ec4ec75ee9e6b7d6dff27481d2be1621de95e616974dda24ebf21d4b"
+        },
+        {
+          "path": "data/assays.csv",
+          "sha256": "376d10093d14f1f3d7ece9e6d1d43b7d78d871f3cd57686cc55fec57edc86f79"
+        }
+      ]
+    },
+    {
+      "claim_id": "M02",
+      "claimed": [
+        930,
+        469
+      ],
+      "reproduced": [
+        930,
+        469
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "preparation/preparation_receipt.json",
+          "sha256": "a0db2a45ec4ec75ee9e6b7d6dff27481d2be1621de95e616974dda24ebf21d4b"
+        }
+      ]
+    },
+    {
+      "claim_id": "M03",
+      "claimed": [
+        2048,
+        6,
+        676,
+        623,
+        62
+      ],
+      "reproduced": [
+        2048,
+        6,
+        676,
+        623,
+        62
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "preparation/SCHEMA.json",
+          "sha256": "8e3a37770971a10f295afa1143acc12b43f056911300df58cd77083983de5de6"
+        },
+        {
+          "path": "data/molecules.csv",
+          "sha256": "0e808802c25e1c5f4980bf2cc9b02cfbddc5b7d4e993021bb7bae7664e2d856f"
+        }
+      ]
+    },
+    {
+      "claim_id": "M04",
+      "claimed": [
+        132,
+        74,
+        58,
+        93
+      ],
+      "reproduced": [
+        132,
+        74,
+        58,
+        93
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "data/proteins.csv",
+          "sha256": "59958b8a2a1012051754953264849214582610011cf69be5d040d250e288adb3"
+        },
+        {
+          "path": "data/assays.csv",
+          "sha256": "376d10093d14f1f3d7ece9e6d1d43b7d78d871f3cd57686cc55fec57edc86f79"
+        },
+        {
+          "path": "data/datasets/broad_columns.csv",
+          "sha256": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed"
+        }
+      ]
+    },
+    {
+      "claim_id": "M05",
+      "claimed": [
+        58,
+        890,
+        885,
+        44,
+        668,
+        416,
+        199,
+        113
+      ],
+      "reproduced": [
+        58,
+        890,
+        885,
+        44,
+        668,
+        416,
+        199,
+        113
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "data/datasets/broad_columns.csv",
+          "sha256": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed"
+        },
+        {
+          "path": "figures/data/cohort_support.csv",
+          "sha256": "8efc17c47f61cd34d0e8368c8b5d983dba79d724663b36cb650b6772ff3274d8"
+        },
+        {
+          "path": "preparation/SCHEMA.json",
+          "sha256": "8e3a37770971a10f295afa1143acc12b43f056911300df58cd77083983de5de6"
+        }
+      ]
+    },
+    {
+      "claim_id": "AB01",
+      "claimed": [
+        8,
+        10,
+        58,
+        44,
+        93,
+        "55",
+        "83",
+        "1.63",
+        "20.35"
+      ],
+      "reproduced": [
+        8,
+        10,
+        58,
+        44,
+        93,
+        "55",
+        "83",
+        "1.63",
+        "20.35"
+      ],
+      "passed": true,
+      "sources": [
+        {
+          "path": "figures/data/spd_readouts.csv",
+          "sha256": "b6474a3180929dfa0ff0d39babbc0af4e4d94bd1fbd6f4eb2bb5cee30fae6cfc"
+        },
+        {
+          "path": "figures/data/spectral_summary.csv",
+          "sha256": "0f3bbc3a4b1aaaa5d75b65a7ad0b942c576e82bab350ea431a4189e01e84a2d6"
+        },
+        {
+          "path": "data/datasets/broad_columns.csv",
+          "sha256": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed"
+        }
+      ]
+    }
+  ]
+}

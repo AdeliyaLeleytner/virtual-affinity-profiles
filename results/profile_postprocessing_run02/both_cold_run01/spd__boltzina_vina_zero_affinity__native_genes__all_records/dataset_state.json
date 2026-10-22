@@ -1,0 +1,8 @@
+{
+  "source": "artifacts/frozen_predictions/both_cold_run01/spd__boltzina_vina_zero_affinity__native_genes__all_records",
+  "expected_splits": 25,
+  "completed_splits": 25,
+  "dataset_complete": true,
+  "missing_splits": [],
+  "summary_scope": "completed saved splits only; refresh after new splits finish"
+}

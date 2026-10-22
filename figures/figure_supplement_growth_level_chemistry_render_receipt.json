@@ -1,0 +1,54 @@
+{
+  "inputs": {
+    "manuscript/figures/data/growth_level_sources/all_growth_preferences.csv": {
+      "cached": "data/growth_level_sources/all_growth_preferences.csv",
+      "sha256": "632598cd56ad14fae695f923ef80325eb0221c447190eea8bdf080312a29674f"
+    },
+    "manuscript/figures/data/growth_level_sources/growth_analysis_receipt.json": {
+      "cached": "data/growth_level_sources/growth_analysis_receipt.json",
+      "sha256": "c5c5992f286a53d52955c105d39ccc504c691507b191eed80d3f7cc7ebf6e9f5"
+    },
+    "manuscript/figures/data/growth_level_sources/23e36b7b-fc22-450a-8f6e-01b20fa8e64e.log": {
+      "cached": "data/growth_level_sources/23e36b7b-fc22-450a-8f6e-01b20fa8e64e.log",
+      "sha256": "0898e2eb27405723b648e28e773dddbbb88fbf5693b224bb8c9437afcee34dbb"
+    },
+    "manuscript/figures/data/growth_level_sources/dockstring/all_measurements_paired_uncertainty.csv": {
+      "cached": "data/growth_level_sources/dockstring/all_measurements_paired_uncertainty.csv",
+      "sha256": "8054ab69336e5e282b953c5636108a5392d69d9833734086a35c9a741388203f"
+    },
+    "manuscript/figures/data/growth_level_sources/dockstring/full_budget_invariance_checks.csv": {
+      "cached": "data/growth_level_sources/dockstring/full_budget_invariance_checks.csv",
+      "sha256": "6d72febfdf107f9ecf17b0fbfdf06b88c2d7f923b19816927c13caedae93908b"
+    },
+    "manuscript/figures/data/growth_level_sources/dockstring/query_assay_pair_costs.csv": {
+      "cached": "data/growth_level_sources/dockstring/query_assay_pair_costs.csv",
+      "sha256": "55fc4423f1219958b605afeab5907b8f5025153c3d62056d53fd1b595d1d1d0d"
+    },
+    "manuscript/figures/data/growth_level_sources/dockstring/query_profile_union_costs.csv": {
+      "cached": "data/growth_level_sources/dockstring/query_profile_union_costs.csv",
+      "sha256": "ef5985114b8824901256716ce3a6c783b13fbc3bf5dee0c046de247cb5c4e6d5"
+    },
+    "manuscript/figures/data/growth_level_sources/own44/all_measurements_paired_uncertainty.csv": {
+      "cached": "data/growth_level_sources/own44/all_measurements_paired_uncertainty.csv",
+      "sha256": "635be6a2aafabd7854c0146b879a7feb660504942d93a13e4df8391e72ffdd36"
+    },
+    "manuscript/figures/data/growth_level_sources/own44/full_budget_invariance_checks.csv": {
+      "cached": "data/growth_level_sources/own44/full_budget_invariance_checks.csv",
+      "sha256": "6d72febfdf107f9ecf17b0fbfdf06b88c2d7f923b19816927c13caedae93908b"
+    },
+    "manuscript/figures/data/growth_level_sources/own44/query_assay_pair_costs.csv": {
+      "cached": "data/growth_level_sources/own44/query_assay_pair_costs.csv",
+      "sha256": "80047156c80bd6c949330240aca6f2fb972f8218532f649a7f9a2214243bae6e"
+    },
+    "manuscript/figures/data/growth_level_sources/own44/query_profile_union_costs.csv": {
+      "cached": "data/growth_level_sources/own44/query_profile_union_costs.csv",
+      "sha256": "7c94e8aba40cd1ebed6b34efbd46cfc5d7dade6c4f9526ebf749b8c4b1822812"
+    }
+  },
+  "model": "global_chemistry",
+  "scope": "Display only; no fitting, cutoff or best-k selection",
+  "vector_outputs": [
+    "pdf",
+    "svg"
+  ]
+}

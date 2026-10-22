@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "candidate_files": 1421,
+  "candidate_bytes": 144109917,
+  "text_or_string_archives_scanned": 1394,
+  "findings": [],
+  "manuscript_or_submission_included": false,
+  "archives_gitignored": true,
+  "figure_dependency_files": 75,
+  "licence_scope": "Required code/data/source attribution files present; exact frozen packages and source terms retained. This is a distribution-completeness audit.",
+  "no_git_commit_or_push": true
+}

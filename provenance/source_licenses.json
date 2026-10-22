@@ -1,0 +1,98 @@
+{
+  "checked_on": "2026-10-22",
+  "spd": {
+    "doi": "10.5281/zenodo.8103950",
+    "title": "A novel preclinical secondary pharmacology resource illuminates target-adverse drug reaction associations of marketed drugs - Supplementary Material",
+    "creators": [
+      {
+        "name": "Sutherland, Jeffrey",
+        "nameType": "Personal",
+        "givenName": "Jeffrey",
+        "familyName": "Sutherland",
+        "affiliation": [
+          "Novartis Institutes for Biomedical Research, Cambridge, MA, United States"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Yonchev, Dimitar",
+        "nameType": "Personal",
+        "givenName": "Dimitar",
+        "familyName": "Yonchev",
+        "affiliation": [
+          "Novartis Institutes for Biomedical Research, Basel, Switzerland"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Fekete, Alexander",
+        "nameType": "Personal",
+        "givenName": "Alexander",
+        "familyName": "Fekete",
+        "affiliation": [
+          "Novartis Institutes for Biomedical Research, Cambridge, MA, United States"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Laszlo Urban",
+        "affiliation": [
+          "Novartis Institutes for Biomedical Research, Cambridge, MA, United States"
+        ],
+        "nameIdentifiers": []
+      }
+    ],
+    "rights": [
+      {
+        "rights": "Creative Commons Attribution 4.0 International",
+        "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "schemeUri": "https://spdx.org/licenses/",
+        "rightsIdentifier": "cc-by-4.0",
+        "rightsIdentifierScheme": "SPDX"
+      },
+      {
+        "rights": "Open Access",
+        "rightsUri": "info:eu-repo/semantics/openAccess"
+      }
+    ],
+    "metadata_source": "https://api.datacite.org/dois/10.5281/zenodo.8103950"
+  },
+  "dockstring": {
+    "doi": "10.6084/m9.figshare.16511577.v1",
+    "title": "dockstring dataset",
+    "license": {
+      "value": 7,
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "authors": [
+      {
+        "id": 11306871,
+        "full_name": "Miguel Garcia Ortegon",
+        "first_name": "Miguel",
+        "last_name": "Garcia Ortegon",
+        "is_active": true,
+        "url_name": "Miguel_Garcia_Ortegon",
+        "orcid_id": ""
+      },
+      {
+        "id": 11512042,
+        "full_name": "Austin Tripp",
+        "first_name": "Austin",
+        "last_name": "Tripp",
+        "is_active": true,
+        "url_name": "Austin_Tripp",
+        "orcid_id": "0000-0002-0138-7740"
+      }
+    ]
+  },
+  "dockstring_metadata_source": "https://api.figshare.com/v2/articles/16511577/versions/1",
+  "docking44": {
+    "article_doi": "10.3390/pharmaceutics17121573",
+    "source_alias": "df_final_v4.csv.gz",
+    "source_export_date": "2026-07-30",
+    "license": "CC-BY-4.0 per original project data manifest; article also CC-BY-4.0",
+    "limitation": "Exact project export is distinct from a claimed byte-identical publisher supplement.",
+    "source_sha256": "25436e49b9fc80421d8499ef289ed8ef00b4ab35b904c7d930fc377f493e1d51"
+  }
+}

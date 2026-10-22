@@ -1,0 +1,9 @@
+{
+  "source": "outputs/profile_postprocessing_run02/both_cold_run01/spd__boltzina_vina_far_affinity__native_genes__all_records/both_cold/learned_common/continuous_rectangle_data.csv.gz",
+  "source_sha256": "9f04542b367591b232a2d3c4910f9bfedc0306a76d01e9f615679a2ce2fa04c0",
+  "script_sha256": "affe258f4d768e5b5085e406c72dfd8be30d56c4e6d1bae84c50f4adc224c7c1",
+  "seed": 20261022,
+  "resamples": 400,
+  "new_training": false,
+  "policy": "Common-defined assay contexts are intersected separately for each arm-baseline pair and each draw in primary macro association; raw estimand is pooled moments on common rectangle support."
+}

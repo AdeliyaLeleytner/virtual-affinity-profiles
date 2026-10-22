@@ -1,0 +1,22 @@
+{
+  "experiment": "PROFILE_INFORMATION_POSTPROCESSING",
+  "postprocessing": {
+    "input_dir": "data",
+    "results": [
+      "artifacts/frozen_predictions/core_run02",
+      "artifacts/frozen_predictions/fingerprint_run01",
+      "artifacts/frozen_predictions/both_cold_run01",
+      "artifacts/frozen_predictions/decoder_sensitivity_run01"
+    ],
+    "output_dir": "outputs/profile_postprocessing_run02",
+    "source_manifest": "provenance/public_postprocessing_sources.json",
+    "resamples": 400,
+    "seed": 20261022,
+    "scientific_thresholds": null,
+    "new_model_training": false,
+    "primary_weighting": "actual_assay_pair_equal",
+    "sensitivity_weighting": "raw_rectangle_equal",
+    "association_policy": "common-defined assay contexts for each arm-baseline pair and each draw; pooled common rectangle moments for raw weighting",
+    "scope_note": "Each source run has a separate output subtree. Decoder sensitivity is secondary; original primary comparisons are retained."
+  }
+}

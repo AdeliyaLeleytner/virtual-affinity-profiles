@@ -1,0 +1,3 @@
+source_run,dataset,channel,scope,policy,regime,comparison_support,measurement_stratum,eligible_rectangle_rows,status
+core_run02,spd,vina,native_genes,all_records,new_molecules_known_proteins,native_matched_common,exact_four_cell,13239,defined_observation_pool
+core_run02,spd,vina,native_genes,all_records,new_molecules_known_proteins,native_matched_common,censor_involving_identified_D,46723,defined_observation_pool

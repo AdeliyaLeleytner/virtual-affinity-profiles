@@ -1,0 +1,20 @@
+{
+  "scope": "Portable I/O adaptation of the original author-created geometry renderer; plotting/statistical expressions unchanged. Final manuscript remains a draft.",
+  "renderer": {
+    "source_alias": "manuscript/figures/build_geometry_figures.py",
+    "source_sha256": "b20a55b69b394980e49157c97e4c21f8b7add25c3a4f079a6ff5893aa656e429",
+    "portable_path": "figures/build_geometry_figures.py",
+    "portable_sha256": "5c283820cbda9ead2552c6cbdfd709f2207baab015f92d61f9f1e9166311dbe7",
+    "changes": [
+      "Added argparse --data-dir / --output-dir",
+      "Default data is freshly regenerated outputs/geometry/data, outputs are outputs/figures"
+    ]
+  },
+  "style": {
+    "source_alias": "manuscript/figures/orx_figstyle.py",
+    "sha256": "1287ae0f485db176f2918d8c135e406520ae1d4560348290767d4fd1a0e391c6",
+    "portable_path": "figures/orx_figstyle.py",
+    "byte_identical": true
+  },
+  "upstream_geometry_run": "8d42f171-3639-4139-850a-67309cec8dcd"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "artifacts/frozen_predictions/core_run02/spd__gnina__native_genes__all_records",
+  "expected_splits": 50,
+  "completed_splits": 50,
+  "dataset_complete": true,
+  "missing_splits": [],
+  "summary_scope": "completed saved splits only; refresh after new splits finish"
+}

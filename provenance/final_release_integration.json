@@ -1,0 +1,96 @@
+{
+  "status": "ready_for_root_publication",
+  "version": "1.0.0",
+  "title": "When do virtual affinity profiles improve biological decisions?",
+  "repository": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles",
+  "scope": "Reproducibility code/data/results/figures only; manuscript/submission materials remain local.",
+  "authoritative_replay": {
+    "run_id": "c133ae0c-9f6a-4da6-a321-7ed9f79e585a",
+    "commit": "5807705b7a17ea4fb438880f887cbfde967cee3a",
+    "status": "done",
+    "exit_code": 0,
+    "datasets": 24,
+    "measurement_tables": 72
+  },
+  "compact_outputs": {
+    "files": 1118,
+    "bytes": 92746894,
+    "manifest": "provenance/completed_output_assets.json"
+  },
+  "figure_bundle": {
+    "required_files": 75,
+    "main_figures": 6,
+    "supplements": 2,
+    "graphical_abstract": 1,
+    "numerical_width_mm": 170
+  },
+  "verification": {
+    "frozen_source_and_data_hashes": "passed",
+    "synthetic_and_technical_tests": 66,
+    "geometry_reference_tables": 14,
+    "representative_public_dataset": "fingerprint_run01/own44__own44__all_binding_genes__all_records",
+    "saved_splits": 10,
+    "resamples": 400,
+    "compact_tables_compared": 32,
+    "temporary_peak_bytes": 178964301,
+    "temporary_copy_removed": true,
+    "cached_figure_public_predicates": 227,
+    "latest_renderer_path_patch_artworks_checked": 5,
+    "fresh_geometry_images_exact": 3,
+    "fresh_figure_path_commands": 6,
+    "full_public_study_replay": false,
+    "scientific_source_fits": false,
+    "existing_archive_checksums": "all five verified in place",
+    "network_asset_transfer_tested": false
+  },
+  "package_separation": "Exact original src/growth_src/decoder_src preserved; patched descriptive parser isolated in replay_src.",
+  "licences": [
+    "MIT for new analysis code",
+    "CC BY4.0 for new author-derived materials",
+    "Retained third-party data terms",
+    "OpenResearch MIT copyright2026alphaXiv retained in LICENSES/OpenResearch-MIT.txt",
+    "PDB/RDKit asset attribution in figures/ASSET_PROVENANCE.md"
+  ],
+  "local_inputs_missing": [],
+  "local_release_assets_missing": [],
+  "root_publication_actions": [
+    "Review prospective Git inventory and commit analysis/code/data/figures",
+    "Push commit, verify CI, tagv1.0.0",
+    "Upload the five existing release_assets archives unchanged",
+    "Verify anonymous archive download hashes and record the actual analysis commit for the local manuscript"
+  ],
+  "release_assets": [
+    {
+      "filename": "both_cold_run01.tar.gz",
+      "sha256": "9952c33f9379d926ae406abf744130f9d4e43d0933f9e1ed41c4873618e4ed34",
+      "bytes": 97109628,
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/both_cold_run01.tar.gz"
+    },
+    {
+      "filename": "core_run02.tar.gz",
+      "sha256": "3bc749664fdb489380c3bba7861d5db0bf282efeb34410334b831066b627a3da",
+      "bytes": 375305421,
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/core_run02.tar.gz"
+    },
+    {
+      "filename": "decoder_sensitivity_run01.tar.gz",
+      "sha256": "2500505bc58579dbda1c0d57e858c5d0ea37a433fbedfa3d75971f6e5d5c7157",
+      "bytes": 42236506,
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/decoder_sensitivity_run01.tar.gz"
+    },
+    {
+      "filename": "fingerprint_run01.tar.gz",
+      "sha256": "666f17d66b62f6cdcdec139b7944248bf8c1c4754ac2e093be1963cd81a1e8c1",
+      "bytes": 36253438,
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/fingerprint_run01.tar.gz"
+    },
+    {
+      "filename": "growth_run02.tar.gz",
+      "sha256": "c2d3d6701fe3cbe97229855b4929670b82aa19d7b3b4466f2b95690157a46105",
+      "bytes": 167445208,
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/growth_run02.tar.gz"
+    }
+  ],
+  "git_commit_or_push_performed_by_this_agent": false,
+  "recorded_utc": "2026-10-22T19:01:16.633807+00:00"
+}

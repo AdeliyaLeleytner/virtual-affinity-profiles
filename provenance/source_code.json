@@ -1,0 +1,141 @@
+{
+  "policy": "Byte-identical Python modules copied from frozen execution worktrees; no original worktree or run edited. Growth uses its own package.",
+  "modules": {
+    "src/profile_information/__init__.py": {
+      "source_alias": "run-converged/profile_information/__init__.py",
+      "sha256": "19fa16bc22d4f495e01e6a359621b74f7923e9b8dd00aac230e90d61cf03508a"
+    },
+    "src/profile_information/data.py": {
+      "source_alias": "run-converged/profile_information/data.py",
+      "sha256": "0bcd3ebf407d861b8a0e71805bca2e7a8d0487db1d4398a481610b7ca5ca1e67"
+    },
+    "src/profile_information/evaluation.py": {
+      "source_alias": "run-converged/profile_information/evaluation.py",
+      "sha256": "c51e404c891deb02fc7b49fdeff1d3f4df7678f8111f8797977900a6858c2e86"
+    },
+    "src/profile_information/features.py": {
+      "source_alias": "run-converged/profile_information/features.py",
+      "sha256": "f12d93315a8daf6310bdfcaecbba16db90c261a342fdb108cfbc6e849f103ec8"
+    },
+    "src/profile_information/model.py": {
+      "source_alias": "run-converged/profile_information/model.py",
+      "sha256": "bf5e4d333e9b316fc08eccc02635ff9b028d1f8ee3cb841465900307afe9fef5"
+    },
+    "src/profile_information/replay_details.py": {
+      "source_alias": "run-converged/profile_information/replay_details.py",
+      "sha256": "b942686f83c09a84a9c2551c85cc8bd4a4070ca54467b3cef86069b04a67dfb4"
+    },
+    "src/profile_information/run.py": {
+      "source_alias": "run-converged/profile_information/run.py",
+      "sha256": "27dedc2eb67147ceec361106778f667ab97e1f558b6d939f1a86a71a4abc8ab5"
+    },
+    "src/profile_information/splits.py": {
+      "source_alias": "run-converged/profile_information/splits.py",
+      "sha256": "7a934a25f21c6a0a2bcc32b2152c020a8ef73b26fe73f2351c9718e47345b49b"
+    },
+    "growth_src/profile_information/__init__.py": {
+      "source_alias": "run-growth-canonical/profile_information/__init__.py",
+      "sha256": "19fa16bc22d4f495e01e6a359621b74f7923e9b8dd00aac230e90d61cf03508a"
+    },
+    "growth_src/profile_information/data.py": {
+      "source_alias": "run-growth-canonical/profile_information/data.py",
+      "sha256": "0bcd3ebf407d861b8a0e71805bca2e7a8d0487db1d4398a481610b7ca5ca1e67"
+    },
+    "growth_src/profile_information/evaluation.py": {
+      "source_alias": "run-growth-canonical/profile_information/evaluation.py",
+      "sha256": "c51e404c891deb02fc7b49fdeff1d3f4df7678f8111f8797977900a6858c2e86"
+    },
+    "growth_src/profile_information/features.py": {
+      "source_alias": "run-growth-canonical/profile_information/features.py",
+      "sha256": "1dd31b96fc22c67da5f3ffad3f5197548714fb3ac35341e8a62e1a141f7cc824"
+    },
+    "growth_src/profile_information/model.py": {
+      "source_alias": "run-growth-canonical/profile_information/model.py",
+      "sha256": "bf5e4d333e9b316fc08eccc02635ff9b028d1f8ee3cb841465900307afe9fef5"
+    },
+    "growth_src/profile_information/replay_details.py": {
+      "source_alias": "run-growth-canonical/profile_information/replay_details.py",
+      "sha256": "b942686f83c09a84a9c2551c85cc8bd4a4070ca54467b3cef86069b04a67dfb4"
+    },
+    "growth_src/profile_information/run.py": {
+      "source_alias": "run-growth-canonical/profile_information/run.py",
+      "sha256": "758d6e9373c8fe11f02806faaa01402ed44f62c97be7b00b2fbce592c84d585a"
+    },
+    "growth_src/profile_information/splits.py": {
+      "source_alias": "run-growth-canonical/profile_information/splits.py",
+      "sha256": "7a934a25f21c6a0a2bcc32b2152c020a8ef73b26fe73f2351c9718e47345b49b"
+    },
+    "decoder_src/profile_information/run.py": {
+      "source_alias": "run-decoder/profile_information/run.py",
+      "sha256": "27dedc2eb67147ceec361106778f667ab97e1f558b6d939f1a86a71a4abc8ab5"
+    },
+    "decoder_src/profile_information/evaluation.py": {
+      "source_alias": "run-decoder/profile_information/evaluation.py",
+      "sha256": "c51e404c891deb02fc7b49fdeff1d3f4df7678f8111f8797977900a6858c2e86"
+    },
+    "decoder_src/profile_information/__init__.py": {
+      "source_alias": "run-decoder/profile_information/__init__.py",
+      "sha256": "19fa16bc22d4f495e01e6a359621b74f7923e9b8dd00aac230e90d61cf03508a"
+    },
+    "decoder_src/profile_information/features.py": {
+      "source_alias": "run-decoder/profile_information/features.py",
+      "sha256": "f12d93315a8daf6310bdfcaecbba16db90c261a342fdb108cfbc6e849f103ec8"
+    },
+    "decoder_src/profile_information/model.py": {
+      "source_alias": "run-decoder/profile_information/model.py",
+      "sha256": "bf5e4d333e9b316fc08eccc02635ff9b028d1f8ee3cb841465900307afe9fef5"
+    },
+    "decoder_src/profile_information/decoder_sensitivity.py": {
+      "source_alias": "run-decoder/profile_information/decoder_sensitivity.py",
+      "sha256": "6c71af9d5059bfbb2bcc00fe4724f232849644c4c692fb259773203d992947d9"
+    },
+    "decoder_src/profile_information/splits.py": {
+      "source_alias": "run-decoder/profile_information/splits.py",
+      "sha256": "7a934a25f21c6a0a2bcc32b2152c020a8ef73b26fe73f2351c9718e47345b49b"
+    },
+    "decoder_src/profile_information/replay_details.py": {
+      "source_alias": "run-decoder/profile_information/replay_details.py",
+      "sha256": "b942686f83c09a84a9c2551c85cc8bd4a4070ca54467b3cef86069b04a67dfb4"
+    },
+    "decoder_src/profile_information/data.py": {
+      "source_alias": "run-decoder/profile_information/data.py",
+      "sha256": "0bcd3ebf407d861b8a0e71805bca2e7a8d0487db1d4398a481610b7ca5ca1e67"
+    },
+    "replay_src/profile_information/run.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/run.py",
+      "sha256": "27dedc2eb67147ceec361106778f667ab97e1f558b6d939f1a86a71a4abc8ab5"
+    },
+    "replay_src/profile_information/evaluation.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/evaluation.py",
+      "sha256": "0bf182bc3ec61220d8c18490a0b49c7b9227ba2d3ae0e377461e7c50aab63587"
+    },
+    "replay_src/profile_information/__init__.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/__init__.py",
+      "sha256": "19fa16bc22d4f495e01e6a359621b74f7923e9b8dd00aac230e90d61cf03508a"
+    },
+    "replay_src/profile_information/features.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/features.py",
+      "sha256": "f12d93315a8daf6310bdfcaecbba16db90c261a342fdb108cfbc6e849f103ec8"
+    },
+    "replay_src/profile_information/model.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/model.py",
+      "sha256": "bf5e4d333e9b316fc08eccc02635ff9b028d1f8ee3cb841465900307afe9fef5"
+    },
+    "replay_src/profile_information/decoder_sensitivity.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/decoder_sensitivity.py",
+      "sha256": "6c71af9d5059bfbb2bcc00fe4724f232849644c4c692fb259773203d992947d9"
+    },
+    "replay_src/profile_information/splits.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/splits.py",
+      "sha256": "7a934a25f21c6a0a2bcc32b2152c020a8ef73b26fe73f2351c9718e47345b49b"
+    },
+    "replay_src/profile_information/replay_details.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/replay_details.py",
+      "sha256": "b942686f83c09a84a9c2551c85cc8bd4a4070ca54467b3cef86069b04a67dfb4"
+    },
+    "replay_src/profile_information/data.py": {
+      "source_alias": "run-postprocessing-fixed/profile_information/data.py",
+      "sha256": "0bcd3ebf407d861b8a0e71805bca2e7a8d0487db1d4398a481610b7ca5ca1e67"
+    }
+  }
+}

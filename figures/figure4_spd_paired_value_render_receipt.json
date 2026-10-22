@@ -1,0 +1,552 @@
+{
+  "created_utc": "2026-10-22T18:37:20.037662+00:00",
+  "registered_postprocessing_run": "c133ae0c-9f6a-4da6-a321-7ed9f79e585a",
+  "scope": "Display of final completed registered postprocessing. Original source-cache provenance is retained and reconciled exactly against final run02; no new computation of scientific estimates.",
+  "reconciliation": {
+    "file": "refreshed_final_figure_sources_verification.json",
+    "sha256": "b54ec23e605d84e5b388f1e9d94c88757de7e638ec9d524415b220d26c77dc0a"
+  },
+  "final_dispatch": {
+    "file": "data/final_postprocessing_dispatch_receipt.json",
+    "sha256": "e763004b42130dbfd219de2e2c5a31aabbc0a86b4889699d4e4eca38fd821857"
+  },
+  "inputs": [
+    {
+      "source": "source-evidence/results/core_run02/spd__boltz_affinity__native_genes__all_records/input_description.json",
+      "cached": "data/figure4_sources/spd__boltz_affinity__native_genes__all_records/input_description.json",
+      "sha256": "1c54600d21b64aeb8af46c70408c9c66fb961000c2034d2c8820db5b7e69791c"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/within_assay_summary.csv",
+      "cached": "data/figure4_sources/spd__boltz_affinity__native_genes__all_records/within_assay_summary.csv",
+      "sha256": "379dee6acc629819aef50562242fd77694591873cc25e8bebad7d4db2cd12553"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__boltz_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_paired_estimates.csv",
+      "sha256": "e18db17bda0b088c94bd88cfb73610d33742f8370ffa5561d613e16baff68775"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltz_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common_paired_uncertainty.csv",
+      "sha256": "41f888281d5c8b7670ad9ff137083caa60071ba005d7196a9bea65d7ccba1cd7"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltz_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common_paired_uncertainty.csv",
+      "sha256": "676fbd80f9f6df503c23ade9aef2eb6de931acdb86adddb45efc56358a222307"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__boltz_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_paired_estimates.csv",
+      "sha256": "1d69ed20add9bea49e4b3a3c7b0aaecf3ef43250b46eb11c3ae339626fae0fb2"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltz_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common_paired_uncertainty.csv",
+      "sha256": "7defceed30112fc7f4cb56dcfac42f0d4788a00e7ff1cff84e87e8f7b75bc242"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltz_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common_paired_uncertainty.csv",
+      "sha256": "bf2877798e2f87bc2b4362f3ec51cbe4ed1f0c41faff29282a5d4eda39bd48dc"
+    },
+    {
+      "source": "source-evidence/results/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/input_description.json",
+      "cached": "data/figure4_sources/spd__boltzina_vina_far_affinity__native_genes__all_records/input_description.json",
+      "sha256": "a853228cd4334a30f685fa7d0dd774481091d82811d617915ac83cd84a734d2e"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/within_assay_summary.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_far_affinity__native_genes__all_records/within_assay_summary.csv",
+      "sha256": "d4ef2479c16a8dff6045dfead5fed97bdf75ac48bf47b20b4b441f9c58e79665"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_far_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_paired_estimates.csv",
+      "sha256": "64f3439582efa9a962dda13af14c4259e226c58d2d08b7eb0e38342ebd591ad5"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_far_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common_paired_uncertainty.csv",
+      "sha256": "7e7bdc42d8b68e846664a37bbbe86d9f299a8c5c85845772e78ec1855b574bb7"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_far_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common_paired_uncertainty.csv",
+      "sha256": "8ea4aadd324229f9a2ca5c07862be34f786ffa4d845190ae6e645794fc46a3cc"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_far_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_paired_estimates.csv",
+      "sha256": "70cd78d4663c5d8868af39dc84d44c675e19f14384fc6413850a32280a37f2c2"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_far_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common_paired_uncertainty.csv",
+      "sha256": "b557672952f05c14055a14c9ec1472e3546242677ae27819886fc177b708efe9"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_far_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common_paired_uncertainty.csv",
+      "sha256": "55ac2f0b8b47dbbba5e89b8235df7485473bd0b270f4098344cb0cd92e767586"
+    },
+    {
+      "source": "source-evidence/results/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/input_description.json",
+      "cached": "data/figure4_sources/spd__boltzina_vina_zero_affinity__native_genes__all_records/input_description.json",
+      "sha256": "cde2c2eabef95b4aeabd1fa900d974b79c561617c4eb5d3ec9a80f38fcf4d49d"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/within_assay_summary.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_zero_affinity__native_genes__all_records/within_assay_summary.csv",
+      "sha256": "48827e7869c4d60ca3dc327eece526814607898be723433f62c99015b9997c98"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_paired_estimates.csv",
+      "sha256": "f507edd58a463ad55106cfc544ecf10274a47eabecf0dafd638632187d01cda6"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common_paired_uncertainty.csv",
+      "sha256": "cf5ec1d048e04cd60f739d560ade8ff0cfcc1ec576c13ca25c5f99ca5bb7fe13"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common_paired_uncertainty.csv",
+      "sha256": "dcee5b0249466389942db137d4adf7f6f48d10ebef7e10c24cdbfbd976726e11"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_paired_estimates.csv",
+      "sha256": "f7b2c811f04057714383829aea96bfe57bd7782294967a9b9ce76b19585ee748"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common_paired_uncertainty.csv",
+      "sha256": "f91ec78431f84a4055c2bebd5cf8e6664aa0faeb1bf807be11774299db0115be"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common_paired_uncertainty.csv",
+      "sha256": "7c7ae392729f6c6597800699ee3cf028852df86f6ea2dcd7fae9e554e20919c1"
+    },
+    {
+      "source": "source-evidence/results/core_run02/spd__gnina__native_genes__all_records/input_description.json",
+      "cached": "data/figure4_sources/spd__gnina__native_genes__all_records/input_description.json",
+      "sha256": "30f8cd34927cb344fb73d3bcc712bcee308d806241eb6544eeb51cf6f6c0d6ca"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/within_assay_summary.csv",
+      "cached": "data/figure4_sources/spd__gnina__native_genes__all_records/within_assay_summary.csv",
+      "sha256": "e30b64d0cc87550d8aad169b1acce9b6778494f387cde55de5a29f697ceabc3a"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__gnina__native_genes__all_records/new_molecules_known_proteins/native_matched_paired_estimates.csv",
+      "sha256": "876836651bd5592706b76200f94d696fac01916d4c361e810d09c5037a461cbc"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__gnina__native_genes__all_records/new_molecules_known_proteins/learned_common_paired_uncertainty.csv",
+      "sha256": "bc098aab58dd8ee126c39c98d2780f76cf455ba5d6207d13ac79d41b4f03e519"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__gnina__native_genes__all_records/new_molecules_known_proteins/native_matched_common_paired_uncertainty.csv",
+      "sha256": "e86a97e813d49702d84c9a3f2534471fc973b65570c13b5955586579132a2813"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__gnina__native_genes__all_records/new_proteins_known_molecules/native_matched_paired_estimates.csv",
+      "sha256": "9c2ef473599caa4a1980e7d6169b7c150a7749fe828f96d8cb4faeceeed14b44"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__gnina__native_genes__all_records/new_proteins_known_molecules/learned_common_paired_uncertainty.csv",
+      "sha256": "cb0cdc5e1ce19348dafd460cc5701d0a1cbaa6ca876a0897c86f53d2e921365c"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__gnina__native_genes__all_records/new_proteins_known_molecules/native_matched_common_paired_uncertainty.csv",
+      "sha256": "069910da17140ae16b6a056f75317c4538e8db003c2f8198163363d29cbd56ad"
+    },
+    {
+      "source": "source-evidence/results/core_run02/spd__nesso_affinity__native_genes__all_records/input_description.json",
+      "cached": "data/figure4_sources/spd__nesso_affinity__native_genes__all_records/input_description.json",
+      "sha256": "19183f133271a01a7f35a0c7b26007f778f8b3407ea32825063385c852695fdb"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/within_assay_summary.csv",
+      "cached": "data/figure4_sources/spd__nesso_affinity__native_genes__all_records/within_assay_summary.csv",
+      "sha256": "244685703d8cfd30d23b40846d324c29d9c4603a1f557a44f3e4312ff6d8bb28"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__nesso_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_paired_estimates.csv",
+      "sha256": "43eb47a8cdd32879a9a060236483c386ed51fb26aebfb0ace91e6d3266b9f735"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__nesso_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common_paired_uncertainty.csv",
+      "sha256": "785dce06ccb9645505c759ea82178f4d2c087b01aa52e998b632cecd24896082"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__nesso_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common_paired_uncertainty.csv",
+      "sha256": "16c960ac39389610640d28c10da3fb8d2a92c7389b90895c770f64b567205f7a"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_paired_estimates.csv",
+      "sha256": "1e2a393e8e580f995170299e343b75725e8bc08fa17e036942f2d7fd7dfd8ba3"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common_paired_uncertainty.csv",
+      "sha256": "4af5154fcfdc7a06d5f3174890033e19061587d615912aa5de11436ebd3e11d8"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common_paired_uncertainty.csv",
+      "sha256": "3540ff9f25bcf65d9b9a1374e49c670fa96fd3e18b81be431763dea84c62e100"
+    },
+    {
+      "source": "source-evidence/results/core_run02/spd__raw_ad4__native_genes__all_records/input_description.json",
+      "cached": "data/figure4_sources/spd__raw_ad4__native_genes__all_records/input_description.json",
+      "sha256": "095a1c3049fff2d62b520c85a2dd32c90f6527b6a44d8d55b93b187e294ad5d4"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/within_assay_summary.csv",
+      "cached": "data/figure4_sources/spd__raw_ad4__native_genes__all_records/within_assay_summary.csv",
+      "sha256": "822e1d166254ccf307507753f48bfc2572ef648849f6d5d8f224ce854934d170"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__raw_ad4__native_genes__all_records/new_molecules_known_proteins/native_matched_paired_estimates.csv",
+      "sha256": "defb30d037164e6c8c4aed0fb04556fab17a09f19356c96c65d03b37ea879a84"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__raw_ad4__native_genes__all_records/new_molecules_known_proteins/learned_common_paired_uncertainty.csv",
+      "sha256": "dbdaf2d340c7014e4c3f7c0f8a6957972e85fbe42d3a0e655618ec475d82af7a"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__raw_ad4__native_genes__all_records/new_molecules_known_proteins/native_matched_common_paired_uncertainty.csv",
+      "sha256": "cfad32b7663658408cd1f28558a5a9aabf56f9e134e8721f8d8c0249271528db"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__raw_ad4__native_genes__all_records/new_proteins_known_molecules/native_matched_paired_estimates.csv",
+      "sha256": "d38e0f35a0032f1eab0928a4415ee99163210f89eb221f635526d5e1fe5e82ae"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__raw_ad4__native_genes__all_records/new_proteins_known_molecules/learned_common_paired_uncertainty.csv",
+      "sha256": "078de096926a90819dc2a49e84c1f154a74ad71d78f9154ab0b9b66361392fea"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__raw_ad4__native_genes__all_records/new_proteins_known_molecules/native_matched_common_paired_uncertainty.csv",
+      "sha256": "873dbb7f62049801a42b4856d55030ed23693a7c0cf2af0358506f7d4f5f65ca"
+    },
+    {
+      "source": "source-evidence/results/core_run02/spd__raw_gnina_own__native_genes__all_records/input_description.json",
+      "cached": "data/figure4_sources/spd__raw_gnina_own__native_genes__all_records/input_description.json",
+      "sha256": "b813233c88b6122608697cf014c142f9db3b03aec5b1c0575e08185a41eea19e"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/within_assay_summary.csv",
+      "cached": "data/figure4_sources/spd__raw_gnina_own__native_genes__all_records/within_assay_summary.csv",
+      "sha256": "ead69dd7daa59f0f5e4c2f2aceac0ce582a69940eb4fa6f68f8535ca88f45be7"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__raw_gnina_own__native_genes__all_records/new_molecules_known_proteins/native_matched_paired_estimates.csv",
+      "sha256": "649b97e27623426c451f7fc6d0ac68db348941c28d6a9c99a499b8512de6e202"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__raw_gnina_own__native_genes__all_records/new_molecules_known_proteins/learned_common_paired_uncertainty.csv",
+      "sha256": "9e9584be58574b01a1e5c76f59bb1311ae39fb398bcf7a4fe22cfa811993e87e"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__raw_gnina_own__native_genes__all_records/new_molecules_known_proteins/native_matched_common_paired_uncertainty.csv",
+      "sha256": "6a9559c25765b1fab0bd6cbaf0b5505fe7a5595228658abc7820af190c4f48e2"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__raw_gnina_own__native_genes__all_records/new_proteins_known_molecules/native_matched_paired_estimates.csv",
+      "sha256": "40fa5e295bfc4c8e64a017641f0783c02b4c4ca018a51dd200f16196bf4d03b6"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__raw_gnina_own__native_genes__all_records/new_proteins_known_molecules/learned_common_paired_uncertainty.csv",
+      "sha256": "ba9f5940f3562516639cb92bd55b9aecd355efbfc7255f8086cb623dea3b0b78"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__raw_gnina_own__native_genes__all_records/new_proteins_known_molecules/native_matched_common_paired_uncertainty.csv",
+      "sha256": "2fb828e7826048b48299760a6deb09d430c8a2c1f20a21e4cd63383b71b7f445"
+    },
+    {
+      "source": "source-evidence/results/core_run02/spd__vina__native_genes__all_records/input_description.json",
+      "cached": "data/figure4_sources/spd__vina__native_genes__all_records/input_description.json",
+      "sha256": "08bc69d8ba0ed92b947d4b81e640d5da20b0e213e2965547228f115a1315a3f1"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/within_assay_summary.csv",
+      "cached": "data/figure4_sources/spd__vina__native_genes__all_records/within_assay_summary.csv",
+      "sha256": "88089ed4e519d99a7a446d532a5c4f3b956301f9703235f6c93b332af1bcbf51"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__vina__native_genes__all_records/new_molecules_known_proteins/native_matched_paired_estimates.csv",
+      "sha256": "a6b113a6bae568ef881222dfdcb4c85e9b6a1546b36d7429c951323cb3172b5d"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__vina__native_genes__all_records/new_molecules_known_proteins/learned_common_paired_uncertainty.csv",
+      "sha256": "9018730ec279218d511d4b2ea811703f5f56a3169eaeffbdef5ec7d704e5c9d0"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__vina__native_genes__all_records/new_molecules_known_proteins/native_matched_common_paired_uncertainty.csv",
+      "sha256": "5bf07940ac5644f53315f950bb65a6c74d496591f53d9c955db12bf78ea15cc1"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "cached": "data/figure4_sources/spd__vina__native_genes__all_records/new_proteins_known_molecules/native_matched_paired_estimates.csv",
+      "sha256": "8c48a31179c1bc8ae3b67e72659f729eeb0bf287c9d5be8d973bd4e2d6da3f11"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__vina__native_genes__all_records/new_proteins_known_molecules/learned_common_paired_uncertainty.csv",
+      "sha256": "a19e1b94b742dcbe6a9ae60c6ae1321a000ee969dc6403a9d380b7dd3de8767a"
+    },
+    {
+      "source": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "cached": "data/figure4_sources/spd__vina__native_genes__all_records/new_proteins_known_molecules/native_matched_common_paired_uncertainty.csv",
+      "sha256": "e3a05d35b2b3546d079367fcaff86afe465118f05517ab597816242cfecce898"
+    }
+  ],
+  "selected_rows": 96,
+  "support": [
+    {
+      "source": "boltz_affinity",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 61066,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 394,
+      "n_identified_D": 61066,
+      "n_pareto": 34486,
+      "n_chemical_groups": 314,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "boltz_affinity",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 310109,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 394,
+      "n_identified_D": 310106,
+      "n_pareto": 175901,
+      "n_chemical_groups": 314,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "boltzina_vina_far_affinity",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 59697,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 387,
+      "n_identified_D": 59697,
+      "n_pareto": 33704,
+      "n_chemical_groups": 309,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "boltzina_vina_far_affinity",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 302528,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 387,
+      "n_identified_D": 302525,
+      "n_pareto": 171637,
+      "n_chemical_groups": 309,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "boltzina_vina_zero_affinity",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 59697,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 387,
+      "n_identified_D": 59697,
+      "n_pareto": 33704,
+      "n_chemical_groups": 309,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "boltzina_vina_zero_affinity",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 302528,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 387,
+      "n_identified_D": 302525,
+      "n_pareto": 171637,
+      "n_chemical_groups": 309,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "gnina",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 59962,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 59962,
+      "n_pareto": 33819,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "gnina",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 304002,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 303999,
+      "n_pareto": 172288,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "nesso_affinity",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 59962,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 59962,
+      "n_pareto": 33819,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "nesso_affinity",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 304002,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 303999,
+      "n_pareto": 172288,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "raw_ad4",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 59962,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 59962,
+      "n_pareto": 33819,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "raw_ad4",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 304002,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 303999,
+      "n_pareto": 172288,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "raw_gnina_own",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 59962,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 59962,
+      "n_pareto": 33819,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "raw_gnina_own",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 304002,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 303999,
+      "n_pareto": 172288,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "vina",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 59962,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 59962,
+      "n_pareto": 33819,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    },
+    {
+      "source": "vina",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "n_rectangles": 304002,
+      "n_actual_assay_pairs": 87,
+      "n_molecules": 390,
+      "n_identified_D": 303999,
+      "n_pareto": 172288,
+      "n_chemical_groups": 310,
+      "input_identities": 930,
+      "experimental_eligible_identities": 928
+    }
+  ],
+  "outputs": {
+    "figure4_spd_paired_value.pdf": "e4346126127083ffbefb1735ccc02283f523166bdfe84e627eb25c5167760710",
+    "figure4_spd_paired_value.svg": "63544d952e5b29c03b5d92f333f79675b6b80ed3aa32995f36d0c0dcf7cc9036",
+    "figure4_spd_paired_value.png": "076a8d0806e347aadc54f997364b1bcd21386c6715885d4a5edbb8b5782f6012",
+    "data/figure4_spd_paired_value_values.csv": "3388b241e8c10b89be25ff22c7fb6280da44e38d3b3ddc6163bf4c8a71f0ffef"
+  }
+}

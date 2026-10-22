@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility repository and the original data/model sources. A publication DOI will be added when available."
+type: software
+title: "When do virtual affinity profiles improve biological decisions?"
+version: 1.0.0
+date-released: 2026-10-22
+authors:
+  - family-names: Leleytner
+    given-names: Adeliya
+    orcid: "https://orcid.org/0009-0001-8214-2496"
+  - family-names: Fedorov
+    given-names: Maxim
+    orcid: "https://orcid.org/0000-0003-3901-3565"
+license: MIT
+repository-code: "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles"
+url: "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles"

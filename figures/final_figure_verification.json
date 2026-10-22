@@ -1,0 +1,133 @@
+{
+  "scope": "Final figure formats and relocation in the same validated Python3.12 environment; no cross-version pixel identity assertion.",
+  "checks": {
+    "figure_geometry_readouts_support_exact170mm": true,
+    "figure_geometry_readouts_support_height_at_most225mm": true,
+    "figure_geometry_readouts_support_under10MB": true,
+    "figure_geometry_shared_shape_exact170mm": true,
+    "figure_geometry_shared_shape_height_at_most225mm": true,
+    "figure_geometry_shared_shape_under10MB": true,
+    "figure3_broad_paired_value_exact170mm": true,
+    "figure3_broad_paired_value_height_at_most225mm": true,
+    "figure3_broad_paired_value_under10MB": true,
+    "figure4_spd_paired_value_exact170mm": true,
+    "figure4_spd_paired_value_height_at_most225mm": true,
+    "figure4_spd_paired_value_under10MB": true,
+    "figure5_panel_acquisition_exact170mm": true,
+    "figure5_panel_acquisition_height_at_most225mm": true,
+    "figure5_panel_acquisition_under10MB": true,
+    "figure6_measured_choice_examples_exact170mm": true,
+    "figure6_measured_choice_examples_height_at_most225mm": true,
+    "figure6_measured_choice_examples_under10MB": true,
+    "figure_supplement_residual_correlation_exact170mm": true,
+    "figure_supplement_residual_correlation_height_at_most225mm": true,
+    "figure_supplement_residual_correlation_under10MB": true,
+    "figure_supplement_growth_level_chemistry_exact170mm": true,
+    "figure_supplement_growth_level_chemistry_height_at_most225mm": true,
+    "figure_supplement_growth_level_chemistry_under10MB": true,
+    "normal_render_requires_no_RDKit_or_SciPy": true,
+    "figure_geometry_readouts_support_relocated_pixels_exact": true,
+    "figure_geometry_shared_shape_relocated_pixels_exact": true,
+    "figure3_broad_paired_value_relocated_pixels_exact": true,
+    "figure3_broad_paired_value_relocated_caption_exact": true,
+    "figure4_spd_paired_value_relocated_pixels_exact": true,
+    "figure4_spd_paired_value_relocated_caption_exact": true,
+    "figure5_panel_acquisition_relocated_pixels_exact": true,
+    "figure5_panel_acquisition_relocated_caption_exact": true,
+    "figure6_measured_choice_examples_relocated_pixels_exact": true,
+    "figure6_measured_choice_examples_relocated_caption_exact": true,
+    "figure_supplement_residual_correlation_relocated_pixels_exact": true,
+    "figure_supplement_growth_level_chemistry_relocated_pixels_exact": true,
+    "figure_supplement_growth_level_chemistry_relocated_caption_exact": true,
+    "graphical_abstract_final_relocated_pixels_exact": true,
+    "graphical_abstract_final_relocated_caption_exact": true
+  },
+  "all_passed": true,
+  "dimensions": [
+    {
+      "figure": "figure_geometry_readouts_support",
+      "width_mm": 169.99999999999028,
+      "height_mm": 143.51,
+      "pdf_sha256": "f5e5d6220e7b078bd4da590e37a7acf6e534bacd029646559ba9e1aed9bfba04"
+    },
+    {
+      "figure": "figure_geometry_shared_shape",
+      "width_mm": 169.99999999999028,
+      "height_mm": 147.32000000000002,
+      "pdf_sha256": "c5692cd16116a811241e24216d6779b412becc87c73bbc6f053e75fa19bcdca2"
+    },
+    {
+      "figure": "figure3_broad_paired_value",
+      "width_mm": 169.99999999999028,
+      "height_mm": 157.48,
+      "pdf_sha256": "26407de21d912fcad4d49e01cc13506deb4f9c40c11b7011a995486ec42cb742"
+    },
+    {
+      "figure": "figure4_spd_paired_value",
+      "width_mm": 169.99999999999028,
+      "height_mm": 167.64,
+      "pdf_sha256": "e4346126127083ffbefb1735ccc02283f523166bdfe84e627eb25c5167760710"
+    },
+    {
+      "figure": "figure5_panel_acquisition",
+      "width_mm": 169.99999999999028,
+      "height_mm": 158.75,
+      "pdf_sha256": "71c7a40a807beb5a3a3a142cd4886d4df3d84c5272503f8610ae94a25a591d9f"
+    },
+    {
+      "figure": "figure6_measured_choice_examples",
+      "width_mm": 169.99999999999028,
+      "height_mm": 168.91,
+      "pdf_sha256": "d63f3e3fac80d4398153d3222a9766c274556ef1e044fc4a03bc4501a891ef8a"
+    },
+    {
+      "figure": "figure_supplement_residual_correlation",
+      "width_mm": 169.99999999999028,
+      "height_mm": 193.04000000000002,
+      "pdf_sha256": "93a8cea72e605506d1d2e2513562286ebdbd89c746e87e4bdad4b8234ae1f1c3"
+    },
+    {
+      "figure": "figure_supplement_growth_level_chemistry",
+      "width_mm": 169.99999999999028,
+      "height_mm": 158.75,
+      "pdf_sha256": "bcdcc55a2b6f8388055ef268ad248f662a0a1bed019f99bf124dddf5a8105138"
+    }
+  ],
+  "policy": {
+    "recorded_requirement": "85/170 mm figure PDF widths; maximum225mm height; optionalGAseparate920x300pixels",
+    "source": "source-evidence/submission_requirements/requirements_matrix.csv",
+    "sha256": "ee5662a257545813dc72ee0d9779e98e4fe9d334442a6fc6abcc443f0f589e54",
+    "official_url": "https://link.springer.com/journal/13321/submission-guidelines"
+  },
+  "inputs_manifest_sha256": "28515dd3c2266b810a17fdb83dd689f676700458e1ed47d25fb44105b90e309f",
+  "final_hashes": {
+    "figure_geometry_readouts_support.pdf": "f5e5d6220e7b078bd4da590e37a7acf6e534bacd029646559ba9e1aed9bfba04",
+    "figure_geometry_readouts_support.svg": "0efa6330471d9227385d3df97e7ec8430e63fbea413897f90e3f6d9e8224e49b",
+    "figure_geometry_readouts_support.png": "6ad57acdda84b615e42fdd921c3a403cb7b89372e78737d94682df10a626c478",
+    "figure_geometry_shared_shape.pdf": "c5692cd16116a811241e24216d6779b412becc87c73bbc6f053e75fa19bcdca2",
+    "figure_geometry_shared_shape.svg": "77b2f8414944aaa545629a90920735a23b596d86373882e13990bac8fa9a8fb1",
+    "figure_geometry_shared_shape.png": "95aca27611072149f6e1e5827c7156f757a432d114b8e8b5e0e4e039a2f6011b",
+    "figure3_broad_paired_value.pdf": "26407de21d912fcad4d49e01cc13506deb4f9c40c11b7011a995486ec42cb742",
+    "figure3_broad_paired_value.svg": "382fdc53971f2df4dffd25e145e78db739ed0d0af1036692ee32c451635dd557",
+    "figure3_broad_paired_value.png": "3891358d7192911bfbc25e9d4703980d64ca26998745f41242ff625ea40f2f62",
+    "figure4_spd_paired_value.pdf": "e4346126127083ffbefb1735ccc02283f523166bdfe84e627eb25c5167760710",
+    "figure4_spd_paired_value.svg": "63544d952e5b29c03b5d92f333f79675b6b80ed3aa32995f36d0c0dcf7cc9036",
+    "figure4_spd_paired_value.png": "076a8d0806e347aadc54f997364b1bcd21386c6715885d4a5edbb8b5782f6012",
+    "figure5_panel_acquisition.pdf": "71c7a40a807beb5a3a3a142cd4886d4df3d84c5272503f8610ae94a25a591d9f",
+    "figure5_panel_acquisition.svg": "f8e72326f90c2575c4d185aea2c13ebd752499d0eae8198e1dd26d7baaccd21b",
+    "figure5_panel_acquisition.png": "cf2f02a43097e9100e547665c9ea14eca878c4d12b2a7c2446f2bfd050bb45e7",
+    "figure6_measured_choice_examples.pdf": "d63f3e3fac80d4398153d3222a9766c274556ef1e044fc4a03bc4501a891ef8a",
+    "figure6_measured_choice_examples.svg": "f30417b21594031cbd1177d9f469dbcbd2a1d8ad797423ca240c01bb6ec168c0",
+    "figure6_measured_choice_examples.png": "22f6788427e11ac795ec19503ce687e0fdea4f170bc53e9cb6992bd09c9aede9",
+    "figure_supplement_residual_correlation.pdf": "93a8cea72e605506d1d2e2513562286ebdbd89c746e87e4bdad4b8234ae1f1c3",
+    "figure_supplement_residual_correlation.svg": "ffa0a7c3407d8a791404895b5b15110c8da22430f32fbef8b913224f8c727857",
+    "figure_supplement_residual_correlation.png": "5d915a34a496485512ae5d3c541ceb97d914ba8aaf5bea28e0ca9e7bb90dab97",
+    "figure_supplement_growth_level_chemistry.pdf": "bcdcc55a2b6f8388055ef268ad248f662a0a1bed019f99bf124dddf5a8105138",
+    "figure_supplement_growth_level_chemistry.svg": "8e77ae0479770ac51c98f326252697c13192ee2ccdbfc15e763ba2bccf0dfd1a",
+    "figure_supplement_growth_level_chemistry.png": "30c323103867d89fddc54938059387f38e23b885866d94ad59d996c16b7ef011",
+    "graphical_abstract_final.pdf": "87e39e3b01557ff85c7168d59d70d4f1a81d1426eba6d366a5e6de9637838464",
+    "graphical_abstract_final.svg": "1971ff6727c1dbd0ea54dfee787ffaa17a555902b2cca001cf55fd8058d9651f",
+    "graphical_abstract_final.png": "32c98bb3bec94841878023bcc478a2b5fc7ca4401f95feddff1d89c1cbff0fd2"
+  },
+  "release_source_receipt_sha256": "2e86d94da2b5ac36547a89c2b1442c2f568ec771c830ff1a0e225c14f1a184ca"
+}

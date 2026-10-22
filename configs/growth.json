@@ -1,0 +1,81 @@
+{
+  "experiment": "PROFILE_INFORMATION",
+  "input_dir": "../data",
+  "output_dir": "../outputs/growth_run02",
+  "resume": true,
+  "algorithm": {
+    "numerical_threads": 1,
+    "alpha_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "descriptor_weights": [
+      0.0,
+      0.5
+    ],
+    "inner_validation_fold": 0,
+    "optimizer": {
+      "maxiter": 5000,
+      "ftol": 1e-10,
+      "gtol": 1e-06,
+      "maxls": 40
+    },
+    "seed": 20261022
+  },
+  "core": {
+    "enabled": false,
+    "regimes": [
+      "new_molecules_known_proteins",
+      "new_proteins_known_molecules"
+    ],
+    "variants": [
+      "global_chemistry",
+      "target_residual",
+      "global_plus_selected_column",
+      "full_profile"
+    ],
+    "target_scheme": {
+      "spd": "pairs",
+      "dockstring": "pairs",
+      "own44": "gene_folds"
+    },
+    "target_folds": 5,
+    "save_preference_details": false
+  },
+  "growth": {
+    "enabled": true,
+    "seeds": [
+      20261022,
+      20261023,
+      20261024
+    ],
+    "variants": [
+      "global_chemistry",
+      "full_profile"
+    ],
+    "regimes": [
+      "new_molecules_known_proteins"
+    ],
+    "start_k": 0
+  },
+  "scientific_cutoffs": null,
+  "new_inference": false,
+  "label_policy": "actual-assay human semantic binding; source exact/strict bounds, no per-gene pooling",
+  "quantitative_comparability": "all-source operational IC50 contrasts retained with metadata-matched context tagged separately",
+  "scope": "Native matching is evaluated separately from all-binding full-profile molecular representation.",
+  "datasets": [
+    {
+      "dataset": "dockstring",
+      "scope": "native_genes",
+      "growth": true
+    },
+    {
+      "dataset": "own44",
+      "scope": "native_genes",
+      "growth": true
+    }
+  ],
+  "experiment_id": "f61e239c-66a8-4d3a-8b99-32f1be19bf1f",
+  "parent_evidence": "0584f6c7-3943-4173-8d1c-a11124e86119"
+}

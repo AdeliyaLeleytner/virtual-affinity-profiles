@@ -1,0 +1,22 @@
+{
+  "python": "3.12.11 (main, Jun  4 2025, 17:42:58) [Clang 20.1.4 ]",
+  "validated_interpreter": "python3.12",
+  "platform": "macOS-15.7.3-arm64-arm-64bit",
+  "normal_cached_render_dependencies": {
+    "matplotlib": "3.10.6",
+    "numpy": "1.26.4",
+    "pandas": "2.3.2",
+    "Pillow": "12.3.0"
+  },
+  "optional_source_picture_regeneration": {
+    "rdkit": "2025.03.6",
+    "scipy": "1.16.2"
+  },
+  "core_analysis_environment": "Separate Python3.9 environment; not changed by figure requirements",
+  "pixel_reproducibility_scope": "Relocated source tree in this same validated environment only; no cross-version or cross-platform identity claim",
+  "figure_width_mm": 170,
+  "graphical_abstract_pixels": [
+    920,
+    300
+  ]
+}

@@ -1,0 +1,14 @@
+broad_class,source,n_columns
+Chaperone,DOCKSTRING,1
+Cytochrome,DOCKSTRING,2
+Enzyme,DOCKSTRING,12
+Enzyme,Docking44,6
+GPCR,DOCKSTRING,5
+GPCR,Docking44,24
+Ion channel,Docking44,8
+Kinase,DOCKSTRING,21
+Kinase,Docking44,1
+Nuclear receptor,DOCKSTRING,9
+Nuclear receptor,Docking44,2
+Protease,DOCKSTRING,8
+Transporter,Docking44,3

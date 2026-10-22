@@ -1,0 +1,381 @@
+grouping,assay_id_a,assay_id_b,model,metric,estimate,baseline_estimate,arm_minus_baseline,n_rectangles,n_molecules,n_assay_pairs,n_exact,n_identified_D,n_pareto,n_metadata_matched,gene_pair_key,family_pair
+actual_assay_pair,3081.0,3157.0,full_profile,D_direction_concordance,0.5870646766169154,0.5845771144278606,0.0024875621890547706,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,full_profile,D_rmse,1.7582922370123317,1.757693180491437,0.0005990565208946474,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,full_profile,pareto_correct_fraction,0.02181818181818182,0.02,0.0018181818181818195,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,full_profile,pareto_reversed_fraction,0.03090909090909091,0.03363636363636364,-0.0027272727272727275,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,global_chemistry,D_direction_concordance,0.5845771144278606,0.5845771144278606,0.0,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,global_chemistry,D_rmse,1.757693180491437,1.757693180491437,0.0,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,global_chemistry,pareto_correct_fraction,0.02,0.02,0.0,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,global_chemistry,pareto_reversed_fraction,0.03363636363636364,0.03363636363636364,0.0,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,global_plus_selected_column,D_direction_concordance,0.5775290215588723,0.5845771144278606,-0.0070480928689883315,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,global_plus_selected_column,D_rmse,1.760831964661321,1.757693180491437,0.0031387841698840013,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,global_plus_selected_column,pareto_correct_fraction,0.01818181818181818,0.02,-0.0018181818181818195,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,global_plus_selected_column,pareto_reversed_fraction,0.03272727272727273,0.03363636363636364,-0.000909090909090908,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,native_score,D_direction_concordance,,0.5845771144278606,,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,native_score,pareto_correct_fraction,,0.02,,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,native_score,pareto_reversed_fraction,,0.03363636363636364,,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,target_residual,D_direction_concordance,0.5775290215588723,0.5845771144278606,-0.0070480928689883315,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,target_residual,D_rmse,1.760831964661321,1.757693180491437,0.0031387841698840013,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,target_residual,pareto_correct_fraction,0.01818181818181818,0.02,-0.0018181818181818195,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3081.0,3157.0,target_residual,pareto_reversed_fraction,0.03272727272727273,0.03363636363636364,-0.000909090909090908,2412,199,1,752,2412,1100,0,,
+actual_assay_pair,3086.0,3161.0,full_profile,D_direction_concordance,0.46099290780141844,0.4595744680851064,0.0014184397163120588,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,full_profile,D_rmse,1.378555536248558,1.378329637894281,0.00022589835427688776,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,full_profile,pareto_correct_fraction,0.042735042735042736,0.042735042735042736,0.0,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,full_profile,pareto_reversed_fraction,0.027777777777777776,0.027777777777777776,0.0,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,global_chemistry,D_direction_concordance,0.4595744680851064,0.4595744680851064,0.0,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,global_chemistry,D_rmse,1.378329637894281,1.378329637894281,0.0,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,global_chemistry,pareto_correct_fraction,0.042735042735042736,0.042735042735042736,0.0,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,global_chemistry,pareto_reversed_fraction,0.027777777777777776,0.027777777777777776,0.0,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,global_plus_selected_column,D_direction_concordance,0.48652482269503544,0.4595744680851064,0.02695035460992906,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,global_plus_selected_column,D_rmse,1.375392104258928,1.378329637894281,-0.0029375336353529846,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,global_plus_selected_column,pareto_correct_fraction,0.049145299145299144,0.042735042735042736,0.006410256410256408,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,global_plus_selected_column,pareto_reversed_fraction,0.038461538461538464,0.027777777777777776,0.010683760683760687,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,native_score,D_direction_concordance,,0.4595744680851064,,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,native_score,pareto_correct_fraction,,0.042735042735042736,,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,native_score,pareto_reversed_fraction,,0.027777777777777776,,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,target_residual,D_direction_concordance,0.48652482269503544,0.4595744680851064,0.02695035460992906,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,target_residual,D_rmse,1.375392104258928,1.378329637894281,-0.0029375336353529846,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,target_residual,pareto_correct_fraction,0.049145299145299144,0.042735042735042736,0.006410256410256408,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,3161.0,target_residual,pareto_reversed_fraction,0.038461538461538464,0.027777777777777776,0.010683760683760687,705,123,1,78,705,468,0,,
+actual_assay_pair,3086.0,41626.0,full_profile,D_direction_concordance,0.47058823529411764,0.47058823529411764,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,full_profile,D_rmse,0.3856275651587616,0.38575104480876593,-0.00012347965000431005,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,full_profile,pareto_correct_fraction,0.0,0.0,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,full_profile,pareto_reversed_fraction,0.0,0.0,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,global_chemistry,D_direction_concordance,0.47058823529411764,0.47058823529411764,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,global_chemistry,D_rmse,0.38575104480876593,0.38575104480876593,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,global_chemistry,pareto_correct_fraction,0.0,0.0,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,global_chemistry,pareto_reversed_fraction,0.0,0.0,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,global_plus_selected_column,D_direction_concordance,0.5294117647058824,0.47058823529411764,0.05882352941176472,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,global_plus_selected_column,D_rmse,0.40276574366089196,0.38575104480876593,0.01701469885212603,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,global_plus_selected_column,pareto_correct_fraction,0.0,0.0,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,global_plus_selected_column,pareto_reversed_fraction,0.0,0.0,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,native_score,D_direction_concordance,,0.47058823529411764,,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,native_score,pareto_correct_fraction,,0.0,,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,native_score,pareto_reversed_fraction,,0.0,,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,target_residual,D_direction_concordance,0.5294117647058824,0.47058823529411764,0.05882352941176472,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,target_residual,D_rmse,0.40276574366089196,0.38575104480876593,0.01701469885212603,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,target_residual,pareto_correct_fraction,0.0,0.0,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3086.0,41626.0,target_residual,pareto_reversed_fraction,0.0,0.0,0.0,34,22,1,3,34,18,0,,
+actual_assay_pair,3088.0,3176.0,full_profile,D_direction_concordance,0.5366242038216561,0.5392781316348195,-0.002653927813163426,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,full_profile,D_rmse,1.4004868472053036,1.4004751440690588,1.1703136244767265e-05,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,full_profile,pareto_correct_fraction,0.00591016548463357,0.0070921985815602835,-0.001182033096926714,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,full_profile,pareto_reversed_fraction,0.00591016548463357,0.008274231678486997,-0.002364066193853428,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,global_chemistry,D_direction_concordance,0.5392781316348195,0.5392781316348195,0.0,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,global_chemistry,D_rmse,1.4004751440690588,1.4004751440690588,0.0,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,global_chemistry,pareto_correct_fraction,0.0070921985815602835,0.0070921985815602835,0.0,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,global_chemistry,pareto_reversed_fraction,0.008274231678486997,0.008274231678486997,0.0,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,global_plus_selected_column,D_direction_concordance,0.5440552016985138,0.5392781316348195,0.004777070063694322,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,global_plus_selected_column,D_rmse,1.4017803581006394,1.4004751440690588,0.0013052140315805705,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,global_plus_selected_column,pareto_correct_fraction,0.0070921985815602835,0.0070921985815602835,0.0,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,global_plus_selected_column,pareto_reversed_fraction,0.0035460992907801418,0.008274231678486997,-0.004728132387706856,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,native_score,D_direction_concordance,,0.5392781316348195,,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,native_score,pareto_correct_fraction,,0.0070921985815602835,,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,native_score,pareto_reversed_fraction,,0.008274231678486997,,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,target_residual,D_direction_concordance,0.5440552016985138,0.5392781316348195,0.004777070063694322,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,target_residual,D_rmse,1.4017803581006394,1.4004751440690588,0.0013052140315805705,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,target_residual,pareto_correct_fraction,0.0070921985815602835,0.0070921985815602835,0.0,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,3176.0,target_residual,pareto_reversed_fraction,0.0035460992907801418,0.008274231678486997,-0.004728132387706856,1884,163,1,544,1884,846,1884,,
+actual_assay_pair,3088.0,41627.0,full_profile,D_direction_concordance,0.6865671641791045,0.7164179104477612,-0.02985074626865669,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,full_profile,D_rmse,0.6648800560972623,0.6647309520786235,0.0001491040186387682,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,full_profile,pareto_correct_fraction,0.0,0.0,0.0,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,full_profile,pareto_reversed_fraction,0.058823529411764705,0.029411764705882353,0.029411764705882353,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,global_chemistry,D_direction_concordance,0.7164179104477612,0.7164179104477612,0.0,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,global_chemistry,D_rmse,0.6647309520786235,0.6647309520786235,0.0,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,global_chemistry,pareto_correct_fraction,0.0,0.0,0.0,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,global_chemistry,pareto_reversed_fraction,0.029411764705882353,0.029411764705882353,0.0,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,global_plus_selected_column,D_direction_concordance,0.7313432835820896,0.7164179104477612,0.014925373134328401,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,global_plus_selected_column,D_rmse,0.6703253958250298,0.6647309520786235,0.005594443746406275,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,global_plus_selected_column,pareto_correct_fraction,0.0,0.0,0.0,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,global_plus_selected_column,pareto_reversed_fraction,0.0,0.029411764705882353,-0.029411764705882353,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,native_score,D_direction_concordance,,0.7164179104477612,,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,native_score,pareto_correct_fraction,,0.0,,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,native_score,pareto_reversed_fraction,,0.029411764705882353,,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,target_residual,D_direction_concordance,0.7313432835820896,0.7164179104477612,0.014925373134328401,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,target_residual,D_rmse,0.6703253958250298,0.6647309520786235,0.005594443746406275,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,target_residual,pareto_correct_fraction,0.0,0.0,0.0,67,35,1,5,67,34,67,,
+actual_assay_pair,3088.0,41627.0,target_residual,pareto_reversed_fraction,0.0,0.029411764705882353,-0.029411764705882353,67,35,1,5,67,34,67,,
+actual_assay_pair,3130.0,3218.0,full_profile,D_direction_concordance,0.3918269230769231,0.3894230769230769,0.0024038461538461453,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,full_profile,D_rmse,2.4980381240777243,2.4977329446142997,0.00030517946342456526,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,full_profile,pareto_correct_fraction,0.03273809523809524,0.02976190476190476,0.0029761904761904795,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,full_profile,pareto_reversed_fraction,0.002976190476190476,0.002976190476190476,0.0,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,global_chemistry,D_direction_concordance,0.3894230769230769,0.3894230769230769,0.0,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,global_chemistry,D_rmse,2.4977329446142997,2.4977329446142997,0.0,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,global_chemistry,pareto_correct_fraction,0.02976190476190476,0.02976190476190476,0.0,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,global_chemistry,pareto_reversed_fraction,0.002976190476190476,0.002976190476190476,0.0,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,global_plus_selected_column,D_direction_concordance,0.44471153846153844,0.3894230769230769,0.05528846153846151,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,global_plus_selected_column,D_rmse,2.5072291412934176,2.4977329446142997,0.00949619667911783,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,global_plus_selected_column,pareto_correct_fraction,0.041666666666666664,0.02976190476190476,0.011904761904761904,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,global_plus_selected_column,pareto_reversed_fraction,0.005952380952380952,0.002976190476190476,0.002976190476190476,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,native_score,D_direction_concordance,,0.3894230769230769,,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,native_score,pareto_correct_fraction,,0.02976190476190476,,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,native_score,pareto_reversed_fraction,,0.002976190476190476,,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,target_residual,D_direction_concordance,0.44471153846153844,0.3894230769230769,0.05528846153846151,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,target_residual,D_rmse,2.5072291412934176,2.4977329446142997,0.00949619667911783,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,target_residual,pareto_correct_fraction,0.041666666666666664,0.02976190476190476,0.011904761904761904,416,93,1,3,416,336,0,,
+actual_assay_pair,3130.0,3218.0,target_residual,pareto_reversed_fraction,0.005952380952380952,0.002976190476190476,0.002976190476190476,416,93,1,3,416,336,0,,
+actual_assay_pair,3131.0,49102.0,full_profile,D_direction_concordance,0.6276371308016878,0.6265822784810127,0.0010548523206751481,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,full_profile,D_rmse,2.043144235082568,2.043168608650017,-2.43735674492207e-05,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,full_profile,pareto_correct_fraction,0.037037037037037035,0.040740740740740744,-0.003703703703703709,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,full_profile,pareto_reversed_fraction,0.02962962962962963,0.025925925925925925,0.0037037037037037056,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,global_chemistry,D_direction_concordance,0.6265822784810127,0.6265822784810127,0.0,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,global_chemistry,D_rmse,2.043168608650017,2.043168608650017,0.0,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,global_chemistry,pareto_correct_fraction,0.040740740740740744,0.040740740740740744,0.0,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,global_chemistry,pareto_reversed_fraction,0.025925925925925925,0.025925925925925925,0.0,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,global_plus_selected_column,D_direction_concordance,0.5559071729957806,0.6265822784810127,-0.07067510548523204,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,global_plus_selected_column,D_rmse,2.0420466260062637,2.043168608650017,-0.0011219826437534053,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,global_plus_selected_column,pareto_correct_fraction,0.05740740740740741,0.040740740740740744,0.016666666666666663,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,global_plus_selected_column,pareto_reversed_fraction,0.037037037037037035,0.025925925925925925,0.01111111111111111,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,native_score,D_direction_concordance,,0.6265822784810127,,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,native_score,pareto_correct_fraction,,0.040740740740740744,,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,native_score,pareto_reversed_fraction,,0.025925925925925925,,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,target_residual,D_direction_concordance,0.5559071729957806,0.6265822784810127,-0.07067510548523204,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,target_residual,D_rmse,2.0420466260062637,2.043168608650017,-0.0011219826437534053,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,target_residual,pareto_correct_fraction,0.05740740740740741,0.040740740740740744,0.016666666666666663,948,130,1,217,948,540,0,,
+actual_assay_pair,3131.0,49102.0,target_residual,pareto_reversed_fraction,0.037037037037037035,0.025925925925925925,0.01111111111111111,948,130,1,217,948,540,0,,
+actual_assay_pair,3176.0,41625.0,full_profile,D_direction_concordance,0.5227272727272727,0.5227272727272727,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,full_profile,D_rmse,1.2218457873105675,1.2217969271747011,4.8860135866357624e-05,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,full_profile,pareto_correct_fraction,0.022222222222222223,0.0,0.022222222222222223,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,full_profile,pareto_reversed_fraction,0.0,0.0,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,global_chemistry,D_direction_concordance,0.5227272727272727,0.5227272727272727,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,global_chemistry,D_rmse,1.2217969271747011,1.2217969271747011,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,global_chemistry,pareto_correct_fraction,0.0,0.0,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,global_chemistry,pareto_reversed_fraction,0.0,0.0,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,global_plus_selected_column,D_direction_concordance,0.5454545454545454,0.5227272727272727,0.022727272727272707,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,global_plus_selected_column,D_rmse,1.220433476521695,1.2217969271747011,-0.0013634506530060264,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,global_plus_selected_column,pareto_correct_fraction,0.0,0.0,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,global_plus_selected_column,pareto_reversed_fraction,0.0,0.0,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,native_score,D_direction_concordance,,0.5227272727272727,,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,native_score,pareto_correct_fraction,,0.0,,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,native_score,pareto_reversed_fraction,,0.0,,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,target_residual,D_direction_concordance,0.5454545454545454,0.5227272727272727,0.022727272727272707,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,target_residual,D_rmse,1.220433476521695,1.2217969271747011,-0.0013634506530060264,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,target_residual,pareto_correct_fraction,0.0,0.0,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3176.0,41625.0,target_residual,pareto_reversed_fraction,0.0,0.0,0.0,88,37,1,17,88,45,88,,
+actual_assay_pair,3218.0,60955.0,full_profile,D_direction_concordance,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,full_profile,D_rmse,,,,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,full_profile,pareto_correct_fraction,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,full_profile,pareto_reversed_fraction,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,global_chemistry,D_direction_concordance,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,global_chemistry,D_rmse,,,,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,global_chemistry,pareto_correct_fraction,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,global_chemistry,pareto_reversed_fraction,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,global_plus_selected_column,D_direction_concordance,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,global_plus_selected_column,D_rmse,,,,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,global_plus_selected_column,pareto_correct_fraction,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,global_plus_selected_column,pareto_reversed_fraction,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,native_score,D_direction_concordance,,0.0,,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,native_score,pareto_correct_fraction,,0.0,,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,native_score,pareto_reversed_fraction,,0.0,,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,target_residual,D_direction_concordance,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,target_residual,D_rmse,,,,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,target_residual,pareto_correct_fraction,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,3218.0,60955.0,target_residual,pareto_reversed_fraction,0.0,0.0,0.0,1,2,1,0,1,1,0,,
+actual_assay_pair,41625.0,41627.0,full_profile,D_direction_concordance,0.6185567010309279,0.6237113402061856,-0.005154639175257714,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,full_profile,D_rmse,1.2176549484740318,1.2176779549766585,-2.3006502626765624e-05,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,full_profile,pareto_correct_fraction,0.006880733944954129,0.0022935779816513763,0.0045871559633027525,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,full_profile,pareto_reversed_fraction,0.0045871559633027525,0.0022935779816513763,0.0022935779816513763,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,global_chemistry,D_direction_concordance,0.6237113402061856,0.6237113402061856,0.0,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,global_chemistry,D_rmse,1.2176779549766585,1.2176779549766585,0.0,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,global_chemistry,pareto_correct_fraction,0.0022935779816513763,0.0022935779816513763,0.0,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,global_chemistry,pareto_reversed_fraction,0.0022935779816513763,0.0022935779816513763,0.0,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,global_plus_selected_column,D_direction_concordance,0.6417525773195877,0.6237113402061856,0.01804123711340211,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,global_plus_selected_column,D_rmse,1.2160813649253899,1.2176779549766585,-0.0015965900512686648,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,global_plus_selected_column,pareto_correct_fraction,0.0022935779816513763,0.0022935779816513763,0.0,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,global_plus_selected_column,pareto_reversed_fraction,0.0022935779816513763,0.0022935779816513763,0.0,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,native_score,D_direction_concordance,,0.6237113402061856,,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,native_score,pareto_correct_fraction,,0.0022935779816513763,,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,native_score,pareto_reversed_fraction,,0.0022935779816513763,,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,target_residual,D_direction_concordance,0.6417525773195877,0.6237113402061856,0.01804123711340211,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,target_residual,D_rmse,1.2160813649253899,1.2176779549766585,-0.0015965900512686648,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,target_residual,pareto_correct_fraction,0.0022935779816513763,0.0022935779816513763,0.0,776,108,1,238,776,436,776,,
+actual_assay_pair,41625.0,41627.0,target_residual,pareto_reversed_fraction,0.0022935779816513763,0.0022935779816513763,0.0,776,108,1,238,776,436,776,,
+gene_pair,,,full_profile,D_direction_concordance,0.46579057154776804,0.465081351689612,0.0007092198581560294,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,full_profile,D_rmse,1.0122064970972633,1.0120761975436519,0.00013029955361143486,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,full_profile,pareto_correct_fraction,0.021367521367521368,0.021367521367521368,0.0,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,full_profile,pareto_reversed_fraction,0.013888888888888888,0.013888888888888888,0.0,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,global_chemistry,D_direction_concordance,0.465081351689612,0.465081351689612,0.0,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,global_chemistry,D_rmse,1.0120761975436519,1.0120761975436519,0.0,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,global_chemistry,pareto_correct_fraction,0.021367521367521368,0.021367521367521368,0.0,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,global_chemistry,pareto_reversed_fraction,0.013888888888888888,0.013888888888888888,0.0,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,global_plus_selected_column,D_direction_concordance,0.5079682937004589,0.465081351689612,0.04288694201084692,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,global_plus_selected_column,D_rmse,1.0133912582819415,1.0120761975436519,0.0013150607382896862,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,global_plus_selected_column,pareto_correct_fraction,0.024572649572649572,0.021367521367521368,0.003205128205128204,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.019230769230769232,0.013888888888888888,0.005341880341880344,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,native_score,D_direction_concordance,,0.465081351689612,,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,native_score,pareto_correct_fraction,,0.021367521367521368,,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,native_score,pareto_reversed_fraction,,0.013888888888888888,,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,target_residual,D_direction_concordance,0.5079682937004589,0.465081351689612,0.04288694201084692,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,target_residual,D_rmse,1.0133912582819415,1.0120761975436519,0.0013150607382896862,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,target_residual,pareto_correct_fraction,0.024572649572649572,0.021367521367521368,0.003205128205128204,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,target_residual,pareto_reversed_fraction,0.019230769230769232,0.013888888888888888,0.005341880341880344,739,127,2,81,739,486,0,ADRB1|SLC6A2,
+gene_pair,,,full_profile,D_direction_concordance,0.19591346153846154,0.19471153846153846,0.0012019230769230727,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,full_profile,D_rmse,2.4980381240777243,2.4977329446142997,0.00030517946342456526,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,full_profile,pareto_correct_fraction,0.01636904761904762,0.01488095238095238,0.0014880952380952397,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,full_profile,pareto_reversed_fraction,0.001488095238095238,0.001488095238095238,0.0,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,global_chemistry,D_direction_concordance,0.19471153846153846,0.19471153846153846,0.0,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,global_chemistry,D_rmse,2.4977329446142997,2.4977329446142997,0.0,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,global_chemistry,pareto_correct_fraction,0.01488095238095238,0.01488095238095238,0.0,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,global_chemistry,pareto_reversed_fraction,0.001488095238095238,0.001488095238095238,0.0,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,global_plus_selected_column,D_direction_concordance,0.22235576923076922,0.19471153846153846,0.027644230769230754,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,global_plus_selected_column,D_rmse,2.5072291412934176,2.4977329446142997,0.00949619667911783,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,global_plus_selected_column,pareto_correct_fraction,0.020833333333333332,0.01488095238095238,0.005952380952380952,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.002976190476190476,0.001488095238095238,0.001488095238095238,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,native_score,D_direction_concordance,,0.19471153846153846,,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,native_score,pareto_correct_fraction,,0.01488095238095238,,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,native_score,pareto_reversed_fraction,,0.001488095238095238,,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,target_residual,D_direction_concordance,0.22235576923076922,0.19471153846153846,0.027644230769230754,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,target_residual,D_rmse,2.5072291412934176,2.4977329446142997,0.00949619667911783,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,target_residual,pareto_correct_fraction,0.020833333333333332,0.01488095238095238,0.005952380952380952,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,target_residual,pareto_reversed_fraction,0.002976190476190476,0.001488095238095238,0.001488095238095238,417,93,2,3,417,337,0,CHRM1|NR3C1,
+gene_pair,,,full_profile,D_direction_concordance,0.6276371308016878,0.6265822784810127,0.0010548523206751481,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,full_profile,D_rmse,2.043144235082568,2.043168608650017,-2.43735674492207e-05,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,full_profile,pareto_correct_fraction,0.037037037037037035,0.040740740740740744,-0.003703703703703709,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,full_profile,pareto_reversed_fraction,0.02962962962962963,0.025925925925925925,0.0037037037037037056,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,global_chemistry,D_direction_concordance,0.6265822784810127,0.6265822784810127,0.0,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,global_chemistry,D_rmse,2.043168608650017,2.043168608650017,0.0,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,global_chemistry,pareto_correct_fraction,0.040740740740740744,0.040740740740740744,0.0,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,global_chemistry,pareto_reversed_fraction,0.025925925925925925,0.025925925925925925,0.0,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,global_plus_selected_column,D_direction_concordance,0.5559071729957806,0.6265822784810127,-0.07067510548523204,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,global_plus_selected_column,D_rmse,2.0420466260062637,2.043168608650017,-0.0011219826437534053,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,global_plus_selected_column,pareto_correct_fraction,0.05740740740740741,0.040740740740740744,0.016666666666666663,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.037037037037037035,0.025925925925925925,0.01111111111111111,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,native_score,D_direction_concordance,,0.6265822784810127,,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,native_score,pareto_correct_fraction,,0.040740740740740744,,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,native_score,pareto_reversed_fraction,,0.025925925925925925,,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,target_residual,D_direction_concordance,0.5559071729957806,0.6265822784810127,-0.07067510548523204,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,target_residual,D_rmse,2.0420466260062637,2.043168608650017,-0.0011219826437534053,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,target_residual,pareto_correct_fraction,0.05740740740740741,0.040740740740740744,0.016666666666666663,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,target_residual,pareto_reversed_fraction,0.037037037037037035,0.025925925925925925,0.01111111111111111,948,130,1,217,948,540,0,CHRM3|HRH1,
+gene_pair,,,full_profile,D_direction_concordance,0.5870646766169154,0.5845771144278606,0.0024875621890547706,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,full_profile,D_rmse,1.7582922370123317,1.757693180491437,0.0005990565208946474,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,full_profile,pareto_correct_fraction,0.02181818181818182,0.02,0.0018181818181818195,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,full_profile,pareto_reversed_fraction,0.03090909090909091,0.03363636363636364,-0.0027272727272727275,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,global_chemistry,D_direction_concordance,0.5845771144278606,0.5845771144278606,0.0,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,global_chemistry,D_rmse,1.757693180491437,1.757693180491437,0.0,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,global_chemistry,pareto_correct_fraction,0.02,0.02,0.0,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,global_chemistry,pareto_reversed_fraction,0.03363636363636364,0.03363636363636364,0.0,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,global_plus_selected_column,D_direction_concordance,0.5775290215588723,0.5845771144278606,-0.0070480928689883315,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,global_plus_selected_column,D_rmse,1.760831964661321,1.757693180491437,0.0031387841698840013,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,global_plus_selected_column,pareto_correct_fraction,0.01818181818181818,0.02,-0.0018181818181818195,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.03272727272727273,0.03363636363636364,-0.000909090909090908,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,native_score,D_direction_concordance,,0.5845771144278606,,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,native_score,pareto_correct_fraction,,0.02,,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,native_score,pareto_reversed_fraction,,0.03363636363636364,,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,target_residual,D_direction_concordance,0.5775290215588723,0.5845771144278606,-0.0070480928689883315,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,target_residual,D_rmse,1.760831964661321,1.757693180491437,0.0031387841698840013,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,target_residual,pareto_correct_fraction,0.01818181818181818,0.02,-0.0018181818181818195,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,target_residual,pareto_reversed_fraction,0.03272727272727273,0.03363636363636364,-0.000909090909090908,2412,199,1,752,2412,1100,0,DRD2|KCNH2,
+gene_pair,,,full_profile,D_direction_concordance,0.5911188354397403,0.6005336637540097,-0.00941482831426943,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,full_profile,D_rmse,1.1596356755143862,1.1596039411256203,3.1734388765913835e-05,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,full_profile,pareto_correct_fraction,0.00875328041295248,0.002346444140802915,0.006406836272149565,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,full_profile,pareto_reversed_fraction,0.017330212714925256,0.009994893591505181,0.007335319123420074,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,global_chemistry,D_direction_concordance,0.6005336637540097,0.6005336637540097,0.0,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,global_chemistry,D_rmse,1.1596039411256203,1.1596039411256203,0.0,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,global_chemistry,pareto_correct_fraction,0.002346444140802915,0.002346444140802915,0.0,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,global_chemistry,pareto_reversed_fraction,0.009994893591505181,0.009994893591505181,0.0,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,global_plus_selected_column,D_direction_concordance,0.6156514020136841,0.6005336637540097,0.01511773825967433,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,global_plus_selected_column,D_rmse,1.1600254378006514,1.1596039411256203,0.00042149667503110777,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,global_plus_selected_column,pareto_correct_fraction,0.002346444140802915,0.002346444140802915,0.0,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.0014599193181078795,0.009994893591505181,-0.008534974273397302,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,native_score,D_direction_concordance,,0.6005336637540097,,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,native_score,pareto_correct_fraction,,0.002346444140802915,,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,native_score,pareto_reversed_fraction,,0.009994893591505181,,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,target_residual,D_direction_concordance,0.6156514020136841,0.6005336637540097,0.01511773825967433,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,target_residual,D_rmse,1.1600254378006514,1.1596039411256203,0.00042149667503110777,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,target_residual,pareto_correct_fraction,0.002346444140802915,0.002346444140802915,0.0,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+gene_pair,,,target_residual,pareto_reversed_fraction,0.0014599193181078795,0.009994893591505181,-0.008534974273397302,2815,249,4,804,2815,1361,2815,SLC6A3|SLC6A4,
+family_pair,,,full_profile,D_direction_concordance,0.6276371308016878,0.6265822784810127,0.0010548523206751481,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,full_profile,D_rmse,2.043144235082568,2.043168608650017,-2.43735674492207e-05,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,full_profile,pareto_correct_fraction,0.037037037037037035,0.040740740740740744,-0.003703703703703709,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,full_profile,pareto_reversed_fraction,0.02962962962962963,0.025925925925925925,0.0037037037037037056,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,global_chemistry,D_direction_concordance,0.6265822784810127,0.6265822784810127,0.0,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,global_chemistry,D_rmse,2.043168608650017,2.043168608650017,0.0,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,global_chemistry,pareto_correct_fraction,0.040740740740740744,0.040740740740740744,0.0,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,global_chemistry,pareto_reversed_fraction,0.025925925925925925,0.025925925925925925,0.0,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,global_plus_selected_column,D_direction_concordance,0.5559071729957806,0.6265822784810127,-0.07067510548523204,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,global_plus_selected_column,D_rmse,2.0420466260062637,2.043168608650017,-0.0011219826437534053,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,global_plus_selected_column,pareto_correct_fraction,0.05740740740740741,0.040740740740740744,0.016666666666666663,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.037037037037037035,0.025925925925925925,0.01111111111111111,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,native_score,D_direction_concordance,,0.6265822784810127,,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,native_score,pareto_correct_fraction,,0.040740740740740744,,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,native_score,pareto_reversed_fraction,,0.025925925925925925,,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,target_residual,D_direction_concordance,0.5559071729957806,0.6265822784810127,-0.07067510548523204,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,target_residual,D_rmse,2.0420466260062637,2.043168608650017,-0.0011219826437534053,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,target_residual,pareto_correct_fraction,0.05740740740740741,0.040740740740740744,0.016666666666666663,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,target_residual,pareto_reversed_fraction,0.037037037037037035,0.025925925925925925,0.01111111111111111,948,130,1,217,948,540,0,,G protein-coupled receptor 1 family|G protein-coupled receptor 1 family
+family_pair,,,full_profile,D_direction_concordance,0.19591346153846154,0.19471153846153846,0.0012019230769230727,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,full_profile,D_rmse,2.4980381240777243,2.4977329446142997,0.00030517946342456526,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,full_profile,pareto_correct_fraction,0.01636904761904762,0.01488095238095238,0.0014880952380952397,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,full_profile,pareto_reversed_fraction,0.001488095238095238,0.001488095238095238,0.0,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,global_chemistry,D_direction_concordance,0.19471153846153846,0.19471153846153846,0.0,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,global_chemistry,D_rmse,2.4977329446142997,2.4977329446142997,0.0,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,global_chemistry,pareto_correct_fraction,0.01488095238095238,0.01488095238095238,0.0,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,global_chemistry,pareto_reversed_fraction,0.001488095238095238,0.001488095238095238,0.0,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,global_plus_selected_column,D_direction_concordance,0.22235576923076922,0.19471153846153846,0.027644230769230754,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,global_plus_selected_column,D_rmse,2.5072291412934176,2.4977329446142997,0.00949619667911783,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,global_plus_selected_column,pareto_correct_fraction,0.020833333333333332,0.01488095238095238,0.005952380952380952,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.002976190476190476,0.001488095238095238,0.001488095238095238,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,native_score,D_direction_concordance,,0.19471153846153846,,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,native_score,pareto_correct_fraction,,0.01488095238095238,,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,native_score,pareto_reversed_fraction,,0.001488095238095238,,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,target_residual,D_direction_concordance,0.22235576923076922,0.19471153846153846,0.027644230769230754,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,target_residual,D_rmse,2.5072291412934176,2.4977329446142997,0.00949619667911783,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,target_residual,pareto_correct_fraction,0.020833333333333332,0.01488095238095238,0.005952380952380952,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,target_residual,pareto_reversed_fraction,0.002976190476190476,0.001488095238095238,0.001488095238095238,417,93,2,3,417,337,0,,G protein-coupled receptor 1 family|nuclear hormone receptor family / NR3 subfamily
+family_pair,,,full_profile,D_direction_concordance,0.5870646766169154,0.5845771144278606,0.0024875621890547706,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,full_profile,D_rmse,1.7582922370123317,1.757693180491437,0.0005990565208946474,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,full_profile,pareto_correct_fraction,0.02181818181818182,0.02,0.0018181818181818195,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,full_profile,pareto_reversed_fraction,0.03090909090909091,0.03363636363636364,-0.0027272727272727275,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,global_chemistry,D_direction_concordance,0.5845771144278606,0.5845771144278606,0.0,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,global_chemistry,D_rmse,1.757693180491437,1.757693180491437,0.0,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,global_chemistry,pareto_correct_fraction,0.02,0.02,0.0,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,global_chemistry,pareto_reversed_fraction,0.03363636363636364,0.03363636363636364,0.0,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,global_plus_selected_column,D_direction_concordance,0.5775290215588723,0.5845771144278606,-0.0070480928689883315,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,global_plus_selected_column,D_rmse,1.760831964661321,1.757693180491437,0.0031387841698840013,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,global_plus_selected_column,pareto_correct_fraction,0.01818181818181818,0.02,-0.0018181818181818195,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.03272727272727273,0.03363636363636364,-0.000909090909090908,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,native_score,D_direction_concordance,,0.5845771144278606,,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,native_score,pareto_correct_fraction,,0.02,,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,native_score,pareto_reversed_fraction,,0.03363636363636364,,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,target_residual,D_direction_concordance,0.5775290215588723,0.5845771144278606,-0.0070480928689883315,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,target_residual,D_rmse,1.760831964661321,1.757693180491437,0.0031387841698840013,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,target_residual,pareto_correct_fraction,0.01818181818181818,0.02,-0.0018181818181818195,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,target_residual,pareto_reversed_fraction,0.03272727272727273,0.03363636363636364,-0.000909090909090908,2412,199,1,752,2412,1100,0,,G protein-coupled receptor 1 family|potassium channel family
+family_pair,,,full_profile,D_direction_concordance,0.46579057154776804,0.465081351689612,0.0007092198581560294,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,full_profile,D_rmse,1.0122064970972633,1.0120761975436519,0.00013029955361143486,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,full_profile,pareto_correct_fraction,0.021367521367521368,0.021367521367521368,0.0,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,full_profile,pareto_reversed_fraction,0.013888888888888888,0.013888888888888888,0.0,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_chemistry,D_direction_concordance,0.465081351689612,0.465081351689612,0.0,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_chemistry,D_rmse,1.0120761975436519,1.0120761975436519,0.0,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_chemistry,pareto_correct_fraction,0.021367521367521368,0.021367521367521368,0.0,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_chemistry,pareto_reversed_fraction,0.013888888888888888,0.013888888888888888,0.0,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_plus_selected_column,D_direction_concordance,0.5079682937004589,0.465081351689612,0.04288694201084692,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_plus_selected_column,D_rmse,1.0133912582819415,1.0120761975436519,0.0013150607382896862,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_plus_selected_column,pareto_correct_fraction,0.024572649572649572,0.021367521367521368,0.003205128205128204,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.019230769230769232,0.013888888888888888,0.005341880341880344,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,native_score,D_direction_concordance,,0.465081351689612,,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,native_score,pareto_correct_fraction,,0.021367521367521368,,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,native_score,pareto_reversed_fraction,,0.013888888888888888,,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,target_residual,D_direction_concordance,0.5079682937004589,0.465081351689612,0.04288694201084692,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,target_residual,D_rmse,1.0133912582819415,1.0120761975436519,0.0013150607382896862,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,target_residual,pareto_correct_fraction,0.024572649572649572,0.021367521367521368,0.003205128205128204,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,target_residual,pareto_reversed_fraction,0.019230769230769232,0.013888888888888888,0.005341880341880344,739,127,2,81,739,486,0,,G protein-coupled receptor 1 family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,full_profile,D_direction_concordance,0.5911188354397403,0.6005336637540097,-0.00941482831426943,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,full_profile,D_rmse,1.1596356755143862,1.1596039411256203,3.1734388765913835e-05,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,full_profile,pareto_correct_fraction,0.00875328041295248,0.002346444140802915,0.006406836272149565,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,full_profile,pareto_reversed_fraction,0.017330212714925256,0.009994893591505181,0.007335319123420074,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_chemistry,D_direction_concordance,0.6005336637540097,0.6005336637540097,0.0,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_chemistry,D_rmse,1.1596039411256203,1.1596039411256203,0.0,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_chemistry,pareto_correct_fraction,0.002346444140802915,0.002346444140802915,0.0,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_chemistry,pareto_reversed_fraction,0.009994893591505181,0.009994893591505181,0.0,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_plus_selected_column,D_direction_concordance,0.6156514020136841,0.6005336637540097,0.01511773825967433,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_plus_selected_column,D_rmse,1.1600254378006514,1.1596039411256203,0.00042149667503110777,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_plus_selected_column,pareto_correct_fraction,0.002346444140802915,0.002346444140802915,0.0,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,global_plus_selected_column,pareto_reversed_fraction,0.0014599193181078795,0.009994893591505181,-0.008534974273397302,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,native_score,D_direction_concordance,,0.6005336637540097,,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,native_score,pareto_correct_fraction,,0.002346444140802915,,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,native_score,pareto_reversed_fraction,,0.009994893591505181,,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,target_residual,D_direction_concordance,0.6156514020136841,0.6005336637540097,0.01511773825967433,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,target_residual,D_rmse,1.1600254378006514,1.1596039411256203,0.00042149667503110777,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,target_residual,pareto_correct_fraction,0.002346444140802915,0.002346444140802915,0.0,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family
+family_pair,,,target_residual,pareto_reversed_fraction,0.0014599193181078795,0.009994893591505181,-0.008534974273397302,2815,249,4,804,2815,1361,2815,,sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family|sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family

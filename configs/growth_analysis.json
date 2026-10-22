@@ -1,0 +1,41 @@
+{
+  "experiment": "PROFILE_GROWTH_ANALYSIS",
+  "growth_analysis": {
+    "input_dir": "data",
+    "frozen_code_dir": "growth_src/profile_information",
+    "postprocessing_code_dir": "growth_analysis_support",
+    "broad_columns_csv": "data/datasets/broad_columns.csv",
+    "output_dir": "outputs/panel_growth_analysis",
+    "expected_folds": 5,
+    "seeds": [
+      20261022,
+      20261023,
+      20261024
+    ],
+    "resamples": 400,
+    "seed": 20261022,
+    "datasets": [
+      {
+        "dataset": "dockstring",
+        "label": "DOCKSTRING",
+        "scope": "native_genes",
+        "policy": "all_records",
+        "growth_dir": "artifacts/frozen_predictions/growth_run02/dockstring__dockstring__native_genes__all_records/growth"
+      },
+      {
+        "dataset": "own44",
+        "label": "Docking44",
+        "scope": "native_genes",
+        "policy": "all_records",
+        "growth_dir": "artifacts/frozen_predictions/growth_run02/own44__own44__native_genes__all_records/growth"
+      }
+    ],
+    "scientific_thresholds": null,
+    "new_predictive_fits": false,
+    "full_budget_invariance_status": "Canonical growth_run02 completed. Record exact same-input prediction differences and do not interpret any discrepancy as composition variability.",
+    "source_manifest": "provenance/public_growth_analysis_sources.json"
+  },
+  "experiment_id": "9ba8b084-0316-4564-bb08-23d1bb98fe38",
+  "parent_evidence": "f61e239c-66a8-4d3a-8b99-32f1be19bf1f",
+  "canonical_fit_source_commit": "7e95e96"
+}

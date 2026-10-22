@@ -1,0 +1,367 @@
+{
+  "status": "passed",
+  "scope": "Fresh relocated code/data copy with installed pinned analysis dependencies; original private workspace is not accessed by the public commands. Only one representative public saved-prediction dataset is replayed.",
+  "checks": [
+    {
+      "check": "source_hashes",
+      "command": [
+        "python",
+        "scripts/verify_bundle.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.0449717919999999,
+      "temporary_bytes_after": 66506228
+    },
+    {
+      "check": "unit_checks",
+      "command": [
+        "python",
+        "tools/run_checks.py"
+      ],
+      "exit_code": 0,
+      "seconds": 6.166402125,
+      "temporary_bytes_after": 66855631
+    },
+    {
+      "check": "geometry",
+      "command": [
+        "python",
+        "scripts/replay_geometry.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.5086275000000002,
+      "temporary_bytes_after": 67931094
+    },
+    {
+      "check": "restore_fingerprint",
+      "command": [
+        "python",
+        "tools/package_assets.py",
+        "restore",
+        "release_assets/fingerprint_run01.tar.gz"
+      ],
+      "exit_code": 0,
+      "seconds": 0.22300262499999945,
+      "temporary_bytes_after": 111283657
+    },
+    {
+      "check": "public_manifest",
+      "command": [
+        "python",
+        "tools/build_replay_manifests.py",
+        "--stage",
+        "postprocessing",
+        "--config",
+        "configs/postprocessing_smoke.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.1882189590000003,
+      "temporary_bytes_after": 111325774
+    },
+    {
+      "check": "public_postprocessing",
+      "command": [
+        "python",
+        "scripts/replay_results.py",
+        "postprocessing",
+        "--config",
+        "configs/postprocessing_smoke.json"
+      ],
+      "exit_code": 0,
+      "seconds": 86.095658459,
+      "temporary_bytes_after": 164070790
+    },
+    {
+      "check": "public_measurement_strata",
+      "command": [
+        "python",
+        "scripts/replay_results.py",
+        "measurement-strata",
+        "--config",
+        "configs/measurement_strata_smoke.json"
+      ],
+      "exit_code": 0,
+      "seconds": 12.808521249999998,
+      "temporary_bytes_after": 178964301
+    }
+  ],
+  "peak_temporary_bytes": 178964301,
+  "temporary_limit_bytes": 524288000,
+  "temporary_copy_removed": true,
+  "representative_dataset": "fingerprint_run01/own44__own44__all_binding_genes__all_records",
+  "saved_splits": 10,
+  "regimes": [
+    "new_molecules_known_proteins",
+    "new_proteins_known_molecules"
+  ],
+  "resamples": 400,
+  "compact_comparisons": [
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "rows": 136,
+      "numeric_columns": 12,
+      "numeric_cells": 1632,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "rows": 300,
+      "numeric_columns": 18,
+      "numeric_cells": 5400,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "rows": 108,
+      "numeric_columns": 12,
+      "numeric_cells": 1296,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "rows": 216,
+      "numeric_columns": 18,
+      "numeric_cells": 3888,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "rows": 136,
+      "numeric_columns": 12,
+      "numeric_cells": 1632,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "rows": 300,
+      "numeric_columns": 18,
+      "numeric_cells": 5400,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "rows": 108,
+      "numeric_columns": 12,
+      "numeric_cells": 1296,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "rows": 216,
+      "numeric_columns": 18,
+      "numeric_cells": 3888,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "common_association/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_association_uncertainty.csv",
+      "rows": 48,
+      "numeric_columns": 6,
+      "numeric_cells": 288,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "common_association/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_association.csv",
+      "rows": 16,
+      "numeric_columns": 7,
+      "numeric_cells": 112,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "common_association/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/paired_association_uncertainty.csv",
+      "rows": 36,
+      "numeric_columns": 6,
+      "numeric_cells": 216,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "common_association/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/paired_association.csv",
+      "rows": 12,
+      "numeric_columns": 7,
+      "numeric_cells": 84,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "common_association/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_association_uncertainty.csv",
+      "rows": 48,
+      "numeric_columns": 6,
+      "numeric_cells": 288,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "common_association/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_association.csv",
+      "rows": 16,
+      "numeric_columns": 7,
+      "numeric_cells": 112,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "common_association/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/paired_association_uncertainty.csv",
+      "rows": 36,
+      "numeric_columns": 6,
+      "numeric_cells": 216,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "common_association/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/paired_association.csv",
+      "rows": 12,
+      "numeric_columns": 7,
+      "numeric_cells": 84,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "rows": 192,
+      "numeric_columns": 12,
+      "numeric_cells": 2304,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/stratum_status.csv",
+      "rows": 2,
+      "numeric_columns": 1,
+      "numeric_cells": 2,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/stratum_support.csv",
+      "rows": 4,
+      "numeric_columns": 12,
+      "numeric_cells": 44,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_uncertainty.csv",
+      "rows": 432,
+      "numeric_columns": 18,
+      "numeric_cells": 7776,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "rows": 144,
+      "numeric_columns": 12,
+      "numeric_cells": 1728,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/stratum_status.csv",
+      "rows": 2,
+      "numeric_columns": 1,
+      "numeric_cells": 2,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/stratum_support.csv",
+      "rows": 4,
+      "numeric_columns": 12,
+      "numeric_cells": 44,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/paired_uncertainty.csv",
+      "rows": 288,
+      "numeric_columns": 18,
+      "numeric_cells": 5184,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "rows": 192,
+      "numeric_columns": 12,
+      "numeric_cells": 2304,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/stratum_status.csv",
+      "rows": 2,
+      "numeric_columns": 1,
+      "numeric_cells": 2,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/stratum_support.csv",
+      "rows": 4,
+      "numeric_columns": 12,
+      "numeric_cells": 44,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_uncertainty.csv",
+      "rows": 432,
+      "numeric_columns": 18,
+      "numeric_cells": 7776,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "rows": 144,
+      "numeric_columns": 12,
+      "numeric_cells": 1728,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/stratum_status.csv",
+      "rows": 2,
+      "numeric_columns": 1,
+      "numeric_cells": 2,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/stratum_support.csv",
+      "rows": 4,
+      "numeric_columns": 12,
+      "numeric_cells": 44,
+      "max_abs_difference": 0.0,
+      "matched": true
+    },
+    {
+      "table": "fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/paired_uncertainty.csv",
+      "rows": 288,
+      "numeric_columns": 18,
+      "numeric_cells": 5184,
+      "max_abs_difference": 0.0,
+      "matched": true
+    }
+  ],
+  "numeric_tolerance": {
+    "rtol": 2e-10,
+    "atol": 2e-10,
+    "scientific_threshold": false
+  },
+  "scientific_study_fits": false,
+  "synthetic_test_fits": true,
+  "full_public_replay": false,
+  "network_download_tested": false,
+  "archive_transport": "Existing verified fingerprint release archive copied into the fresh public layout; archive checksum and restored scientific hashes checked.",
+  "seconds": 107.602715083
+}

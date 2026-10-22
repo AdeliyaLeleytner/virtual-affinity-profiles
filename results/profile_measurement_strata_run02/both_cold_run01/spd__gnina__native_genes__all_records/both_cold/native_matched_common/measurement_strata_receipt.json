@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "source": "outputs/profile_postprocessing_run02/both_cold_run01/spd__gnina__native_genes__all_records/both_cold/native_matched_common/continuous_rectangle_data.csv.gz",
+  "source_labels": {
+    "source_run": "both_cold_run01",
+    "dataset": "spd",
+    "channel": "gnina",
+    "scope": "native_genes",
+    "policy": "all_records",
+    "regime": "both_cold",
+    "comparison_support": "native_matched_common"
+  },
+  "signature": {
+    "schema": "measurement_strata_v1",
+    "source_sha256": "a73e2c888601d25990104d74c53036997dd56048385ba6e01756836619d4a528",
+    "module_sha256": {
+      "measurement_strata.py": "86d8840348606fe66b0ede66be72c58d24076030446b6a4635fcb71b11fa5bb5",
+      "postprocess.py": "2e0f148860cddacac7a7274c5f5b29aabd11d483bf3a48b059261d77d1707095",
+      "fast_resampling.py": "fac93d20bcce1a60c576793c46172e553059590c63c0205b4166456ab175b693"
+    },
+    "resamples": 400,
+    "seed": 20261022,
+    "strata": [
+      "exact_four_cell",
+      "censor_involving_identified_D"
+    ],
+    "metrics": [
+      "D_direction_concordance",
+      "D_predicted_tie_fraction",
+      "pareto_correct_fraction",
+      "pareto_reversed_fraction",
+      "pareto_tradeoff_fraction",
+      "pareto_tie_fraction"
+    ],
+    "endpoint_pool": "observed endpoints within each stratum/domain; same counts for all paired arms"
+  },
+  "new_model_training": false,
+  "scientific_thresholds": null,
+  "primary_all_identified_outputs_modified": false,
+  "input_rows": 7215,
+  "input_identified_D_rows": 7215,
+  "omitted_censor_involving_unidentified_D_rows": 0,
+  "output_sha256": {
+    "paired_estimates.csv": "91b5de2c495a320e61c383d88b3faa9ebac99064ac0bf3298f815e46f0f9ba43",
+    "paired_resampling_draws.csv.gz": "9788473e2c3d786062a657fa3ce33e1cd98205a3b8d1b113e637a550dc89ba77",
+    "paired_uncertainty.csv": "6beff433127811d6c7988c6b03368b432f38aa8f1941cb3e2c218ada12fb4d4d",
+    "stratum_support.csv": "e192a3eca5513790c7983be9f0c0a59ed1031fcc0ad43cb0d2dd072a06359bbd",
+    "stratum_status.csv": "cb0fe1d1d9da2a5411259745c1fc12d4c47a63fea5dff3817a3b8d1904dea881"
+  },
+  "versions": {
+    "python": "3.9.23",
+    "numpy": "1.26.4",
+    "pandas": "2.3.1",
+    "scipy": "1.13.1"
+  }
+}

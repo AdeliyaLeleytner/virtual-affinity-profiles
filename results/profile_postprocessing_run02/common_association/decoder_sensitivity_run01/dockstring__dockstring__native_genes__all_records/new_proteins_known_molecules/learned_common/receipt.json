@@ -1,0 +1,9 @@
+{
+  "source": "outputs/profile_postprocessing_run02/decoder_sensitivity_run01/dockstring__dockstring__native_genes__all_records/new_proteins_known_molecules/learned_common/continuous_rectangle_data.csv.gz",
+  "source_sha256": "e8890944e2d0a7b06685bc815464ff22ce9c1341a5c7cbaaca759021c2345d66",
+  "script_sha256": "affe258f4d768e5b5085e406c72dfd8be30d56c4e6d1bae84c50f4adc224c7c1",
+  "seed": 20261022,
+  "resamples": 400,
+  "new_training": false,
+  "policy": "Common-defined assay contexts are intersected separately for each arm-baseline pair and each draw in primary macro association; raw estimand is pooled moments on common rectangle support."
+}

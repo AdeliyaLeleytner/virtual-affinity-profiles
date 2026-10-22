@@ -1,0 +1,5 @@
+source_run,dataset,channel,scope,policy,regime,comparison_support,measurement_stratum,domain,observed_rectangle_rows,observed_exact_rows,observed_identified_D_rows,observed_exact_nochange_D_rows,observed_joint_choice_rows,observed_actual_assay_pairs,observed_direction_defined_assay_pairs,observed_choice_defined_assay_pairs,observed_molecules,observed_chemical_groups,observed_genes,undefined_reason
+core_run02,spd,gnina,native_genes,all_records,new_proteins_known_molecules,learned_common,exact_four_cell,all_source_operational,70089,70089,70086,3,30527,84,84,81,272,218,10,
+core_run02,spd,gnina,native_genes,all_records,new_proteins_known_molecules,learned_common,exact_four_cell,metadata_matched_operational,17194,17194,17194,0,6025,13,13,13,202,168,5,
+core_run02,spd,gnina,native_genes,all_records,new_proteins_known_molecules,learned_common,censor_involving_identified_D,all_source_operational,240020,0,240020,0,145374,87,87,87,394,314,10,
+core_run02,spd,gnina,native_genes,all_records,new_proteins_known_molecules,learned_common,censor_involving_identified_D,metadata_matched_operational,28263,0,28263,0,13807,13,13,13,296,238,5,

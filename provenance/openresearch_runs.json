@@ -1,0 +1,40 @@
+{
+  "project_id": "42ba66d2-a533-4aa8-9864-ecb2b5986391",
+  "runs": [
+    {
+      "role": "core",
+      "experiment_id": "936e0f77-716e-4b54-88cd-c468857cf2a0",
+      "run_id": "33925ae4-dfcc-4c37-b386-c0bbfba961d4",
+      "source_alias": "results/core_run02",
+      "commit": "b82a8de",
+      "status": "done"
+    },
+    {
+      "role": "canonical_growth",
+      "experiment_id": "f61e239c-66a8-4d3a-8b99-32f1be19bf1f",
+      "run_id": "d344347c-b7ea-4141-ac7f-2c89012ae1cd",
+      "source_alias": "results/growth_run02",
+      "commit": "7e95e96",
+      "status": "done"
+    },
+    {
+      "role": "decoder_sensitivity",
+      "experiment_id": "ad89960d-2460-4911-b9c8-6c0dff97f46b",
+      "run_id": "5274d9d2-293c-476e-a1e3-7ad3345a1210",
+      "source_alias": "results/decoder_sensitivity_run01",
+      "commit": "1cec645",
+      "status": "done"
+    },
+    {
+      "role": "completed_fixed_replay_and_measurement_strata",
+      "experiment_id": "4e7e3aee-c75e-4460-a556-33af362bdd44",
+      "run_id": "c133ae0c-9f6a-4da6-a321-7ed9f79e585a",
+      "source_alias": "results/profile_postprocessing_run02",
+      "commit": "5807705",
+      "status": "done",
+      "exit_code": 0
+    }
+  ],
+  "status_evidence": "Read-only orx runs CLI plus terminal local run_receipt.json files; no launch or refit during release packaging.",
+  "historical_growth01": "Preserved as a technical path only; source hash history in growth_run01_historical_code.json. Publication growth config and fit source are growth_run02/run-growth-canonical."
+}

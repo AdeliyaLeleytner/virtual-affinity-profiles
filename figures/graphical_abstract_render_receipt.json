@@ -1,0 +1,40 @@
+{
+  "scope": "Internal draft, pending core conclusions; no new predictions.",
+  "canvas_pixels": [
+    920,
+    300
+  ],
+  "png_bytes": 33866,
+  "python": "3.12.11",
+  "rdkit": "2025.03.6",
+  "structures": [
+    {
+      "pdb_id": "6CM4",
+      "gene": "DRD2",
+      "display_chain": "A",
+      "display_CA_atoms": 423,
+      "rendering": "First model; longest deposited ATOM C-alpha chain; PCA orientation; cubic interpolation separately across <=5 Angstrom neighbors; white outlined backbone. Full deposited chain may contain engineered/fusion residues; not certified assay construct."
+    },
+    {
+      "pdb_id": "6PDJ",
+      "gene": "LCK",
+      "display_chain": "A",
+      "display_CA_atoms": 273,
+      "rendering": "First model; longest deposited ATOM C-alpha chain; PCA orientation; cubic interpolation separately across <=5 Angstrom neighbors; white outlined backbone. Full deposited chain may contain engineered/fusion residues; not certified assay construct."
+    },
+    {
+      "pdb_id": "3B66",
+      "gene": "AR",
+      "display_chain": "A",
+      "display_CA_atoms": 247,
+      "rendering": "First model; longest deposited ATOM C-alpha chain; PCA orientation; cubic interpolation separately across <=5 Angstrom neighbors; white outlined backbone. Full deposited chain may contain engineered/fusion residues; not certified assay construct."
+    }
+  ],
+  "input_csv_sha256": {
+    "molecule_illustrations.csv": "5fb1096486f8e4e2d7ee636d446aede2d2ebd57d1f04fa8c5e44c8e99dad8aed",
+    "protein_illustrations.csv": "f28eaf9440708fe1149a0c92cb0cbe3702e618dc3a5a03e733ef335898125795",
+    "illustration_profiles.csv": "11f1cb0e192eaa4ed84a24252ff6b761d0f9d266416778816bf934011a63f5b8"
+  },
+  "retrieval_receipt": "assets/structure_retrieval.json",
+  "picture_style": "RDKit original SMILES diagrams; primary deposited coordinate C-alpha traces, not an atomistic prediction or assay-construct audit."
+}

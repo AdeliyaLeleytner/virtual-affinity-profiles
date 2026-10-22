@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "scope": "Targeted relocated cached-mode recheck after the three explicit fresh-path argument repairs; other renderer/data/style/image files unchanged from the227-predicate public test.",
+  "commands": [
+    [
+      "build_primary_result_figures.py",
+      "--figure",
+      "broad",
+      "--from-cache"
+    ],
+    [
+      "build_primary_result_figures.py",
+      "--figure",
+      "spd",
+      "--from-cache"
+    ],
+    [
+      "build_growth_figure.py",
+      "--analysis-dir",
+      "data/figure5_sources",
+      "--orx-receipt",
+      "data/figure5_sources/23e36b7b-fc22-450a-8f6e-01b20fa8e64e.log"
+    ],
+    [
+      "build_growth_figure.py",
+      "--analysis-dir",
+      "data/figure5_sources",
+      "--orx-receipt",
+      "data/figure5_sources/23e36b7b-fc22-450a-8f6e-01b20fa8e64e.log",
+      "--model",
+      "global_chemistry"
+    ],
+    [
+      "build_choice_examples.py",
+      "--mode",
+      "render"
+    ]
+  ],
+  "checks": [
+    {
+      "figure": "figure3_broad_paired_value",
+      "pixels_exact": true,
+      "caption_exact": true
+    },
+    {
+      "figure": "figure4_spd_paired_value",
+      "pixels_exact": true,
+      "caption_exact": true
+    },
+    {
+      "figure": "figure5_panel_acquisition",
+      "pixels_exact": true,
+      "caption_exact": true
+    },
+    {
+      "figure": "figure_supplement_growth_level_chemistry",
+      "pixels_exact": true,
+      "caption_exact": true
+    },
+    {
+      "figure": "figure6_measured_choice_examples",
+      "pixels_exact": true,
+      "caption_exact": true
+    }
+  ],
+  "optional_rdkit_scipy_imports_blocked": true,
+  "temporary_copy_removed": true,
+  "source_sha256": {
+    "build_primary_result_figures.py": "54f61ff9dc0faa327444e731d160f7f04ca305ece886aad668a77e217f8ce6e3",
+    "build_growth_figure.py": "8c9eded1e1ba7c3051f4f1a0c8632b27f846453bac9fc52480655922e472b304",
+    "build_choice_examples.py": "2e42c3552fefe13a74240752a63791e820b0e18f27032e61e3e2ef47b1841919"
+  }
+}

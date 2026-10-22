@@ -1,0 +1,5 @@
+source_run,dataset,channel,scope,policy,regime,comparison_support,measurement_stratum,domain,observed_rectangle_rows,observed_exact_rows,observed_identified_D_rows,observed_exact_nochange_D_rows,observed_joint_choice_rows,observed_actual_assay_pairs,observed_direction_defined_assay_pairs,observed_choice_defined_assay_pairs,observed_molecules,observed_chemical_groups,observed_genes,undefined_reason
+both_cold_run01,dockstring,dockstring,native_genes,all_records,both_cold,learned_common,exact_four_cell,all_source_operational,1,1,1,0,0,1,1,0,2,2,2,
+both_cold_run01,dockstring,dockstring,native_genes,all_records,both_cold,learned_common,exact_four_cell,metadata_matched_operational,1,1,1,0,0,1,1,0,2,2,2,
+both_cold_run01,dockstring,dockstring,native_genes,all_records,both_cold,learned_common,censor_involving_identified_D,all_source_operational,435,0,435,0,376,7,7,7,135,111,8,
+both_cold_run01,dockstring,dockstring,native_genes,all_records,both_cold,learned_common,censor_involving_identified_D,metadata_matched_operational,176,0,176,0,166,2,2,2,73,62,2,

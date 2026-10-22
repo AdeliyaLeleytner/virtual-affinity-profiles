@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "scope": "Every public archive restored into a fresh relocated repository copy, with no original private filesystem paths required.",
+  "archives": 5,
+  "checks": [
+    {
+      "archive": "both_cold_run01.tar.gz",
+      "status": "restored and archive hash verified"
+    },
+    {
+      "archive": "core_run02.tar.gz",
+      "status": "restored and archive hash verified"
+    },
+    {
+      "archive": "decoder_sensitivity_run01.tar.gz",
+      "status": "restored and archive hash verified"
+    },
+    {
+      "archive": "fingerprint_run01.tar.gz",
+      "status": "restored and archive hash verified"
+    },
+    {
+      "archive": "growth_run02.tar.gz",
+      "status": "restored and archive hash verified"
+    },
+    {
+      "check": "frozen_asset_hashes",
+      "status": "passed"
+    },
+    {
+      "check": "prepared_input_fit_module_hashes",
+      "status": "passed"
+    },
+    {
+      "check": "geometry_replay",
+      "status": "passed"
+    },
+    {
+      "check": "decoder_no_fit_inheritance_check",
+      "status": "passed"
+    }
+  ],
+  "elapsed_seconds": 38.962274416,
+  "scientific_fits": false,
+  "inference": false,
+  "temporary_copy_removed": true
+}

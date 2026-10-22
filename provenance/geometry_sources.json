@@ -1,0 +1,103 @@
+{
+  "source_alias": "data/datasets/spd.npz:common_complete_rows_all12",
+  "source_npz_sha256": "195434e0db60a98723ad0e84b765fbcc5a8cb30331328fb6d8bc8fd5391c617e",
+  "ids_sha256": "82e0accc78560b67cca4b0ac673b582eeed0fd80a93e1e05951d635bd738b795",
+  "n_identities": 909,
+  "criterion": "finite scores in every target of all 12 archived heads; not relabelled as an eight-head-derived cohort",
+  "legacy_source_npz_sha256": "7a76727c5db2915d07f9b0bc6d86d379206a887a3f11841bef4a69e36000c228",
+  "legacy_joint_source_sha256": "4e0a8ec3237ead748d5576f987606cc829e4597a0cce4ad1558796c5ba27ff0e",
+  "legacy_joint_code_sha256": "87922a8fa6a06d0853f6927045694d81a2ce2e2a29654f05cb4dcde715dec006",
+  "legacy_spd_code_sha256": "e6b641386504509355a5b66be658d0a6797637143f16d9aa8604953d3451f249",
+  "reference_outputs": {
+    "spectral_summary.csv": {
+      "source_alias": "manuscript/figures/data/spectral_summary.csv",
+      "sha256": "0f3bbc3a4b1aaaa5d75b65a7ad0b942c576e82bab350ea431a4189e01e84a2d6",
+      "bytes": 1705
+    },
+    "full_spectra.csv": {
+      "source_alias": "manuscript/figures/data/full_spectra.csv",
+      "sha256": "502a5f93d91cb10c15d9540ecb6966b9ef721eb0ebad0d7ddb5308e20ddbe14a",
+      "bytes": 110328
+    },
+    "variance_components.csv": {
+      "source_alias": "manuscript/figures/data/variance_components.csv",
+      "sha256": "95eaf23977e2745bd2b062d2e6e252421873e141d290cb2134ae347d47fdecf2",
+      "bytes": 290
+    },
+    "correlation_raw_complete.csv": {
+      "source_alias": "manuscript/figures/data/correlation_raw_complete.csv",
+      "sha256": "0a3a97849c1cd9252ca88a33047c02e0ac90b25ed9ac8f5bb3514dc61993d109",
+      "bytes": 200167
+    },
+    "correlation_row_centered_complete.csv": {
+      "source_alias": "manuscript/figures/data/correlation_row_centered_complete.csv",
+      "sha256": "f4d0148bc0ff598e9354344d2f55ea69e4dd6da7a131a9093d515b15fb099a47",
+      "bytes": 214747
+    },
+    "shared_gene_main_figure.csv": {
+      "source_alias": "manuscript/figures/data/shared_gene_main_figure.csv",
+      "sha256": "dbb3fc18c33e37b27011bb13faf60d3ee0c34ce42fea957d41c0494ba54cb5e3",
+      "bytes": 2037
+    },
+    "shared_gene_comparisons.csv": {
+      "source_alias": "manuscript/figures/data/shared_gene_comparisons.csv",
+      "sha256": "33fa5cbe1c4dca62c7639df05f5b347bc5158239ea0e116c55616ed26b23a9ce",
+      "bytes": 5041
+    },
+    "shared_means.csv": {
+      "source_alias": "manuscript/figures/data/shared_means.csv",
+      "sha256": "7dec4cdca54e9f69c8c1c074ccf5ca3eb7c68685c72e672bb60defe5d167d354",
+      "bytes": 24508
+    },
+    "shared_mean_correlations.csv": {
+      "source_alias": "manuscript/figures/data/shared_mean_correlations.csv",
+      "sha256": "2df5ff885a9be70885f0cb47322f59cda0012dd2469e5220fdc5b40b5d583b8f",
+      "bytes": 89
+    },
+    "geometry_support.csv": {
+      "source_alias": "manuscript/figures/data/geometry_support.csv",
+      "sha256": "fe0d7f741066aa4e7ee2a2fb17af067e2b86d8df7de10d6108903ffd6f99e93a",
+      "bytes": 36506
+    },
+    "spd_readouts.csv": {
+      "source_alias": "manuscript/figures/data/spd_readouts.csv",
+      "sha256": "b6474a3180929dfa0ff0d39babbc0af4e4d94bd1fbd6f4eb2bb5cee30fae6cfc",
+      "bytes": 3121
+    },
+    "column_metadata.csv": {
+      "source_alias": "manuscript/figures/data/column_metadata.csv",
+      "sha256": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed",
+      "bytes": 31018
+    },
+    "panel_composition.csv": {
+      "source_alias": "manuscript/figures/data/panel_composition.csv",
+      "sha256": "6e3d2816795966925ecc5b9fa4ed4f54528f763931a17e35ef51763e9d7cba0d",
+      "bytes": 321
+    },
+    "cohort_support.csv": {
+      "source_alias": "manuscript/figures/data/cohort_support.csv",
+      "sha256": "8efc17c47f61cd34d0e8368c8b5d983dba79d724663b36cb650b6772ff3274d8",
+      "bytes": 100
+    }
+  },
+  "openresearch": {
+    "project_id": "42ba66d2-a533-4aa8-9864-ecb2b5986391",
+    "joint_geometry_experiment_id": "49f96c0a-7229-4474-990d-d28eeaa51654",
+    "joint_geometry_run_id": "8d42f171-3639-4139-850a-67309cec8dcd",
+    "joint_geometry_run_status": "done",
+    "joint_geometry_commit": "667e161",
+    "spd_spectra": "local deterministic postprocessing, not claimed as an OpenResearch experiment run"
+  },
+  "join_verification": {
+    "prepared_join_shape": [
+      585,
+      102
+    ],
+    "legacy_joint_scores_exact_including_nan": true,
+    "legacy_join_identity_order_exact": true,
+    "legacy_both_source_row_orders_exact": true,
+    "complete_rows": 384,
+    "complete_identities": 384,
+    "source_variants": "identity join in original DOCKSTRING source row order; no averaging or anchor filtering"
+  }
+}

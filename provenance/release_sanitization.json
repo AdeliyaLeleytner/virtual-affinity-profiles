@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-10-22",
+  "copied_without_change": [
+    "25 Python modules across core, growth and decoder packages",
+    "all 20 prepared scientific input files",
+    "existing mathematical/software tests"
+  ],
+  "transforms": [
+    "Five configs use repository-relative input/output/frozen-result paths",
+    "Method provenance absolute source paths replaced by archived-score-evidence/source aliases",
+    "Source-snapshot manifest reduced to logical aliases, byte counts and SHA-256",
+    "Author metadata rebuilt using only Adeliya Leleytner and Maxim Fedorov with supplied ORCIDs",
+    "No original local path inventories, prior-author metadata, credentials, third-party articles or figures copied"
+  ],
+  "not_claimed": [
+    "Original GPU inference replay",
+    "Final figure plotting integrated",
+    "All scientific runs complete",
+    "Decoder refit validated against full frozen audit assets"
+  ],
+  "historical_staging_snapshot": true,
+  "current_integration_receipt": "final_release_integration.json"
+}

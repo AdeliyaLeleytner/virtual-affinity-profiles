@@ -1,0 +1,272 @@
+{
+  "scope": "Original cached fixed-score panel provenance; no new inference, no environment installation, no checkpoint download. Original runtime assertions are distinguished from recovered run records. Unknowns remain unknown.",
+  "methods": [
+    {
+      "channel": "boltz_affinity",
+      "engine": "Boltz-2",
+      "version": "boltz 2.2.1",
+      "source": "https://github.com/jwohlwend/boltz",
+      "code_revision": "unknown; package version and source file hashes recorded instead",
+      "checkpoint_sha256": "dcc5cd3722b1c9eaa34267e4ae32f55cbbf1963f4c19319381ccfa30fdd2ca9e",
+      "checkpoint_structure_sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1",
+      "runtime": {
+        "torch": "2.5.1+cu124",
+        "cuda": "12.4",
+        "cudnn": "90100",
+        "pytorch_lightning": "2.5.0",
+        "numpy": "1.26.4",
+        "rdkit": "2026.3.6"
+      },
+      "runtime_evidence_level": "Pinned preflight assertions and runtime-proof hashes in export; full per-host runtime proof bodies unavailable in inspected local export",
+      "raw_field": "affinity_pred_value",
+      "transform": "multiply by -1, no clipping; higher is stronger",
+      "score_units": "native affinity model output; not calibrated to these experimental IC50 measurements",
+      "protocol": "config/boltz_full_panel_protocol_v1.json",
+      "source_evidence": "src/cofold_analysis_inputs.py:67-72",
+      "raw_export": "results/cloud_cofold_export_v1/boltz_affinity_pred_value.npy",
+      "raw_export_sha256": "77a502e4dd6bfba2d08db897e4c9a1f78e09d2ac8546d78ddedd6c7754edd253",
+      "finite_cells_verified": 9290
+    },
+    {
+      "channel": "boltzina_vina_{zero,far}_affinity",
+      "engine": "Boltzina using Boltz-2 affinity heads on supplied Vina poses",
+      "version": "boltz 2.2.1; Boltzina git 8c949647ccdd0fc5948f39004f1766f1e0bd9d73",
+      "source": "https://github.com/ohuelab/boltzina",
+      "paper": "https://arxiv.org/abs/2508.17555",
+      "checkpoint_sha256": "dcc5cd3722b1c9eaa34267e4ae32f55cbbf1963f4c19319381ccfa30fdd2ca9e",
+      "runtime": {
+        "torch_build": "2.7.0+cu126",
+        "cuda": "12.6",
+        "cudnn": "90501"
+      },
+      "runtime_evidence_level": "Pinned preflight assertions; requirements snapshot records installed source dependency",
+      "raw_field": "affinity_pred_value",
+      "transform": "multiply by -1, no clipping",
+      "score_units": "native model output; not experimental affinity calibration",
+      "protocol": "config/boltzina_full_panel_protocol_v1.json",
+      "caveat": "zero and far are two missing-coordinate marker contexts sharing model lineage; not independent algorithms"
+    },
+    {
+      "channel": "nesso_affinity",
+      "engine": "Nesso-1",
+      "version": "nesso 1.0.0; git 6c72f66720d9d3447fd73c515cda963e39128b1f",
+      "source": "https://github.com/recursionpharma/nesso",
+      "paper": "https://doi.org/10.64898/2026.08.01.742196",
+      "runtime": {
+        "python": "3.11.16",
+        "packages": {
+          "lightning": "2.6.5",
+          "nesso": "1.0.0",
+          "numpy": "2.4.6",
+          "rdkit": "2026.3.6",
+          "torch": "2.5.1+cu124"
+        }
+      },
+      "assets": [
+        {
+          "repo": "recursionpharma/nesso",
+          "revision": "1896c84c7186c506c7efd79051480809d51098bf",
+          "filename": "ccd.pkl",
+          "bytes": 412923533,
+          "sha256": "7ed0ccd3903f19627926a5e41a5c0b5309c127a071cb9498dcae96926799ffd8"
+        },
+        {
+          "repo": "recursionpharma/nesso",
+          "revision": "1896c84c7186c506c7efd79051480809d51098bf",
+          "filename": "v1.0.0/hparams.json",
+          "bytes": 1732,
+          "sha256": "06aa0c44fcd44eaa2c5c2473bfcf0d9a3af892d867e5279859bb22eb0f6e2d72"
+        },
+        {
+          "repo": "recursionpharma/nesso",
+          "revision": "1896c84c7186c506c7efd79051480809d51098bf",
+          "filename": "v1.0.0/model.safetensors",
+          "bytes": 165426752,
+          "sha256": "9928a8a824d147d665e76656804af1cd91c86731516d0b561f9fd1c91ee45622"
+        },
+        {
+          "repo": "facebook/esm2_t33_650M_UR50D",
+          "revision": "08e4846e537177426273712802403f7ba8261b6c",
+          "filename": "config.json",
+          "bytes": 724,
+          "sha256": "539095c22efc52a09d6147074ba4ca119f76a890df5901213b2b55f7d2f96b2b"
+        },
+        {
+          "repo": "facebook/esm2_t33_650M_UR50D",
+          "revision": "08e4846e537177426273712802403f7ba8261b6c",
+          "filename": "model.safetensors",
+          "bytes": 2609506392,
+          "sha256": "a08adabb949fa67ad3c14b509d04fd60368b35007b0095e3358f81200c4f4db0"
+        },
+        {
+          "repo": "facebook/esm2_t33_650M_UR50D",
+          "revision": "08e4846e537177426273712802403f7ba8261b6c",
+          "filename": "special_tokens_map.json",
+          "bytes": 125,
+          "sha256": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1"
+        },
+        {
+          "repo": "facebook/esm2_t33_650M_UR50D",
+          "revision": "08e4846e537177426273712802403f7ba8261b6c",
+          "filename": "tokenizer_config.json",
+          "bytes": 95,
+          "sha256": "7e9161ecdb548ec45a41cbc6b24aa4476fdd418461f491c4207baa99419a29ad"
+        },
+        {
+          "repo": "facebook/esm2_t33_650M_UR50D",
+          "revision": "08e4846e537177426273712802403f7ba8261b6c",
+          "filename": "vocab.txt",
+          "bytes": 93,
+          "sha256": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03"
+        }
+      ],
+      "raw_field": "affinity_pred_value",
+      "raw_semantics": "ensemble mean predicted log10(IC50 / micromolar); lower is stronger (original upstream docs/prediction.md154)",
+      "transform": "multiply by -1, no clipping; equals predicted pIC50 minus 6 algebraically, not a recalibration to the present assays",
+      "source_evidence": "src/evaluate_nesso_raw.py:40",
+      "raw_export": "results/nesso_panel_export_v1/matrix.json",
+      "raw_export_sha256": "1a75e320294ba21c3244d1978af5091bddb03b98c4cd6d4c506b9ccecd4dfbb3",
+      "finite_cells_verified": 9180,
+      "protocol": "config/nesso_panel_production_policy_v1.json"
+    },
+    {
+      "channel": "raw_gnina_own",
+      "engine": "GNINA",
+      "version": "1.3.3, gnina.cuda12.8.static",
+      "source": "https://github.com/gnina/gnina/releases/tag/v1.3.3",
+      "binary_sha256": "3340c1f49cd3c7c84d8699182a1c6af13c7fa2a22448d1204640446106f72172",
+      "raw_field": "CNNaffinity",
+      "transform": "identity; higher predicts stronger affinity",
+      "score_units": "CNNaffinity native predicted affinity; no assay-specific calibration",
+      "protocol": "config/gnina_own_search_protocol_v2.json",
+      "caveat": "rescore of Vina poses and independent GNINA search are separate workflows; GNINA own rank0 is highest CNNscore, not lowest energy"
+    },
+    {
+      "channel": "gnina",
+      "engine": "GNINA",
+      "version": "Per-job version link not recovered; project installed GNINA receipt is v1.3.3",
+      "source": "https://github.com/gnina/gnina/releases/tag/v1.3.3",
+      "binary_sha256": "unknown for original rescoring job; installed project binary SHA available separately",
+      "raw_field": "CNNaffinity",
+      "transform": "identity; higher predicts stronger affinity",
+      "score_units": "CNNaffinity native predicted affinity; no assay-specific calibration",
+      "protocol": "results/panel10_gnina_scores/audit.json",
+      "caveat": "CNNaffinity on original Vina pose0; pose-coordinate audit max fixed-frame RMSD=0; independent GNINA search is a separate workflow"
+    },
+    {
+      "channel": "vina",
+      "engine": "Vina-GPU",
+      "version": "2.1",
+      "source": "saved data/panel10_v1/protocol.json",
+      "binary_sha256": "unknown in inspected records",
+      "raw_field": "Vina energy",
+      "transform": "negative energy; higher is stronger",
+      "score_units": "kcal/mol before negation; no conversion to Kd/pKd",
+      "protocol": "data/panel10_v1/protocol.json",
+      "sampling": "default RILC, 8000 threads, depth20, seed20260905"
+    },
+    {
+      "channel": "raw_ad4",
+      "engine": "AutoDock-GPU",
+      "version": "v1.6 CUDA12 official release",
+      "source": "saved config/ad4_full_panel_protocol_v1.json",
+      "binary_sha256": "not recovered from inspected metadata; protocol states pinned in input/campaign manifests",
+      "raw_field": "reported AD4 estimated free energy of binding",
+      "transform": "negative energy; higher is stronger",
+      "score_units": "kcal/mol before negation; no conversion to Kd/pKd",
+      "protocol": "config/ad4_full_panel_protocol_v1.json",
+      "sampling": "minimum reported energy across100runs; all ties preserved; frozen seeds20260906/7/8"
+    },
+    {
+      "channel": "DOCKSTRING",
+      "engine": "cached published score panel",
+      "version": "Figshare dataset v1 doi:10.6084/m9.figshare.16511577.v1",
+      "source": "preparation/upstream_resource_inventory.csv",
+      "raw_field": "published source docking energy",
+      "transform": "negative energy; source variants preserved",
+      "score_units": "native docking score",
+      "runtime_version": "original executable version not recovered in this audit"
+    },
+    {
+      "channel": "Docking44",
+      "engine": "cached published Docking44 panel",
+      "version": "frozen project export2026-07-30; Nikitin etal Pharmaceutics2025 doi:10.3390/pharmaceutics17121573",
+      "source": "preparation/upstream_resource_inventory.csv",
+      "raw_field": "published source docking energy",
+      "transform": "negative energy; source variants preserved",
+      "score_units": "native docking score",
+      "runtime_version": "original executable version not recovered in this audit"
+    }
+  ],
+  "evidence_sha256": {
+    "nc_study/config/requirements-nesso-resolved.txt": "3368b2bc3af6abb1dd175baa2080378549185bdf19e7ab8f29f2b2bd81ef9489",
+    "nc_study/config/requirements-boltzina-resolved.txt": "ddbdad3a82486a558db7a3f5fbdd6a0815fd9b2244993f4b703da486c0daf23f",
+    "nc_study/config/nesso_panel_execution_v2.json": "b2f353c7e32fe661355f2a7edb3048cac03fbe299b99c539b2fa1b00ce51bdab",
+    "nc_study/config/nesso_panel_production_policy_v1.json": "129d8322940ac22661ec42cd0e91c51b537cbc659fcfb6152e3e751438970a5f",
+    "nc_study/results/nesso_assets_v1/state.json": "debc7734afbb538d3fead2de7686d9500f4d18b00572cc59bf612729d9b9850c",
+    "nc_study/data/affinity_method_sources_v1/nesso/README.md": "f2d0ce4b506ebd01c84f92643508fb8d8aeaf390770247d1bee27a93ef77a33f",
+    "nc_study/data/affinity_method_sources_v1/nesso/docs/prediction.md": "56b277122f68fb3b889283028b74bcbbe1ac5c84762b0a807155f2fd147641f6",
+    "nc_study/data/affinity_method_sources_v1/nesso/commit.json": "0c94003510df255ee5673717a722ad9d71734dc07cc085009d253e402ee070e1",
+    "nc_study/data/affinity_method_sources_v1/boltzina/README.md": "9bad0e97b6413e5cc02c4311e876218cea758c078ab786868e3974294a609703",
+    "nc_study/data/affinity_method_sources_v1/boltzina/commit.json": "cc93272886b09554e73226baae52b942a22872d596e163590a67dc5e382861cf",
+    "nc_study/config/boltz_full_panel_protocol_v1.json": "0dc806b208ee95f4ae5eb7051867a2c594d4d1c4dd41d63e8b7128c9c8e7a0a5",
+    "nc_study/config/boltzina_full_panel_protocol_v1.json": "2123aae2e800771090ac54b0026741279b0f7bc54202a14129ae132cba266b8d",
+    "nc_study/src/cloud_runtime_preflight_v1.py": "553fb64018ecfa28930167fc7a58df741bbe7257fd4f59ed89cc363005fdd771",
+    "nc_study/src/cofold_analysis_inputs.py": "8df8952656e6ec24a91483d8cfe841008496cf991e94aeb23498a69e1d9c1122",
+    "nc_study/src/evaluate_nesso_raw.py": "fa9c8d688c1623cf199389192aebecd84e618fb617f61680c7360f59826130e8",
+    "nc_study/logs/gnina_installed.json": "f478fb768aa7291c50791243c3323aa1aa995293d453314fa1349c0eccfecece",
+    "nc_study/results/panel10_gnina_scores/audit.json": "3281c618cad4370593ee3e058733f71c99550ea87e7fb6c13f44acebe5833b92",
+    "nc_study/config/gnina_own_search_protocol_v2.json": "a7dfe2cb62d1fcd4fb200c153ac182489ca94d7868be85dcd4f2ee5175bb4b06",
+    "nc_study/config/ad4_native_execution_v1.json": "ed45e035bda3b1a6af09220f372aea17bfffbfc384ecde0842de3938fe2106d0",
+    "nc_study/config/ad4_full_panel_protocol_v1.json": "8bb672c8c5d884745228b3b523fe49a5a1c1605a5de44fc6ace21e219098eff1",
+    "nc_study/data/panel10_v1/protocol.json": "6df87c39aecbec7708aa5714fed02f9ff678bce276a0306b64b8d84a00b29f9f"
+  },
+  "boltzina_orientation": {
+    "status": "verified",
+    "axis_genes_verified": true,
+    "checks": [
+      {
+        "channel": "boltzina_vina_far_affinity",
+        "finite_cells": 9110,
+        "availability_exact": true,
+        "all_cells_exact_negative_raw": true,
+        "raw_source": "archived-score-evidence/results/cloud_cofold_export_v1/boltzina_vina_far_affinity_pred_value.npy",
+        "raw_sha256": "76ea697d227292a3871dac05b2b4d216d7529f5a14ceb4743fd50c8ecc4fbdf4"
+      },
+      {
+        "channel": "boltzina_vina_zero_affinity",
+        "finite_cells": 9110,
+        "availability_exact": true,
+        "all_cells_exact_negative_raw": true,
+        "raw_source": "archived-score-evidence/results/cloud_cofold_export_v1/boltzina_vina_zero_affinity_pred_value.npy",
+        "raw_sha256": "e32a33fff94af9dde4ce7900eee002005756f36a8362d4eacddd5184376ee067"
+      }
+    ],
+    "all930_molecule_ids_match_raw_export_axis": true,
+    "molecule_axis_source": "prepared molecules.csv indexed by spd.npz row_molecule_indices compared to cloud export matrix.json inchi_keys"
+  },
+  "broad_orientation": [
+    {
+      "dataset": "dockstring",
+      "shape": [
+        890,
+        58
+      ],
+      "all_cells_exact_negative_raw": true,
+      "finite_cells": 51620,
+      "every_identity_source_variant_mass_one": true
+    },
+    {
+      "dataset": "own44",
+      "shape": [
+        668,
+        44
+      ],
+      "all_cells_exact_negative_raw": true,
+      "finite_cells": 28924,
+      "every_identity_source_variant_mass_one": true
+    }
+  ],
+  "orientation_receipt_sha256": "8310c2952cc67276a828b31068ce46af33b4100b5f4148e3c3bde061849bfbee",
+  "release_note": "Evidence pointers refer to retained source archives unless explicitly bundled. No checkpoint weights, original inference environments or GPU runs are included. Original absolute paths were replaced by stable source aliases."
+}

@@ -1,0 +1,144 @@
+{
+  "as_of": "2026-10-22",
+  "snapshot_note": "Live source inventories can grow; not a completion claim. Refresh at final asset staging.",
+  "git_inputs": {
+    "files": 20,
+    "bytes": 9712615,
+    "placement": "Git, original hashes retained"
+  },
+  "runs": [
+    {
+      "source_alias": "results/core_run02",
+      "terminal_receipt_present": false,
+      "files": 3533,
+      "bytes": 332709135,
+      "groups": {
+        "metadata": {
+          "files": 1103,
+          "bytes": 119956408
+        },
+        "compact_evaluation": {
+          "files": 1080,
+          "bytes": 53529925
+        },
+        "model_coefficients": {
+          "files": 1080,
+          "bytes": 60671261
+        },
+        "heldout_predictions": {
+          "files": 270,
+          "bytes": 98551541
+        }
+      },
+      "placement": "versioned release asset; sanitized metadata, predictions and compact evaluations required for saved replay; coefficients optional"
+    },
+    {
+      "source_alias": "results/fingerprint_run01",
+      "terminal_receipt_present": true,
+      "files": 251,
+      "bytes": 57992051,
+      "groups": {
+        "metadata": {
+          "files": 91,
+          "bytes": 7001465
+        },
+        "compact_evaluation": {
+          "files": 80,
+          "bytes": 6670217
+        },
+        "model_coefficients": {
+          "files": 60,
+          "bytes": 10932464
+        },
+        "heldout_predictions": {
+          "files": 20,
+          "bytes": 33387905
+        }
+      },
+      "placement": "versioned release asset; sanitized metadata, predictions and compact evaluations required for saved replay; coefficients optional"
+    },
+    {
+      "source_alias": "results/both_cold_run01",
+      "terminal_receipt_present": true,
+      "files": 3285,
+      "bytes": 225348583,
+      "groups": {
+        "metadata": {
+          "files": 1035,
+          "bytes": 79866615
+        },
+        "compact_evaluation": {
+          "files": 1000,
+          "bytes": 7675427
+        },
+        "model_coefficients": {
+          "files": 1000,
+          "bytes": 44536188
+        },
+        "heldout_predictions": {
+          "files": 250,
+          "bytes": 93270353
+        }
+      },
+      "placement": "versioned release asset; sanitized metadata, predictions and compact evaluations required for saved replay; coefficients optional"
+    },
+    {
+      "source_alias": "results/growth_run01",
+      "terminal_receipt_present": false,
+      "files": 4201,
+      "bytes": 29006891,
+      "groups": {
+        "metadata": {
+          "files": 1586,
+          "bytes": 15778893
+        },
+        "compact_evaluation": {
+          "files": 2092,
+          "bytes": 3732769
+        },
+        "heldout_predictions": {
+          "files": 523,
+          "bytes": 9495229
+        }
+      },
+      "placement": "versioned release asset; sanitized metadata, predictions and compact evaluations required for saved replay; coefficients optional"
+    },
+    {
+      "source_alias": "results/decoder_sensitivity_run01",
+      "terminal_receipt_present": false,
+      "files": 1,
+      "bytes": 373,
+      "groups": {
+        "metadata": {
+          "files": 1,
+          "bytes": 373
+        }
+      },
+      "placement": "versioned release asset; sanitized metadata, predictions and compact evaluations required for saved replay; coefficients optional"
+    }
+  ],
+  "regenerated_rectangle_outputs": {
+    "placement": "optional versioned asset; regenerate from verified predictions without GPU",
+    "required_for_saved_prediction_replay": false
+  },
+  "third_party_downloads": {
+    "placement": "exclude paper PDFs, published figures, model weights and molecule pose archives"
+  },
+  "geometry_replay": {
+    "script": "scripts/replay_geometry.py",
+    "scientific_inputs": [
+      "data/datasets/dockstring.npz",
+      "data/datasets/own44.npz",
+      "data/datasets/spd.npz"
+    ],
+    "explicit_support_ids": "geometry_inputs/spd_common_all12_ids.csv",
+    "reference_files": 11,
+    "reference_bytes": 598539,
+    "reference_placement": "Git, numerical verification targets only",
+    "new_figure_data_placement": "outputs/geometry/data; regenerated, not primary inputs",
+    "verification_receipt": "provenance/geometry_replay_verification.json"
+  },
+  "decoder_refit_requirements": "Exact decoder_src code requires full core audit pack including all manifest-listed fit artifacts; stage_frozen_results.py --include-audit-artifacts. Scientific decoder result pack remains pending.",
+  "historical_staging_snapshot": true,
+  "current_integration_receipt": "final_release_integration.json"
+}

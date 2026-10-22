@@ -1,0 +1,273 @@
+{
+  "postprocessing_commit": "5807705b7a17ea4fb438880f887cbfde967cee3a",
+  "postprocessing_run_id": "c133ae0c-9f6a-4da6-a321-7ed9f79e585a",
+  "postprocessing_status": "complete; authoritative run02 and measurement strata integrated as compact summaries",
+  "growth_analysis_commit": "3a7c658d12ab5cfebb94eb8dc68a5bdb88e5545f",
+  "growth_analysis_run_id": "23e36b7b-fc22-450a-8f6e-01b20fa8e64e",
+  "growth_analysis_status": "complete; authoritative compact growth summaries integrated",
+  "packages": {
+    "replay_src/profile_information": [
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/run.py",
+        "sha256": "27dedc2eb67147ceec361106778f667ab97e1f558b6d939f1a86a71a4abc8ab5",
+        "portable_path": "replay_src/profile_information/run.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/evaluation.py",
+        "sha256": "0bf182bc3ec61220d8c18490a0b49c7b9227ba2d3ae0e377461e7c50aab63587",
+        "portable_path": "replay_src/profile_information/evaluation.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/__init__.py",
+        "sha256": "19fa16bc22d4f495e01e6a359621b74f7923e9b8dd00aac230e90d61cf03508a",
+        "portable_path": "replay_src/profile_information/__init__.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/features.py",
+        "sha256": "f12d93315a8daf6310bdfcaecbba16db90c261a342fdb108cfbc6e849f103ec8",
+        "portable_path": "replay_src/profile_information/features.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/model.py",
+        "sha256": "bf5e4d333e9b316fc08eccc02635ff9b028d1f8ee3cb841465900307afe9fef5",
+        "portable_path": "replay_src/profile_information/model.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/decoder_sensitivity.py",
+        "sha256": "6c71af9d5059bfbb2bcc00fe4724f232849644c4c692fb259773203d992947d9",
+        "portable_path": "replay_src/profile_information/decoder_sensitivity.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/splits.py",
+        "sha256": "7a934a25f21c6a0a2bcc32b2152c020a8ef73b26fe73f2351c9718e47345b49b",
+        "portable_path": "replay_src/profile_information/splits.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/replay_details.py",
+        "sha256": "b942686f83c09a84a9c2551c85cc8bd4a4070ca54467b3cef86069b04a67dfb4",
+        "portable_path": "replay_src/profile_information/replay_details.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/profile_information/data.py",
+        "sha256": "0bcd3ebf407d861b8a0e71805bca2e7a8d0487db1d4398a481610b7ca5ca1e67",
+        "portable_path": "replay_src/profile_information/data.py",
+        "byte_identical": true
+      }
+    ],
+    "postprocessing": [
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/test_dispatch.py",
+        "sha256": "bfc1f9876bfcea10153235239fc61c4a2cf8c8c36246b721ebcceeb69e0d60a6",
+        "portable_path": "postprocessing/test_dispatch.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/measurement_strata.py",
+        "sha256": "86d8840348606fe66b0ede66be72c58d24076030446b6a4635fcb71b11fa5bb5",
+        "portable_path": "postprocessing/measurement_strata.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/postprocess_fast.py",
+        "sha256": "1af8d0bcf37e2afa07f044ce13cfc011b6ab83a22e6f7060a04cc44453e2b6dd",
+        "portable_path": "postprocessing/postprocess_fast.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/test_postprocess.py",
+        "sha256": "8ac2707856a07df260318ae962cc54b5f7a859e106e4fee817449da77cd12d08",
+        "portable_path": "postprocessing/test_postprocess.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/smoke_nested_decoder_replay.py",
+        "sha256": "9370e3bd26dcca80d1b6118bcd7a25f34f05e04dc1c5c5a9a3d2a8492abacab1",
+        "portable_path": "postprocessing/smoke_nested_decoder_replay.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/audit_outputs.py",
+        "sha256": "aa9431ed789472a76d2b6e46bc8bee09c7917c0935f6f614c4120871b84c7ff3",
+        "portable_path": "postprocessing/audit_outputs.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/dispatch.py",
+        "sha256": "8ef89b177ddd07f2c2c389f81672903c71caeb659dfa129d27782fead8bac170",
+        "portable_path": "postprocessing/dispatch.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/test_common_context_association.py",
+        "sha256": "43e3b386bd61f7d2901c36b507b0bac30843af0847fc27e7ca241fa382b4fae8",
+        "portable_path": "postprocessing/test_common_context_association.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/postprocess.py",
+        "sha256": "2e0f148860cddacac7a7274c5f5b29aabd11d483bf3a48b059261d77d1707095",
+        "portable_path": "postprocessing/postprocess.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/__init__.py",
+        "sha256": "edf93a914cf85c2a4c8332209eada4e5301475544f749b81b9e768bacf59f9f4",
+        "portable_path": "postprocessing/__init__.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/test_fast_resampling.py",
+        "sha256": "4f6ac67e8b343943d829dace9bdacae5b13c192d09a8c3f3fdf950b1277ee950",
+        "portable_path": "postprocessing/test_fast_resampling.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/reference_validation_source.py",
+        "sha256": "b6469b941a047fe2a182b38fa01943d01bd672e12e413dce1696b73a120d3274",
+        "portable_path": "postprocessing/reference_validation_source.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/common_context_association.py",
+        "sha256": "affe258f4d768e5b5085e406c72dfd8be30d56c4e6d1bae84c50f4adc224c7c1",
+        "portable_path": "postprocessing/common_context_association.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/metric_support.py",
+        "sha256": "f8b501d65ff1cbb32faa15f06524cc4a61f047d07ee531028387f79b404d26d2",
+        "portable_path": "postprocessing/metric_support.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/make_snapshot_manifest.py",
+        "sha256": "cb7c4cb87d5e04a6336f2b2a499e79523d2d952bf10e6d9b752d633e8d7ffc54",
+        "portable_path": "postprocessing/make_snapshot_manifest.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/fast_resampling.py",
+        "sha256": "fac93d20bcce1a60c576793c46172e553059590c63c0205b4166456ab175b693",
+        "portable_path": "postprocessing/fast_resampling.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/test_measurement_strata.py",
+        "sha256": "deedc70b0e81e9f6eafd2c90c161e4fc40a13a8bbc2e648e182b287035ab6497",
+        "portable_path": "postprocessing/test_measurement_strata.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-postprocessing-fixed/postprocessing/test_nested_model_names.py",
+        "sha256": "e4440afe2ec4c743b5c38f907523cea63025749a9f7c7021f3fad185c5817bcf",
+        "portable_path": "postprocessing/test_nested_model_names.py",
+        "byte_identical": true
+      }
+    ],
+    "growth_analysis": [
+      {
+        "source_alias": "run-growth-analysis/growth_analysis/manifest.py",
+        "sha256": "e4acb243dca942364d6c1acdceb2bdebed2eb17361c64a334c4e436d8e5f63fb",
+        "portable_path": "growth_analysis/manifest.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/growth_analysis/test_stage.py",
+        "sha256": "acd99e9f794d48503c9cdd87c8ef97c291b000e55d6c1c59240835131388f369",
+        "portable_path": "growth_analysis/test_stage.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/growth_analysis/__init__.py",
+        "sha256": "b918573a717a04953b36abb63efcaa19e1d74eca2fc00572a57ab88041934474",
+        "portable_path": "growth_analysis/__init__.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/growth_analysis/test_technical.py",
+        "sha256": "a648c89d95802ba0d5bdba0efb71a39d825ccc583c8522dcdbf5e711ecaf5313",
+        "portable_path": "growth_analysis/test_technical.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/growth_analysis/analyze.py",
+        "sha256": "3ad0017f31a5ccb1abe70ae647ff858974a35786ad590dc96650b2a2748046f5",
+        "portable_path": "growth_analysis/analyze.py",
+        "byte_identical": true
+      }
+    ],
+    "growth_analysis_support": [
+      {
+        "source_alias": "run-growth-analysis/postprocessing/test_postprocess.py",
+        "sha256": "8ac2707856a07df260318ae962cc54b5f7a859e106e4fee817449da77cd12d08",
+        "portable_path": "growth_analysis_support/test_postprocess.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/postprocessing/postprocess.py",
+        "sha256": "2e0f148860cddacac7a7274c5f5b29aabd11d483bf3a48b059261d77d1707095",
+        "portable_path": "growth_analysis_support/postprocess.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/postprocessing/__init__.py",
+        "sha256": "699561fb1005d3e0a58adf82eee443327e40554c85c8f9ba27d8dbcfc4e90986",
+        "portable_path": "growth_analysis_support/__init__.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/postprocessing/test_fast_resampling.py",
+        "sha256": "4f6ac67e8b343943d829dace9bdacae5b13c192d09a8c3f3fdf950b1277ee950",
+        "portable_path": "growth_analysis_support/test_fast_resampling.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/postprocessing/metric_support.py",
+        "sha256": "f8b501d65ff1cbb32faa15f06524cc4a61f047d07ee531028387f79b404d26d2",
+        "portable_path": "growth_analysis_support/metric_support.py",
+        "byte_identical": true
+      },
+      {
+        "source_alias": "run-growth-analysis/postprocessing/fast_resampling.py",
+        "sha256": "fac93d20bcce1a60c576793c46172e553059590c63c0205b4166456ab175b693",
+        "portable_path": "growth_analysis_support/fast_resampling.py",
+        "byte_identical": true
+      }
+    ]
+  },
+  "compatibility": "Frozen fitting packages src/decoder_src/growth_src are not edited. Patched parser is isolated in replay_src. Growth analysis uses its exact separately recorded numerical aggregation support. Public configs replace machine paths and public manifests are regenerated after original input/artifact checks.",
+  "original_hash_pins": {
+    "fixed_replay_config": {
+      "source_alias": "run-postprocessing-fixed/config.json",
+      "sha256": "cb63d8a079923a26a189e9794e344615000c06cc3e2eeaa17a153edda9a9c2df"
+    },
+    "fixed_replay_source_manifest": {
+      "source_alias": "run-postprocessing-fixed/postprocessing/source_snapshot_sha256.json",
+      "sha256": "59811197ee1ee368de9f450263a50ad00184df1da5592c736e9a00be5b42f81d"
+    },
+    "growth_analysis_config": {
+      "source_alias": "run-growth-analysis/config.json",
+      "sha256": "893177dfe4c90d2830e66548cd21713598bea78a57b22d44718e160f0e08413a"
+    },
+    "growth_analysis_source_manifest": {
+      "source_alias": "run-growth-analysis/growth_analysis/source_manifest.json",
+      "sha256": "4954de1e0b0785c53e5b4bf4f41a1fd93b99f422b037bde7b2a223d64098278f"
+    }
+  },
+  "fixed_evaluator_difference": {
+    "original_sha256": "c51e404c891deb02fc7b49fdeff1d3f4df7678f8111f8797977900a6858c2e86",
+    "replay_sha256": "0bf182bc3ec61220d8c18490a0b49c7b9227ba2d3ae0e377461e7c50aab63587",
+    "exact_suffix_parser_replacement_only": true,
+    "replacement_occurrences": 2,
+    "scope": "summarize_preferences and detail_contexts recover the complete model name by removing only the __D suffix; frozen fitting/evaluate math untouched"
+  },
+  "earlier_postprocessing_run_id": "8cec3cb9-6d40-490b-9233-b0a0ec9d3f93"
+}

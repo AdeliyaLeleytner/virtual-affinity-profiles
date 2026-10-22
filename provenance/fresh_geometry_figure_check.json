@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "source_chain": [
+    "prepared score arrays",
+    "scripts/replay_geometry.py",
+    "scripts/render_geometry_from_replay.py",
+    "three geometry figures"
+  ],
+  "input_csv_tables": 10,
+  "geometry_reference_tables_checked": 14,
+  "figures": [
+    {
+      "figure": "figure_geometry_readouts_support.png",
+      "shape": [
+        1412,
+        1673,
+        4
+      ],
+      "pixels_exact": true,
+      "rendered_sha256": "6ad57acdda84b615e42fdd921c3a403cb7b89372e78737d94682df10a626c478",
+      "cached_sha256": "6ad57acdda84b615e42fdd921c3a403cb7b89372e78737d94682df10a626c478"
+    },
+    {
+      "figure": "figure_geometry_shared_shape.png",
+      "shape": [
+        1450,
+        1673,
+        4
+      ],
+      "pixels_exact": true,
+      "rendered_sha256": "95aca27611072149f6e1e5827c7156f757a432d114b8e8b5e0e4e039a2f6011b",
+      "cached_sha256": "95aca27611072149f6e1e5827c7156f757a432d114b8e8b5e0e4e039a2f6011b"
+    },
+    {
+      "figure": "figure_supplement_residual_correlation.png",
+      "shape": [
+        1900,
+        1673,
+        4
+      ],
+      "pixels_exact": true,
+      "rendered_sha256": "5d915a34a496485512ae5d3c541ceb97d914ba8aaf5bea28e0ca9e7bb90dab97",
+      "cached_sha256": "5d915a34a496485512ae5d3c541ceb97d914ba8aaf5bea28e0ca9e7bb90dab97"
+    }
+  ],
+  "renderer_sources_unchanged": true,
+  "analysis_python": "3.9.23",
+  "figure_python": "3.12.11",
+  "scientific_fits": false,
+  "network": false
+}

@@ -1,0 +1,161 @@
+{
+  "status": "replayed and compared",
+  "python": "3.9.23",
+  "numpy": "1.26.4",
+  "broad": {
+    "joined_rows": 585,
+    "joined_identities": 582,
+    "columns": 102,
+    "complete_rows": 384,
+    "complete_identities": 384,
+    "shared_genes": [
+      "ACHE",
+      "ADORA2A",
+      "ADRB1",
+      "ADRB2",
+      "AR",
+      "DRD2",
+      "LCK",
+      "NR3C1",
+      "PTGS2"
+    ],
+    "mean_agreement": {
+      "n_rows": 384,
+      "n_identities": 384,
+      "pearson": 0.9728854229131486,
+      "spearman": 0.9705295838513717
+    },
+    "joint_pr": {
+      "raw": 1.6256759428876772,
+      "row_centered": 20.351886033012843,
+      "rank_columns": 1.6383138767858638,
+      "rank_centered": 22.65204440730062
+    }
+  },
+  "spd": {
+    "source_heads": 12,
+    "reported_primary_heads": 8,
+    "common_all12_identities": 909,
+    "explicit_identity_list_sha256": "82e0accc78560b67cca4b0ac673b582eeed0fd80a93e1e05951d635bd738b795"
+  },
+  "reference_checks": [
+    {
+      "file": "cohort_support.csv",
+      "rows": 3,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "8efc17c47f61cd34d0e8368c8b5d983dba79d724663b36cb650b6772ff3274d8",
+      "regenerated_sha256": "8efc17c47f61cd34d0e8368c8b5d983dba79d724663b36cb650b6772ff3274d8"
+    },
+    {
+      "file": "column_metadata.csv",
+      "rows": 102,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed",
+      "regenerated_sha256": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed"
+    },
+    {
+      "file": "correlation_raw_complete.csv",
+      "rows": 102,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "0a3a97849c1cd9252ca88a33047c02e0ac90b25ed9ac8f5bb3514dc61993d109",
+      "regenerated_sha256": "0a3a97849c1cd9252ca88a33047c02e0ac90b25ed9ac8f5bb3514dc61993d109"
+    },
+    {
+      "file": "correlation_row_centered_complete.csv",
+      "rows": 102,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "f4d0148bc0ff598e9354344d2f55ea69e4dd6da7a131a9093d515b15fb099a47",
+      "regenerated_sha256": "f4d0148bc0ff598e9354344d2f55ea69e4dd6da7a131a9093d515b15fb099a47"
+    },
+    {
+      "file": "full_spectra.csv",
+      "rows": 1224,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "502a5f93d91cb10c15d9540ecb6966b9ef721eb0ebad0d7ddb5308e20ddbe14a",
+      "regenerated_sha256": "502a5f93d91cb10c15d9540ecb6966b9ef721eb0ebad0d7ddb5308e20ddbe14a"
+    },
+    {
+      "file": "geometry_support.csv",
+      "rows": 585,
+      "maximum_absolute_numeric_difference": 4.401860820291148e-17,
+      "reference_sha256": "fe0d7f741066aa4e7ee2a2fb17af067e2b86d8df7de10d6108903ffd6f99e93a",
+      "regenerated_sha256": "927139527d21e55795c8d468c04397d24d620278af220c8e042fd46c75abaece"
+    },
+    {
+      "file": "panel_composition.csv",
+      "rows": 13,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "6e3d2816795966925ecc5b9fa4ed4f54528f763931a17e35ef51763e9d7cba0d",
+      "regenerated_sha256": "6e3d2816795966925ecc5b9fa4ed4f54528f763931a17e35ef51763e9d7cba0d"
+    },
+    {
+      "file": "shared_gene_comparisons.csv",
+      "rows": 45,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "33fa5cbe1c4dca62c7639df05f5b347bc5158239ea0e116c55616ed26b23a9ce",
+      "regenerated_sha256": "33fa5cbe1c4dca62c7639df05f5b347bc5158239ea0e116c55616ed26b23a9ce"
+    },
+    {
+      "file": "shared_gene_main_figure.csv",
+      "rows": 18,
+      "maximum_absolute_numeric_difference": 8.326672684688674e-17,
+      "reference_sha256": "dbb3fc18c33e37b27011bb13faf60d3ee0c34ce42fea957d41c0494ba54cb5e3",
+      "regenerated_sha256": "930409aa465e6cdb18b7b794dfa24dcd9566ff9386bfe446915bd276498df7c4"
+    },
+    {
+      "file": "shared_mean_correlations.csv",
+      "rows": 2,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "2df5ff885a9be70885f0cb47322f59cda0012dd2469e5220fdc5b40b5d583b8f",
+      "regenerated_sha256": "2df5ff885a9be70885f0cb47322f59cda0012dd2469e5220fdc5b40b5d583b8f"
+    },
+    {
+      "file": "shared_means.csv",
+      "rows": 384,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "7dec4cdca54e9f69c8c1c074ccf5ca3eb7c68685c72e672bb60defe5d167d354",
+      "regenerated_sha256": "7dec4cdca54e9f69c8c1c074ccf5ca3eb7c68685c72e672bb60defe5d167d354"
+    },
+    {
+      "file": "spd_readouts.csv",
+      "rows": 16,
+      "maximum_absolute_numeric_difference": 4.440892098500626e-16,
+      "reference_sha256": "b6474a3180929dfa0ff0d39babbc0af4e4d94bd1fbd6f4eb2bb5cee30fae6cfc",
+      "regenerated_sha256": "462f8d0faaf7430548e8a04b453d50d4240e93e056f3677292592bbe4644052d"
+    },
+    {
+      "file": "spectral_summary.csv",
+      "rows": 16,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "0f3bbc3a4b1aaaa5d75b65a7ad0b942c576e82bab350ea431a4189e01e84a2d6",
+      "regenerated_sha256": "0f3bbc3a4b1aaaa5d75b65a7ad0b942c576e82bab350ea431a4189e01e84a2d6"
+    },
+    {
+      "file": "variance_components.csv",
+      "rows": 2,
+      "maximum_absolute_numeric_difference": 0.0,
+      "reference_sha256": "95eaf23977e2745bd2b062d2e6e252421873e141d290cb2134ae347d47fdecf2",
+      "regenerated_sha256": "95eaf23977e2745bd2b062d2e6e252421873e141d290cb2134ae347d47fdecf2"
+    }
+  ],
+  "numerical_comparison": {
+    "atol": 2e-10,
+    "rtol": 2e-10
+  },
+  "code_sha256": "61ef6578c7af84d13fc26d77f7d0eff4a4e252ae7b25296821fde0f7051c66df",
+  "input_sha256": {
+    "datasets/dockstring.npz": "95c3f89b57a5007f6cab429cb7a10b2086e5b079f553e88e8ba30f10f0e2359a",
+    "datasets/own44.npz": "bc43819c6bf95a8f5fc740d9f4e888f20fc58912f8c13c20b592094dc3b1ef18",
+    "datasets/spd.npz": "195434e0db60a98723ad0e84b765fbcc5a8cb30331328fb6d8bc8fd5391c617e",
+    "datasets/broad_columns.csv": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed",
+    "molecules.csv": "0e808802c25e1c5f4980bf2cc9b02cfbddc5b7d4e993021bb7bae7664e2d856f",
+    "binding_records.csv.gz": "1beb41fd61ba57be232995c6ac2d53763dfd667f9d814d73662c878b61900785"
+  },
+  "source_provenance": "provenance/geometry_sources.json",
+  "experimental_outcome_values_read": false,
+  "record_identity_membership_used_for_support": true,
+  "new_model_fit": false,
+  "new_inference": false,
+  "scientific_pass_fail_threshold": null,
+  "geometry_scope": "Same saved score support/transforms as source geometry figures; no family-label permutations, experimental associations or biological mechanism claims are added."
+}

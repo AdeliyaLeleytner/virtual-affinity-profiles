@@ -1,0 +1,22 @@
+{
+  "experiment": "PROFILE_INFORMATION_POSTPROCESSING",
+  "postprocessing": {
+    "input_dir": "data",
+    "results": [
+      "artifacts/frozen_predictions/fingerprint_run01"
+    ],
+    "output_dir": "outputs/public_smoke_postprocessing",
+    "source_manifest": "provenance/public_smoke_postprocessing_sources.json",
+    "resamples": 400,
+    "seed": 20261022,
+    "scientific_thresholds": null,
+    "new_model_training": false,
+    "primary_weighting": "actual_assay_pair_equal",
+    "sensitivity_weighting": "raw_rectangle_equal",
+    "association_policy": "common-defined assay contexts for each arm-baseline pair and each draw; pooled common rectangle moments for raw weighting",
+    "scope_note": "Bounded public usability check: all10 saved splits of one small all-binding dataset, both regimes, all eligible comparisons; no new fitting.",
+    "datasets": [
+      "own44__own44__all_binding_genes__all_records"
+    ]
+  }
+}

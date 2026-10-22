@@ -1,0 +1,48 @@
+{
+  "scope": "Fresh replay/prediction\u2192plotted input path check; read-only aliases expose existing completed outputs at public relative names; no scientific rerun or new fit.",
+  "commands": [
+    {
+      "command": "python figures/build_primary_result_figures.py --figure broad --results-root outputs/profile_postprocessing_run02 --prediction-root artifacts/frozen_predictions/core_run02",
+      "exit_code": 0
+    },
+    {
+      "command": "python figures/build_primary_result_figures.py --figure spd --results-root outputs/profile_postprocessing_run02 --prediction-root artifacts/frozen_predictions/core_run02",
+      "exit_code": 0
+    },
+    {
+      "command": "python figures/build_growth_figure.py --analysis-dir outputs/panel_growth_analysis --run-log logs/growth-analysis.log",
+      "exit_code": 0
+    },
+    {
+      "command": "python figures/build_growth_figure.py --analysis-dir outputs/panel_growth_analysis --run-log logs/growth-analysis.log --model global_chemistry",
+      "exit_code": 0
+    },
+    {
+      "command": "python figures/build_choice_examples.py --mode prepare --input-dir data --prediction-root artifacts/frozen_predictions/core_run02 --postprocessing-root outputs/profile_postprocessing_run02 --data-loader replay_src/profile_information/data.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python figures/build_choice_examples.py --mode render",
+      "exit_code": 0
+    }
+  ],
+  "checks": {
+    "figure3_broad_paired_value_fresh_inputs_same_pixels": true,
+    "figure4_spd_paired_value_fresh_inputs_same_pixels": true,
+    "figure5_panel_acquisition_fresh_inputs_same_pixels": true,
+    "figure_supplement_growth_level_chemistry_fresh_inputs_same_pixels": true,
+    "figure6_measured_choice_examples_fresh_inputs_same_pixels": true,
+    "fresh_selection_numeric_data_exact_selected_cases.csv": true,
+    "fresh_selection_numeric_data_exact_actual_four_cells.csv": true,
+    "fresh_selection_numeric_data_exact_all_source_variant_decisions.csv": true,
+    "Fig6_no_implicit_private_source": true
+  },
+  "all_passed": true,
+  "scripts": {
+    "build_primary_result_figures.py": "54f61ff9dc0faa327444e731d160f7f04ca305ece886aad668a77e217f8ce6e3",
+    "build_growth_figure.py": "8c9eded1e1ba7c3051f4f1a0c8632b27f846453bac9fc52480655922e472b304",
+    "build_choice_examples.py": "2e42c3552fefe13a74240752a63791e820b0e18f27032e61e3e2ef47b1841919"
+  },
+  "release_written": false,
+  "release_source_receipt_sha256": "d736d20fb2de0f879bf4934057727752578860073dc212c7c3ff5dadbab07a99"
+}

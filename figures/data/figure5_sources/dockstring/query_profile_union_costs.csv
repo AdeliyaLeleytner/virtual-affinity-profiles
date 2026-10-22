@@ -1,0 +1,11 @@
+split,model,training_score_candidate_columns,deployment_whole_profile_union_count,deployment_whole_profile_union_columns,deployment_evaluated_contrast_union_count,training_selected_union_count,training_search_not_free,full_panel_mean_used
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False

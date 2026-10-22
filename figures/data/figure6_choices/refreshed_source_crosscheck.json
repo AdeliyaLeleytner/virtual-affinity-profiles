@@ -1,0 +1,31 @@
+{
+  "scope": "Content identity of the complete candidate censuses, not just the chosen examples; gzip container timestamps are ignored.",
+  "all_available_sources_match": true,
+  "all_sources_refreshed": true,
+  "sources": [
+    {
+      "case": "A",
+      "source": "dockstring__dockstring__native_genes__all_records",
+      "status": "entire decoded census identical",
+      "original": "source-evidence/artifacts/profile_postprocessing/core_run02/dockstring__dockstring__native_genes__all_records/new_molecules_known_proteins/learned_common/continuous_rectangle_data.csv.gz",
+      "refreshed": "results/profile_postprocessing_run02/core_run02/dockstring__dockstring__native_genes__all_records/new_molecules_known_proteins/learned_common/continuous_rectangle_data.csv.gz",
+      "decoded_sha256": "b377c4490eba46618e86fef39e1f4c445a41bd8343a4ebd684143a1781824b61"
+    },
+    {
+      "case": "A",
+      "source": "own44__own44__native_genes__all_records",
+      "status": "entire decoded census identical",
+      "original": "source-evidence/artifacts/profile_postprocessing/core_run02/own44__own44__native_genes__all_records/new_molecules_known_proteins/learned_common/continuous_rectangle_data.csv.gz",
+      "refreshed": "results/profile_postprocessing_run02/core_run02/own44__own44__native_genes__all_records/new_molecules_known_proteins/learned_common/continuous_rectangle_data.csv.gz",
+      "decoded_sha256": "32769afc5c8e33d749ca73c5d0cfaa12e1274f386bd0d9b31fbe67b9bb4cb5aa"
+    },
+    {
+      "case": "B",
+      "source": "spd__nesso_affinity__native_genes__all_records",
+      "status": "entire decoded census identical",
+      "original": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/continuous_rectangle_data.csv.gz",
+      "refreshed": "results/profile_postprocessing_run02/core_run02/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/continuous_rectangle_data.csv.gz",
+      "decoded_sha256": "b4989ea4cdadd86c5c268b3514aab726241fff5db5ed65cadcb9df6b3b5a7e4c"
+    }
+  ]
+}

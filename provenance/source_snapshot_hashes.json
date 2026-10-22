@@ -1,0 +1,120 @@
+{
+  "status": "Source identity/provenance only. Most original source snapshots are not required for saved-input replay and are not bundled. Absolute local paths omitted.",
+  "sources": {
+    "legacy_panel930.csv": {
+      "source_alias": "legacy_panel930.csv",
+      "sha256": "eca0069af2f622ef734910a77e807d193d3ab46f009ae8c747d9bae97c5facab",
+      "bytes": 248171
+    },
+    "legacy_splits930.csv": {
+      "source_alias": "legacy_splits930.csv",
+      "sha256": "75cdd7f45e280fa5990141b7cba872fa4ef2aecc93ced0761b332b3c90324403",
+      "bytes": 258447
+    },
+    "legacy_features930.npz": {
+      "source_alias": "legacy_features930.npz",
+      "sha256": "12ac0fe9b713e280ec1d704fcf0556b71b85526cec247b4636cdd347c9e5fbbc",
+      "bytes": 2083316
+    },
+    "legacy_proteins10.json": {
+      "source_alias": "legacy_proteins10.json",
+      "sha256": "16d1649037933f191561ba72171ce0ea5e523571ec0de31af5f199dd61479409",
+      "bytes": 13000
+    },
+    "legacy_input_manifest.json": {
+      "source_alias": "legacy_input_manifest.json",
+      "sha256": "bf51f71bd096e901bd5e0f4305773f2ad111cbf3e741917b83bc17202ea8fba3",
+      "bytes": 5059
+    },
+    "legacy_feature_preparation.json": {
+      "source_alias": "legacy_feature_preparation.json",
+      "sha256": "831680215d432929ed50f944473f381af66710f0e76d790456201f9509bf2d1b",
+      "bytes": 1503
+    },
+    "spd_native_surfaces.npz": {
+      "source_alias": "spd_native_surfaces.npz",
+      "sha256": "7a76727c5db2915d07f9b0bc6d86d379206a887a3f11841bef4a69e36000c228",
+      "bytes": 934483
+    },
+    "source_channel_manifest.json": {
+      "source_alias": "source_channel_manifest.json",
+      "sha256": "7751ff10a774f407cf6503b307bed0c84bfa0659982a417f288d8a449e0258a1",
+      "bytes": 36237
+    },
+    "panel_rows_dockstring.npz": {
+      "source_alias": "panel_rows_dockstring.npz",
+      "sha256": "2414fd4d156f5f335aedc1a177612edb54ef48ec1721f3a3fdcee95ef212f47c",
+      "bytes": 169867
+    },
+    "panel_rows_own44.npz": {
+      "source_alias": "panel_rows_own44.npz",
+      "sha256": "1c12a4cf672f80f86eb56abd29fb93f66d45904061e8f5e7fd610abe60dcc7a0",
+      "bytes": 108080
+    },
+    "column_metadata.csv": {
+      "source_alias": "column_metadata.csv",
+      "sha256": "82b1e70e21b92b709d1927b1c3f17215cd958845688cdf3abeca1681a897b9c3",
+      "bytes": 30935
+    },
+    "molecule_identities_and_descriptors.csv": {
+      "source_alias": "molecule_identities_and_descriptors.csv",
+      "sha256": "504e7294251513874ed3b6dd44940fee808748fd564743f258698e27c3001b39",
+      "bytes": 183995
+    },
+    "dockstring_selected_source_rows.csv.gz": {
+      "source_alias": "dockstring_selected_source_rows.csv.gz",
+      "sha256": "77ed8dd68ff4a9972f8076ebf5e9797cfc3a384311ba10a270e702e2a86a6d29",
+      "bytes": 115762
+    },
+    "own44_selected_source_rows.csv.gz": {
+      "source_alias": "own44_selected_source_rows.csv.gz",
+      "sha256": "dd6bef6affbd8858c59f873f8848995ed48629e50113fe4fafa4b22e45b860b7",
+      "bytes": 70817
+    },
+    "assay_metadata_168.csv": {
+      "source_alias": "assay_metadata_168.csv",
+      "sha256": "82cd0c354e732a165eccd152d8c3a0a590f6181d512ad6ac94b31628eeb6ff93",
+      "bytes": 180406
+    },
+    "spd_source_measurement_fields.csv.gz": {
+      "source_alias": "spd_source_measurement_fields.csv.gz",
+      "sha256": "94d9e5e568902125a3203abf642a14420c2a65d7332d8af55dc7c09ddf690ae8",
+      "bytes": 2329850
+    },
+    "previous_joint_binding_records.csv.gz": {
+      "source_alias": "previous_joint_binding_records.csv.gz",
+      "sha256": "b92fc8a3beb616dd9ff83d5ccc1a8041f4a3b9efcdc81cb394bfc3650697e3ae",
+      "bytes": 520259
+    },
+    "previous_joint_source_manifest.json": {
+      "source_alias": "previous_joint_source_manifest.json",
+      "sha256": "03492dd6fe4ae87b0381ec1bfee097aa3762f6f92ff01786ad8d1513196088b6",
+      "bytes": 3074
+    },
+    "previous_spd_source_reference.json": {
+      "source_alias": "previous_spd_source_reference.json",
+      "sha256": "3f5a8f9965fac47bd43df9c54832890325dd596d485b3290a53711dad9d1a20f",
+      "bytes": 814
+    },
+    "uniprot_binding74_20261022.tsv": {
+      "source_alias": "uniprot_binding74_20261022.tsv",
+      "sha256": "e6a49263a46fe4ca45c08374fd49848198855425678df32fb068f38471a59e86",
+      "bytes": 43869
+    },
+    "uniprot_retrieval.json": {
+      "source_alias": "uniprot_retrieval.json",
+      "sha256": "a4fc9e5e343a792cef3d64fbe86705b0106234a1c3c3905f38805c3a6326f010",
+      "bytes": 4046
+    },
+    "uniprot_additional_virtual_genes_20261022.tsv": {
+      "source_alias": "uniprot_additional_virtual_genes_20261022.tsv",
+      "sha256": "2715aa9d711d5ce1bd9a1805ccd8105c3f0ba75c8853ed7e73cb7f1f6ec759ea",
+      "bytes": 57026
+    },
+    "uniprot_virtual_retrieval.json": {
+      "source_alias": "uniprot_virtual_retrieval.json",
+      "sha256": "fb3c3ca074339b2330751459d72fb32842fed71e5c73ea5e3468880b45f779b7",
+      "bytes": 3428
+    }
+  }
+}

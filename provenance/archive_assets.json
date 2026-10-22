@@ -1,0 +1,61 @@
+{
+  "schema": "public_frozen_assets_v1",
+  "status": "Five frozen-source assets for version v1.0.0, with versioned download addresses and pinned checksums.",
+  "archives": [
+    {
+      "run": "both_cold_run01",
+      "filename": "both_cold_run01.tar.gz",
+      "sha256": "9952c33f9379d926ae406abf744130f9d4e43d0933f9e1ed41c4873618e4ed34",
+      "bytes": 97109628,
+      "files": 2034,
+      "uncompressed_bytes": 173843278,
+      "full_audit_pack": false,
+      "restoration": "artifacts/frozen_predictions/both_cold_run01",
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/both_cold_run01.tar.gz"
+    },
+    {
+      "run": "core_run02",
+      "filename": "core_run02.tar.gz",
+      "sha256": "3bc749664fdb489380c3bba7861d5db0bf282efeb34410334b831066b627a3da",
+      "bytes": 375305421,
+      "files": 6015,
+      "uncompressed_bytes": 574184725,
+      "full_audit_pack": true,
+      "restoration": "artifacts/frozen_predictions/core_run02",
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/core_run02.tar.gz"
+    },
+    {
+      "run": "decoder_sensitivity_run01",
+      "filename": "decoder_sensitivity_run01.tar.gz",
+      "sha256": "2500505bc58579dbda1c0d57e858c5d0ea37a433fbedfa3d75971f6e5d5c7157",
+      "bytes": 42236506,
+      "files": 728,
+      "uncompressed_bytes": 75379658,
+      "full_audit_pack": false,
+      "restoration": "artifacts/frozen_predictions/decoder_sensitivity_run01",
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/decoder_sensitivity_run01.tar.gz"
+    },
+    {
+      "run": "fingerprint_run01",
+      "filename": "fingerprint_run01.tar.gz",
+      "sha256": "666f17d66b62f6cdcdec139b7944248bf8c1c4754ac2e093be1963cd81a1e8c1",
+      "bytes": 36253438,
+      "files": 170,
+      "uncompressed_bytes": 43352563,
+      "full_audit_pack": false,
+      "restoration": "artifacts/frozen_predictions/fingerprint_run01",
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/fingerprint_run01.tar.gz"
+    },
+    {
+      "run": "growth_run02",
+      "filename": "growth_run02.tar.gz",
+      "sha256": "c2d3d6701fe3cbe97229855b4929670b82aa19d7b3b4466f2b95690157a46105",
+      "bytes": 167445208,
+      "files": 21993,
+      "uncompressed_bytes": 240919492,
+      "full_audit_pack": false,
+      "restoration": "artifacts/frozen_predictions/growth_run02",
+      "download_url": "https://github.com/AdeliyaLeleytner/virtual-affinity-profiles/releases/download/v1.0.0/growth_run02.tar.gz"
+    }
+  ]
+}

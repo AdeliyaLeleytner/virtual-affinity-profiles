@@ -1,0 +1,106 @@
+{
+  "scope": "Mechanical packaging checks only; no scientific study refits or new inference were launched. Original synthetic tests include small mathematical fits.",
+  "runtime": {
+    "python": "3.9.23",
+    "numpy": "1.26.4",
+    "pandas": "2.3.1",
+    "scipy": "1.13.1",
+    "threadpoolctl": "3.6.0"
+  },
+  "tests": {
+    "core": {
+      "passed": 8,
+      "failed": 0
+    },
+    "growth": {
+      "passed": 15,
+      "failed": 0,
+      "source": "run-growth-canonical"
+    },
+    "editable_install": {
+      "status": "passed in temporary system-site-packages venv",
+      "build_setuptools": "68.2.2",
+      "build_wheel": "0.43.0",
+      "core_tests_after_install_passed": 8
+    },
+    "decoder": {
+      "passed": 14,
+      "failed": 0,
+      "scope": "original synthetic-only tests from frozen run-decoder"
+    },
+    "postprocessing": {
+      "passed": 25,
+      "failed": 0,
+      "source": "5807705b7a17ea4fb438880f887cbfde967cee3a"
+    },
+    "growth_analysis": {
+      "passed": 4,
+      "failed": 0,
+      "scope": "technical and source-manifest checks; ORX-dispatch-only test not invoked in public standalone layout"
+    }
+  },
+  "prepared_input_hashes": {
+    "files": 20,
+    "bytes": 9712615,
+    "all_match": true
+  },
+  "frozen_code_hashes": {
+    "modules": 34,
+    "all_match": true
+  },
+  "portable_config_smoke": {
+    "profiles": [
+      "core",
+      "growth",
+      "decoder"
+    ],
+    "cwd_outside_repository": true,
+    "cost_only": true,
+    "scientific_fits": false,
+    "status": "passed",
+    "decoder_note": "Cost-only from external cwd successfully checked all 60 frozen core splits, complete original artifact bytes, exact inherited module/input bytes and optimizer; no model fitting."
+  },
+  "privacy_scan": {
+    "files_scanned": 2271,
+    "scope": "text/JSON, gzip tables and NPZ string arrays, including staged prediction artifacts",
+    "actual_private_paths_or_prior_author_metadata_found": false,
+    "followup": "Generic checker literals were rewritten without private-path prefixes or former-author names; final integrated release still requires refreshed scan."
+  },
+  "git": {
+    "branch": "codex/publication",
+    "remote_created": false,
+    "commit_created": false
+  },
+  "remaining": [
+    "Authoritative fixed postprocessing/measurement output integration",
+    "Authoritative completed growth output integration",
+    "Final main-result figure source comparison",
+    "Final manuscript and publication metadata",
+    "Final root CI and public URLs"
+  ],
+  "geometry_replay": {
+    "status": "passed",
+    "reference_tables": 14,
+    "receipt": "provenance/geometry_replay_verification.json",
+    "scientific_fits": false,
+    "experimental_outcomes_read": false,
+    "inference": false
+  },
+  "figure_rendering": {
+    "geometry_figures": 3,
+    "style_audits": "all clean",
+    "renderer": "figures/build_geometry_figures.py",
+    "inputs": "regenerated outputs/geometry/data"
+  },
+  "completed_fit_runs_staged": [
+    "core_run02 full audit",
+    "fingerprint_run01 compact",
+    "both_cold_run01 compact",
+    "growth_run02 compact",
+    "decoder_sensitivity_run01 compact with explicit metadata derivatives"
+  ],
+  "completed_fit_runs_staged_note": "Verified source archives retained; extracted copies were removed under disk pressure and restore on demand.",
+  "public_replay_status": "Storage-limited: 44 completed growth CSVs matched; one final cost table truncated by ENOSPC. No complete duplicate public replay claimed.",
+  "historical_staging_snapshot": true,
+  "current_integration_receipt": "final_release_integration.json"
+}

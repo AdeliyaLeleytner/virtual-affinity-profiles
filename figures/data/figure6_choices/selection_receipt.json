@@ -1,0 +1,207 @@
+{
+  "scope": "Measured-outcome illustration; no new performance estimate or predictive fit.",
+  "post_hoc": true,
+  "selection_steps": [
+    {
+      "case": "A",
+      "dataset": "dockstring",
+      "channel": "dockstring",
+      "census_rows": 4621,
+      "logical_category_rows": 239,
+      "same_chemical_group_rows": 2,
+      "rule": "Observed opposite directions; full profile correct on all source-variant mass, global baseline correct on none.",
+      "source_sha256": "254534704a4616466dda98d49bf4fabf0d849ceed3a3ca0721f87130f57e6ee0"
+    },
+    {
+      "case": "A",
+      "dataset": "own44",
+      "channel": "own44",
+      "census_rows": 15438,
+      "logical_category_rows": 698,
+      "same_chemical_group_rows": 33,
+      "rule": "Observed opposite directions; full profile correct on all source-variant mass, global baseline correct on none.",
+      "source_sha256": "4cc98725b01bbbf1785f5251584cdf399c74db5374d04e95332081dfed7367f1"
+    },
+    {
+      "case": "B",
+      "dataset": "spd",
+      "channel": "nesso_affinity",
+      "census_rows": 304002,
+      "logical_category_rows": 32868,
+      "same_chemical_group_rows": 76,
+      "rule": "Observed opposite directions; native correct and full profile incorrect, with both D directions correct on all source-variant mass.",
+      "source_sha256": "276c97c28210c9c60bc6f51ee218035f0708a7e7f6e8e368616e071dab25c310"
+    },
+    {
+      "case": "A",
+      "pooled_eligible_rows": 937,
+      "ordering": [
+        "same_chemical_group",
+        "chemical_tanimoto",
+        "molecule_id_a",
+        "molecule_id_b",
+        "assay_id_a",
+        "assay_id_b",
+        "split",
+        "dataset"
+      ],
+      "ascending": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_identity_a": "PLDUPXSUYLZYBN-UHFFFAOYSA-N",
+      "selected_identity_b": "ZEWQUBUPAILYHI-UHFFFAOYSA-N",
+      "selected_tanimoto": 0.8055555555555556,
+      "selected_same_chemical_group": true,
+      "selected_assays": [
+        3157,
+        3199
+      ]
+    },
+    {
+      "case": "B",
+      "pooled_eligible_rows": 32868,
+      "ordering": [
+        "same_chemical_group",
+        "chemical_tanimoto",
+        "molecule_id_a",
+        "molecule_id_b",
+        "assay_id_a",
+        "assay_id_b",
+        "split",
+        "dataset"
+      ],
+      "ascending": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "selected_identity_a": "QWGDMFLQWFTERH-UHFFFAOYSA-N",
+      "selected_identity_b": "XJGVXQDUIWGIRW-UHFFFAOYSA-N",
+      "selected_tanimoto": 0.7101449275362319,
+      "selected_same_chemical_group": true,
+      "selected_assays": [
+        3081,
+        3088
+      ]
+    }
+  ],
+  "priority": "Within the logical category: same inherited chemical group first, then highest cached chirality-aware radius-3 Morgan/2048-bit Tanimoto, then lexical identity/assay/split/source keys. No effect-magnitude ranking or minimum-effect gate.",
+  "source_files": [
+    {
+      "path": "source-evidence/artifacts/profile_postprocessing/core_run02/dockstring__dockstring__native_genes__all_records/new_molecules_known_proteins/learned_common/continuous_rectangle_data.csv.gz",
+      "sha256": "254534704a4616466dda98d49bf4fabf0d849ceed3a3ca0721f87130f57e6ee0"
+    },
+    {
+      "path": "source-evidence/artifacts/profile_postprocessing/core_run02/own44__own44__native_genes__all_records/new_molecules_known_proteins/learned_common/continuous_rectangle_data.csv.gz",
+      "sha256": "4cc98725b01bbbf1785f5251584cdf399c74db5374d04e95332081dfed7367f1"
+    },
+    {
+      "path": "source-evidence/artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/continuous_rectangle_data.csv.gz",
+      "sha256": "276c97c28210c9c60bc6f51ee218035f0708a7e7f6e8e368616e071dab25c310"
+    },
+    {
+      "path": "source-evidence/run-postprocessing/profile_information/data.py",
+      "sha256": "0bcd3ebf407d861b8a0e71805bca2e7a8d0487db1d4398a481610b7ca5ca1e67"
+    },
+    {
+      "path": "source-evidence/preparation/data/molecules.csv",
+      "sha256": "0e808802c25e1c5f4980bf2cc9b02cfbddc5b7d4e993021bb7bae7664e2d856f"
+    },
+    {
+      "path": "source-evidence/preparation/data/assays.csv",
+      "sha256": "376d10093d14f1f3d7ece9e6d1d43b7d78d871f3cd57686cc55fec57edc86f79"
+    },
+    {
+      "path": "source-evidence/preparation/data/binding_records.csv.gz",
+      "sha256": "1beb41fd61ba57be232995c6ac2d53763dfd667f9d814d73662c878b61900785"
+    },
+    {
+      "path": "source-evidence/preparation/data/molecule_features.npz",
+      "sha256": "fcef899212a69ccecad04a9c1583fa984a0616af62caa3d9fcbf959929b4931a"
+    },
+    {
+      "path": "source-evidence/preparation/data/proteins.csv",
+      "sha256": "59958b8a2a1012051754953264849214582610011cf69be5d040d250e288adb3"
+    },
+    {
+      "path": "source-evidence/preparation/data/protein_features.npz",
+      "sha256": "533245dd04bcb4eb8d03c519554ed7b8b06872a2bf41094b32241b474b5f196e"
+    },
+    {
+      "path": "source-evidence/preparation/data/datasets/dockstring.npz",
+      "sha256": "95c3f89b57a5007f6cab429cb7a10b2086e5b079f553e88e8ba30f10f0e2359a"
+    },
+    {
+      "path": "source-evidence/preparation/data/datasets/dockstring_rows.csv",
+      "sha256": "a63416ccd225ab025d4dd9a751a954b00e62cc087ecf227e69aa55f18376b42b"
+    },
+    {
+      "path": "source-evidence/results/core_run02/dockstring__dockstring__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_2/predictions.npz",
+      "sha256": "08478ee8efb48506e9d86af858105e82a9017c56f87ba4651e860c9b9d6543a8"
+    },
+    {
+      "path": "source-evidence/results/core_run02/dockstring__dockstring__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_2/split.json",
+      "sha256": "fa9207770b2c9db2270e8781ded751a5170759e2cc1f5ac18e25ea82dd7725df"
+    },
+    {
+      "path": "source-evidence/results/core_run02/dockstring__dockstring__native_genes__all_records/core/new_molecules_known_proteins/mol_fold_2/complete.json",
+      "sha256": "d51bf11489d1f77fdc7c90782b5aae4227631363e9339808a8a54ba2c9dc1918"
+    },
+    {
+      "path": "source-evidence/preparation/data/molecules.csv",
+      "sha256": "0e808802c25e1c5f4980bf2cc9b02cfbddc5b7d4e993021bb7bae7664e2d856f"
+    },
+    {
+      "path": "source-evidence/preparation/data/assays.csv",
+      "sha256": "376d10093d14f1f3d7ece9e6d1d43b7d78d871f3cd57686cc55fec57edc86f79"
+    },
+    {
+      "path": "source-evidence/preparation/data/binding_records.csv.gz",
+      "sha256": "1beb41fd61ba57be232995c6ac2d53763dfd667f9d814d73662c878b61900785"
+    },
+    {
+      "path": "source-evidence/preparation/data/molecule_features.npz",
+      "sha256": "fcef899212a69ccecad04a9c1583fa984a0616af62caa3d9fcbf959929b4931a"
+    },
+    {
+      "path": "source-evidence/preparation/data/proteins.csv",
+      "sha256": "59958b8a2a1012051754953264849214582610011cf69be5d040d250e288adb3"
+    },
+    {
+      "path": "source-evidence/preparation/data/protein_features.npz",
+      "sha256": "533245dd04bcb4eb8d03c519554ed7b8b06872a2bf41094b32241b474b5f196e"
+    },
+    {
+      "path": "source-evidence/preparation/data/datasets/spd.npz",
+      "sha256": "195434e0db60a98723ad0e84b765fbcc5a8cb30331328fb6d8bc8fd5391c617e"
+    },
+    {
+      "path": "source-evidence/preparation/data/datasets/spd_rows.csv",
+      "sha256": "d2f7c4c1d37e6b3597c0d65e4819fce62fc97e7a408037a34900251759007cea"
+    },
+    {
+      "path": "source-evidence/results/core_run02/spd__nesso_affinity__native_genes__all_records/core/new_proteins_known_molecules/pair_1/predictions.npz",
+      "sha256": "3b9d15d75e702143d79dc47a34f8b5707facc68bbc69e99490dc877b5613cefd"
+    },
+    {
+      "path": "source-evidence/results/core_run02/spd__nesso_affinity__native_genes__all_records/core/new_proteins_known_molecules/pair_1/split.json",
+      "sha256": "2fbb13951e6c87be403d96c3eed215a3dee8b7faa91362e34e2f45b78a089f43"
+    },
+    {
+      "path": "source-evidence/results/core_run02/spd__nesso_affinity__native_genes__all_records/core/new_proteins_known_molecules/pair_1/complete.json",
+      "sha256": "8c9154dad3d49e3f1a290d874775461b3091598fab1a01c791f39916fbbdfc79"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+split,model,training_score_candidate_columns,deployment_whole_profile_union_count,deployment_whole_profile_union_columns,deployment_evaluated_contrast_union_count,training_selected_union_count,training_search_not_free,full_panel_mean_used,assay_index,assay_id,gene,query_column,query_column_gene,deployment_query_column_count
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,3086,ADRB1,3,ADRB1,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,3087,ADRB2,4,ADRB2,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,3157,DRD2,46,DRD2,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,3177,ADORA2A,38,ADORA2A,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,3199,ESR1,27,ESR1,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,3217,ESR2,9,ESR2,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,3279,PGR,20,PGR,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,3295,DRD3,47,DRD3,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,31453,ESR1,27,ESR1,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,41519,DRD3,47,DRD3,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,11,41629,AR,24,AR,1
+mol_fold_0,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,12,41630,PGR,20,PGR,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,0,3086,ADRB1,57,KDR,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,1,3087,ADRB2,36,PPARG,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,2,3157,DRD2,49,F10,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,3,3177,ADORA2A,12,HMGCR,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,4,3199,ESR1,26,CSF1R,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,5,3217,ESR2,1,ABL1,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,7,3279,PGR,44,HSD11B1,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,8,3295,DRD3,49,F10,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,9,31453,ESR1,1,ABL1,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,10,41519,DRD3,44,HSD11B1,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,11,41629,AR,20,PGR,1
+mol_fold_0,chemistry_plus_selected_score,58,9,"[1, 12, 20, 26, 28, 36, 44, 49, 57]",9,9,True,False,12,41630,PGR,28,NR3C1,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,3086,ADRB1,3,ADRB1,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,3087,ADRB2,4,ADRB2,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,3157,DRD2,46,DRD2,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,3177,ADORA2A,38,ADORA2A,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,3199,ESR1,27,ESR1,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,3217,ESR2,9,ESR2,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,3279,PGR,20,PGR,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,3295,DRD3,47,DRD3,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,31453,ESR1,27,ESR1,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,41519,DRD3,47,DRD3,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,11,41629,AR,24,AR,1
+mol_fold_1,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,12,41630,PGR,20,PGR,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,0,3086,ADRB1,57,KDR,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,1,3087,ADRB2,36,PPARG,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,2,3157,DRD2,42,CYP2C9,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,3,3177,ADORA2A,6,MAOB,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,4,3199,ESR1,26,CSF1R,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,5,3217,ESR2,1,ABL1,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,7,3279,PGR,23,AKT1,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,8,3295,DRD3,42,CYP2C9,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,9,31453,ESR1,1,ABL1,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,10,41519,DRD3,44,HSD11B1,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,11,41629,AR,28,NR3C1,1
+mol_fold_1,chemistry_plus_selected_score,58,10,"[1, 6, 22, 23, 26, 28, 36, 42, 44, 57]",10,10,True,False,12,41630,PGR,22,ROCK1,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,0,3086,ADRB1,3,ADRB1,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,1,3087,ADRB2,4,ADRB2,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,2,3157,DRD2,46,DRD2,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,3,3177,ADORA2A,38,ADORA2A,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,4,3199,ESR1,27,ESR1,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,5,3217,ESR2,9,ESR2,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,7,3279,PGR,20,PGR,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,8,3295,DRD3,47,DRD3,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,9,31453,ESR1,27,ESR1,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,10,41519,DRD3,47,DRD3,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,11,41629,AR,24,AR,1
+mol_fold_2,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",10,10,False,False,12,41630,PGR,20,PGR,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,0,3086,ADRB1,57,KDR,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,1,3087,ADRB2,36,PPARG,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,2,3157,DRD2,49,F10,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,3,3177,ADORA2A,11,FGFR1,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,4,3199,ESR1,41,CA2,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,5,3217,ESR2,9,ESR2,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,7,3279,PGR,10,PTK2,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,8,3295,DRD3,49,F10,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,9,31453,ESR1,34,PTGS2,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,10,41519,DRD3,44,HSD11B1,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,11,41629,AR,44,HSD11B1,1
+mol_fold_2,chemistry_plus_selected_score,58,11,"[9, 10, 11, 19, 28, 34, 36, 41, 44, 49, 57]",10,11,True,False,12,41630,PGR,19,PDE5A,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,0,3086,ADRB1,3,ADRB1,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,1,3087,ADRB2,4,ADRB2,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,2,3157,DRD2,46,DRD2,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,3,3177,ADORA2A,38,ADORA2A,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,4,3199,ESR1,27,ESR1,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,5,3217,ESR2,9,ESR2,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,7,3279,PGR,20,PGR,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,8,3295,DRD3,47,DRD3,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,9,31453,ESR1,27,ESR1,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,10,41519,DRD3,47,DRD3,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,11,41629,AR,24,AR,1
+mol_fold_3,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",8,10,False,False,12,41630,PGR,20,PGR,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,0,3086,ADRB1,57,KDR,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,1,3087,ADRB2,36,PPARG,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,2,3157,DRD2,42,CYP2C9,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,3,3177,ADORA2A,12,HMGCR,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,4,3199,ESR1,35,PPARA,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,5,3217,ESR2,1,ABL1,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,7,3279,PGR,57,KDR,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,8,3295,DRD3,42,CYP2C9,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,9,31453,ESR1,1,ABL1,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,10,41519,DRD3,44,HSD11B1,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,11,41629,AR,28,NR3C1,1
+mol_fold_3,chemistry_plus_selected_score,58,9,"[1, 12, 22, 28, 35, 36, 42, 44, 57]",8,9,True,False,12,41630,PGR,22,ROCK1,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,0,3086,ADRB1,3,ADRB1,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,1,3087,ADRB2,4,ADRB2,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,2,3157,DRD2,46,DRD2,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,3,3177,ADORA2A,38,ADORA2A,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,4,3199,ESR1,27,ESR1,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,5,3217,ESR2,9,ESR2,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,7,3279,PGR,20,PGR,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,8,3295,DRD3,47,DRD3,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,9,31453,ESR1,27,ESR1,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,10,41519,DRD3,47,DRD3,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,11,41629,AR,24,AR,1
+mol_fold_4,chemistry_plus_target_score,10,10,"[3, 4, 9, 20, 24, 27, 28, 38, 46, 47]",9,10,False,False,12,41630,PGR,20,PGR,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,0,3086,ADRB1,57,KDR,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,1,3087,ADRB2,36,PPARG,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,2,3157,DRD2,25,CDK2,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,3,3177,ADORA2A,27,ESR1,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,4,3199,ESR1,28,NR3C1,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,5,3217,ESR2,1,ABL1,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,6,3218,NR3C1,28,NR3C1,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,7,3279,PGR,10,PTK2,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,8,3295,DRD3,42,CYP2C9,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,9,31453,ESR1,1,ABL1,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,10,41519,DRD3,6,MAOB,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,11,41629,AR,28,NR3C1,1
+mol_fold_4,chemistry_plus_selected_score,58,10,"[1, 6, 10, 19, 25, 27, 28, 36, 42, 57]",10,10,True,False,12,41630,PGR,19,PDE5A,1

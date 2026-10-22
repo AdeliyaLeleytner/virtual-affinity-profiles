@@ -1,0 +1,39 @@
+{
+  "status": "Historical technical path, not canonical publication growth experiment",
+  "modules": {
+    "growth_src/profile_information/__init__.py": {
+      "source_alias": "run-growth/profile_information/__init__.py",
+      "sha256": "19fa16bc22d4f495e01e6a359621b74f7923e9b8dd00aac230e90d61cf03508a"
+    },
+    "growth_src/profile_information/data.py": {
+      "source_alias": "run-growth/profile_information/data.py",
+      "sha256": "0bcd3ebf407d861b8a0e71805bca2e7a8d0487db1d4398a481610b7ca5ca1e67"
+    },
+    "growth_src/profile_information/evaluation.py": {
+      "source_alias": "run-growth/profile_information/evaluation.py",
+      "sha256": "c51e404c891deb02fc7b49fdeff1d3f4df7678f8111f8797977900a6858c2e86"
+    },
+    "growth_src/profile_information/features.py": {
+      "source_alias": "run-growth/profile_information/features.py",
+      "sha256": "cfd3cd60845bd83c9127198dcadb1a7f12804e0befbe67c8278cf0abb9aa6f3d"
+    },
+    "growth_src/profile_information/model.py": {
+      "source_alias": "run-growth/profile_information/model.py",
+      "sha256": "bf5e4d333e9b316fc08eccc02635ff9b028d1f8ee3cb841465900307afe9fef5"
+    },
+    "growth_src/profile_information/replay_details.py": {
+      "source_alias": "run-growth/profile_information/replay_details.py",
+      "sha256": "b942686f83c09a84a9c2551c85cc8bd4a4070ca54467b3cef86069b04a67dfb4"
+    },
+    "growth_src/profile_information/run.py": {
+      "source_alias": "run-growth/profile_information/run.py",
+      "sha256": "758d6e9373c8fe11f02806faaa01402ed44f62c97be7b00b2fbce592c84d585a"
+    },
+    "growth_src/profile_information/splits.py": {
+      "source_alias": "run-growth/profile_information/splits.py",
+      "sha256": "7a934a25f21c6a0a2bcc32b2152c020a8ef73b26fe73f2351c9718e47345b49b"
+    }
+  },
+  "canonical_source_alias": "run-growth-canonical",
+  "canonical_results_alias": "results/growth_run02"
+}

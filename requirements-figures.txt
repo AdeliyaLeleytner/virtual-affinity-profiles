@@ -1,0 +1,7 @@
+# Figure-only environment validated with CPython 3.12.11.
+# Core fitting/replay uses its separate Python 3.9 environment and requirements.
+# Cached-icon normal rendering does not need RDKit or SciPy.
+matplotlib==3.10.6
+numpy==1.26.4
+pandas==2.3.2
+Pillow==12.3.0

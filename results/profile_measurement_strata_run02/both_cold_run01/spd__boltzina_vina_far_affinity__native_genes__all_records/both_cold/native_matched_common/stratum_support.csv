@@ -1,0 +1,5 @@
+source_run,dataset,channel,scope,policy,regime,comparison_support,measurement_stratum,domain,observed_rectangle_rows,observed_exact_rows,observed_identified_D_rows,observed_exact_nochange_D_rows,observed_joint_choice_rows,observed_actual_assay_pairs,observed_direction_defined_assay_pairs,observed_choice_defined_assay_pairs,observed_molecules,observed_chemical_groups,observed_genes,undefined_reason
+both_cold_run01,spd,boltzina_vina_far_affinity,native_genes,all_records,both_cold,native_matched_common,exact_four_cell,all_source_operational,1818,1818,1818,0,736,9,9,8,168,136,10,
+both_cold_run01,spd,boltzina_vina_far_affinity,native_genes,all_records,both_cold,native_matched_common,exact_four_cell,metadata_matched_operational,793,793,793,0,320,4,4,4,119,99,2,
+both_cold_run01,spd,boltzina_vina_far_affinity,native_genes,all_records,both_cold,native_matched_common,censor_involving_identified_D,all_source_operational,5380,0,5380,0,3010,10,10,10,350,280,10,
+both_cold_run01,spd,boltzina_vina_far_affinity,native_genes,all_records,both_cold,native_matched_common,censor_involving_identified_D,metadata_matched_operational,1992,0,1992,0,1029,4,4,4,246,202,2,

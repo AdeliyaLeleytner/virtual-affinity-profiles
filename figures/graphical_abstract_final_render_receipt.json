@@ -1,0 +1,28 @@
+{
+  "scope": "Final display using existing assets and frozen illustrative profiles; no new data, fitting, structure prediction or image generation.",
+  "canvas_pixels": [
+    920,
+    300
+  ],
+  "png_bytes": 34419,
+  "inputs": {
+    "data/molecule_illustrations.csv": "5fb1096486f8e4e2d7ee636d446aede2d2ebd57d1f04fa8c5e44c8e99dad8aed",
+    "data/illustration_profiles.csv": "11f1cb0e192eaa4ed84a24252ff6b761d0f9d266416778816bf934011a63f5b8",
+    "data/protein_illustrations.csv": "f28eaf9440708fe1149a0c92cb0cbe3702e618dc3a5a03e733ef335898125795",
+    "assets/structure_retrieval.json": "4f1bfd7dddc166eaf78b411c231a63f8311ee94a136068065ec772d8b8870b40",
+    "assets/butenafine_molecule.png": "fd1a9174e0dc5ce4e9503da9efbae1b79b6d1cdbc8edf177f31e082c0b783c1a",
+    "assets/indomethacin_molecule.png": "273126a07f96ed79ce9fa34b1b57eb25c10d4c017dbba31f337f9214bcb50bc7",
+    "assets/6CM4_backbone.png": "3de2ce09678855cef5b75c04f2a82fa3edc715175b60bb5df1cf39b1fd853658",
+    "assets/6CM4.pdb": "2bc7ece5bb43ba5bd4fb0076db428ed343f061eccc11133205554f0c8119fc72",
+    "assets/6PDJ_backbone.png": "8a938382b6ce1956f0cad2bc68c96ae6bfb4f39586f9158ff4665964d83ff727",
+    "assets/6PDJ.pdb": "f8e3e9eb703c838f2c8cae408d334cf6d23b6c291d8dfd77c3675280b0f701f1",
+    "assets/3B66_backbone.png": "cd95ce77a8853217ccf2bd9982e52d9bb3ddc43195d1269ac4869b49bfdad3a2",
+    "assets/3B66.pdb": "fe206f8dcaf5ec2f7f3dc1bff69a7d47379b9eaff1529dc5e316151b96cbf7e0"
+  },
+  "outputs": {
+    "pdf": "87e39e3b01557ff85c7168d59d70d4f1a81d1426eba6d366a5e6de9637838464",
+    "svg": "1971ff6727c1dbd0ea54dfee787ffaa17a555902b2cca001cf55fd8058d9651f",
+    "png": "32c98bb3bec94841878023bcc478a2b5fc7ca4401f95feddff1d89c1cbff0fd2"
+  },
+  "font": "DejaVu Sans"
+}

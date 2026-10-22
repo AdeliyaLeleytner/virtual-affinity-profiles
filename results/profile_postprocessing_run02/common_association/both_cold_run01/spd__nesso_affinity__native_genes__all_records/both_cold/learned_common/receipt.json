@@ -1,0 +1,9 @@
+{
+  "source": "outputs/profile_postprocessing_run02/both_cold_run01/spd__nesso_affinity__native_genes__all_records/both_cold/learned_common/continuous_rectangle_data.csv.gz",
+  "source_sha256": "d2e98ad24f9917edca678ad5c843aeff8acb9346a4e1f5e9e00692237db2b7f4",
+  "script_sha256": "affe258f4d768e5b5085e406c72dfd8be30d56c4e6d1bae84c50f4adc224c7c1",
+  "seed": 20261022,
+  "resamples": 400,
+  "new_training": false,
+  "policy": "Common-defined assay contexts are intersected separately for each arm-baseline pair and each draw in primary macro association; raw estimand is pooled moments on common rectangle support."
+}

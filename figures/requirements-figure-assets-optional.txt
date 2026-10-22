@@ -1,0 +1,4 @@
+# Optional regeneration of molecular/protein source pictures, Python 3.12.
+-r requirements-figures-validated.txt
+rdkit==2025.3.6
+scipy==1.16.2

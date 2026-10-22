@@ -1,0 +1,338 @@
+{
+  "scope": "Disk-pressure response; authoritative ORX results, original inputs and all public source archives preserved.",
+  "public_growth_replay": "Failed on CSV close with ENOSPC, no terminal receipt; completed table checks below. Partial growth output retained (~30MB).",
+  "duplicate_public_postprocessing": "Process already exited 120 after storage exhaustion; no live duplicate remains.",
+  "comparison_tolerance": {
+    "atol": 2e-10,
+    "rtol": 2e-10,
+    "scientific_threshold": false
+  },
+  "completed_growth_table_comparisons": [
+    {
+      "path": "dockstring/mol_fold_3_paired_rectangles.csv.gz",
+      "actual_sha256": "c7f6be4026b90fd102b811f0ebedc9aba662c79521fb8f219578ba7b43b9990b",
+      "reference_sha256": "2c93eb893a19f6e28824b4ef6d0920fbc47873b069c02ae5f81b0fc458ae8e0c",
+      "actual_bytes": 185055,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/query_comparator_saved_summary.csv",
+      "actual_sha256": "dbb4d82f7b1d03b598afa6b43a32e8114c889f6014bbbc03877c2c24dcf237c2",
+      "reference_sha256": "dbb4d82f7b1d03b598afa6b43a32e8114c889f6014bbbc03877c2c24dcf237c2",
+      "actual_bytes": 3194,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/growth_acquisition_costs.csv",
+      "actual_sha256": "8df4f49c7b7643a03fecfc429e256a0aa5737bde4372ad6c2efedc7250285c68",
+      "reference_sha256": "6f2391a4c226b146e7057ab121b3ee3de69e212a4483bb4580e3e96c3d0d5602",
+      "actual_bytes": 1800216,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_0_paired_assay_metrics.csv.gz",
+      "actual_sha256": "f3b477edb700adf9636cd9e45298798da0a7c9a3974e6a4da5f0ff16b5ede1eb",
+      "reference_sha256": "126488f99f6c97c80bdd6e78ff23b58a0ab087126f348803662792f9176058f1",
+      "actual_bytes": 2476,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/all_four_exact_paired_uncertainty.csv",
+      "actual_sha256": "bebb55e4c50004bd63577c288b96fc9e11e625bfe9d0ab2649911c11aa0a7198",
+      "reference_sha256": "bebb55e4c50004bd63577c288b96fc9e11e625bfe9d0ab2649911c11aa0a7198",
+      "actual_bytes": 117026,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_1_paired_assay_metrics.csv.gz",
+      "actual_sha256": "ff805eba0633f831602e4e1c3a87f2bdbe9ba5503039a5f64e099b4eabd30fb3",
+      "reference_sha256": "02156a465f62fc6c03a179e7a270a374bb824e97639d6bdc4566d07f9da96bf6",
+      "actual_bytes": 2555,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_4_paired_assay_metrics.csv.gz",
+      "actual_sha256": "eeeaa0135dc8f6c999b1f3e95c8e06036e237892c0a1a9dbf7385a2d9de54ba1",
+      "reference_sha256": "4dd728084eb7a45a540aea801a316d797d78b6e330f5db2d9c46ddb999fc5a08",
+      "actual_bytes": 2507,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/all_measurements_paired_uncertainty.csv",
+      "actual_sha256": "8054ab69336e5e282b953c5636108a5392d69d9833734086a35c9a741388203f",
+      "reference_sha256": "8054ab69336e5e282b953c5636108a5392d69d9833734086a35c9a741388203f",
+      "actual_bytes": 127563,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/all_measurements_paired_draws.csv.gz",
+      "actual_sha256": "1cc0f8db9b9f1ffbc43f48a9edfb7147367e622c1b5f06ca3edd684bd4062f90",
+      "reference_sha256": "9e0f327fb5907280699f8b6cd62eb5a83e3752dee9cb7f7609b77b618d4fafc3",
+      "actual_bytes": 3907749,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_2_paired_rectangles.csv.gz",
+      "actual_sha256": "400d41f6b2b728308230d067a042be37549bbc45c3a9ae001e96a9da221f3ba2",
+      "reference_sha256": "1f8a02c9d39662274068e8ba1bbd3f3bc89dff4bc8163cbf0f5eff008f9e9516",
+      "actual_bytes": 208315,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/full_budget_invariance_checks.csv",
+      "actual_sha256": "6d72febfdf107f9ecf17b0fbfdf06b88c2d7f923b19816927c13caedae93908b",
+      "reference_sha256": "6d72febfdf107f9ecf17b0fbfdf06b88c2d7f923b19816927c13caedae93908b",
+      "actual_bytes": 8460,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/all_four_exact_paired_draws.csv.gz",
+      "actual_sha256": "940b344a9542e634904b0afd893ad5d8a791698a13c562c0bc52ad09c6795ba4",
+      "reference_sha256": "48dc2defeb9426c094bfe18bd1ec0eb2af41681a12f046478ae316fd6d0364ae",
+      "actual_bytes": 2929179,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/all_four_exact_paired_estimates.csv",
+      "actual_sha256": "5a657c04c3369e831d6092b475de5efabc9db4a07ffa9d66c69e94e858630ee9",
+      "reference_sha256": "5a657c04c3369e831d6092b475de5efabc9db4a07ffa9d66c69e94e858630ee9",
+      "actual_bytes": 31836,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/all_measurements_paired_estimates.csv",
+      "actual_sha256": "9df9dc30a93b01d802584fa500fd92ae5799d7ac346ad66b2e63683422cf31ef",
+      "reference_sha256": "9df9dc30a93b01d802584fa500fd92ae5799d7ac346ad66b2e63683422cf31ef",
+      "actual_bytes": 34163,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/query_assay_costs.csv",
+      "actual_sha256": "5ab2fc5b5088dd33547f1002e9047fa7f858803e8e944d9aa4679bc75d53ccd8",
+      "reference_sha256": "5ab2fc5b5088dd33547f1002e9047fa7f858803e8e944d9aa4679bc75d53ccd8",
+      "actual_bytes": 16679,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/query_profile_union_costs.csv",
+      "actual_sha256": "ef5985114b8824901256716ce3a6c783b13fbc3bf5dee0c046de247cb5c4e6d5",
+      "reference_sha256": "ef5985114b8824901256716ce3a6c783b13fbc3bf5dee0c046de247cb5c4e6d5",
+      "actual_bytes": 1268,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_0_paired_rectangles.csv.gz",
+      "actual_sha256": "5a795928ef739fec0730ba90d6fd08e627687a0976e9c1efa323b21d20269ba7",
+      "reference_sha256": "4a41360ff4d6c423eeb151228253eb6bf2bfee1a028f022e6126a33e9cafd751",
+      "actual_bytes": 236726,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_2_paired_assay_metrics.csv.gz",
+      "actual_sha256": "319eacb23243068035b7c7cd3b15e8ab35bc34fc80b9b306ad4150882bc627a8",
+      "reference_sha256": "c4fea0c5d4d7d464f20e4e9cf39dba10ff0518d9d8154cf2a4f2b375e221c3ac",
+      "actual_bytes": 2519,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/paired_metric_denominators.csv",
+      "actual_sha256": "ef908af1a9c67214866c2baf4dd56d1e1a50bab87cc376e73c2be8f64061a1d0",
+      "reference_sha256": "ef908af1a9c67214866c2baf4dd56d1e1a50bab87cc376e73c2be8f64061a1d0",
+      "actual_bytes": 4051,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_4_paired_rectangles.csv.gz",
+      "actual_sha256": "c73ddc76f4a107e62d7ead8e134950f6dba04818555d59aea3ecc5a2aa3e87af",
+      "reference_sha256": "837cb060ddc8472ab9edf61b9c50ee5054cf8109c7bcb89c97ead74ae7123d6e",
+      "actual_bytes": 229110,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/paired_assay_pair_support.csv",
+      "actual_sha256": "80440ccfe80ebdb032fb776f33220bfa4051a9efef0f91cf6ff96ae75116a7eb",
+      "reference_sha256": "80440ccfe80ebdb032fb776f33220bfa4051a9efef0f91cf6ff96ae75116a7eb",
+      "actual_bytes": 105549,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_1_paired_rectangles.csv.gz",
+      "actual_sha256": "df535728f58550dc2f511a2337e49f5350f91facc4a4e5ee1c2336f5430ab338",
+      "reference_sha256": "1677d74db1ee40794f083fd33db6e51bb3d821b3bc62cd68e4adc670d0ffc62e",
+      "actual_bytes": 253162,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/mol_fold_3_paired_assay_metrics.csv.gz",
+      "actual_sha256": "8da2e41ab1818d336288d58a9877112c7d19c5ef7e746c830470efb1b204a169",
+      "reference_sha256": "5fd50b29e2d9435e082c4b0e7b5f44955976f8ebb8d0ab00da469f7288d70302",
+      "actual_bytes": 2390,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "dockstring/query_assay_pair_costs.csv",
+      "actual_sha256": "55fc4423f1219958b605afeab5907b8f5025153c3d62056d53fd1b595d1d1d0d",
+      "reference_sha256": "55fc4423f1219958b605afeab5907b8f5025153c3d62056d53fd1b595d1d1d0d",
+      "actual_bytes": 107681,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_3_paired_rectangles.csv.gz",
+      "actual_sha256": "d806a05aea169cbb41fd4fdda5fd1077fd970715fce52abf8379749f5a2e2e3e",
+      "reference_sha256": "8412f91b6872f628efcdd0869e363e99788cbfc8e99d0cdb21004fcc84568868",
+      "actual_bytes": 639374,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/query_comparator_saved_summary.csv",
+      "actual_sha256": "7f376405a8dee81e281de35d31531e51a3c4851bd8741bffb4350bec6b263c60",
+      "reference_sha256": "7f376405a8dee81e281de35d31531e51a3c4851bd8741bffb4350bec6b263c60",
+      "actual_bytes": 3165,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/growth_acquisition_costs.csv",
+      "actual_sha256": "43b0820b74b19c590078010b8a1ae7e7d6691692646cdd78e8675ecfb472668e",
+      "reference_sha256": "d89e356357f83c94f3157141ba55832f7bef7324e426d9f671174bfb39346752",
+      "actual_bytes": 1216526,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_0_paired_assay_metrics.csv.gz",
+      "actual_sha256": "a8e03f6b791d9ed481b1c2cf7e7cd6ee861531250055b609d0fd555491df9df8",
+      "reference_sha256": "fad5a0e856e2a5101f85574205f5b5a88581afd9aedaae7c1baeb9e08dbd90ed",
+      "actual_bytes": 6382,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/all_four_exact_paired_uncertainty.csv",
+      "actual_sha256": "5313be2e58a3c5eb4b54546af20a4e5b8c310c0822c09ee9b493d8f837f153d7",
+      "reference_sha256": "5313be2e58a3c5eb4b54546af20a4e5b8c310c0822c09ee9b493d8f837f153d7",
+      "actual_bytes": 130048,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_1_paired_assay_metrics.csv.gz",
+      "actual_sha256": "8462801f023f190e166ffafc77e9ed31892270886cb32b77716081bdacdef121",
+      "reference_sha256": "7834f24b383a0a2117000dfe65161cf5bfea4ab8e0b5572be84b47b84da87fec",
+      "actual_bytes": 6214,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_4_paired_assay_metrics.csv.gz",
+      "actual_sha256": "1a602069f61191b7bbbebc8b7f813c6c7eb2fe507e68a181152afd9d17973c4a",
+      "reference_sha256": "2ac7be92327f65dc9cea362ae2ae15051b386936896caafda32c69613bd3aa79",
+      "actual_bytes": 5010,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/all_measurements_paired_uncertainty.csv",
+      "actual_sha256": "635be6a2aafabd7854c0146b879a7feb660504942d93a13e4df8391e72ffdd36",
+      "reference_sha256": "635be6a2aafabd7854c0146b879a7feb660504942d93a13e4df8391e72ffdd36",
+      "actual_bytes": 132402,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/all_measurements_paired_draws.csv.gz",
+      "actual_sha256": "e9f894b8ffd614cf771ae4b35d037bcfda797b339f9338b1fbf4d5b662c85db2",
+      "reference_sha256": "f7f8f06594e0275c20e8af743a8c454727a35584b1716154fdd83df4c6743065",
+      "actual_bytes": 4735933,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_2_paired_rectangles.csv.gz",
+      "actual_sha256": "3704c4939c0cb75d6803dcc8645b0c97868cb62c3f556e152aadd9606af0b9dc",
+      "reference_sha256": "fde47fc89f4b2dda9e05e0959b2bd53fdca78622c34a230265b4df144ac43989",
+      "actual_bytes": 469870,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/all_four_exact_paired_draws.csv.gz",
+      "actual_sha256": "959635459d2449ab25fbe8d48eb638695c26cd04682b01d9757106a7d4467609",
+      "reference_sha256": "adc5bcb0d0740598bb042035f25ae968f0c7f2cbb5fddc67b7bed14e1e9cec71",
+      "actual_bytes": 4675208,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/all_four_exact_paired_estimates.csv",
+      "actual_sha256": "7ed19caefc6629c67e1f3fe177f6be116cabdd9c4a8815b1d980c29cc5256f95",
+      "reference_sha256": "7ed19caefc6629c67e1f3fe177f6be116cabdd9c4a8815b1d980c29cc5256f95",
+      "actual_bytes": 34595,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/all_measurements_paired_estimates.csv",
+      "actual_sha256": "ab38119596e89713b24b4e147d25cd6c93ad1533bd929e03aa8429ef6a30b6e7",
+      "reference_sha256": "ab38119596e89713b24b4e147d25cd6c93ad1533bd929e03aa8429ef6a30b6e7",
+      "actual_bytes": 35509,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/query_assay_costs.csv",
+      "actual_sha256": "6e7a529648743d80456293cc3722026833208c7191f2b96383d5c11760823c2b",
+      "reference_sha256": "6e7a529648743d80456293cc3722026833208c7191f2b96383d5c11760823c2b",
+      "actual_bytes": 95319,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_0_paired_rectangles.csv.gz",
+      "actual_sha256": "bad9301fed25435d8bfa82dc958473dbb02460e7e6f7d53f7ff1681e1da94760",
+      "reference_sha256": "58d14f382a7992f5f9b029e847ca397d3fa8e8347a7414fb19cab11a54b5d6bc",
+      "actual_bytes": 1205522,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_2_paired_assay_metrics.csv.gz",
+      "actual_sha256": "96fc4962c1642580e56b44a755e4ba821c63afa543ffa8a82c9c7392aa7900db",
+      "reference_sha256": "09cd9b1285e56a8c831b2316866676b6e703437707fc13815f23daf4e6515118",
+      "actual_bytes": 5425,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/paired_metric_denominators.csv",
+      "actual_sha256": "420a4dfa3cadd3eb01ad4a299adccc383c78e802ac21332e204d0c06d8a71c92",
+      "reference_sha256": "420a4dfa3cadd3eb01ad4a299adccc383c78e802ac21332e204d0c06d8a71c92",
+      "actual_bytes": 4356,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_4_paired_rectangles.csv.gz",
+      "actual_sha256": "e7c6265601eededf49d661ed6e6bd8c4e573730a6ecb676b4c6d837fc671f057",
+      "reference_sha256": "050a2e2f5a8e49d3c6aec5538fe27f1878effe562c0f5744e7fe5870f3bfdc8a",
+      "actual_bytes": 98856,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_1_paired_rectangles.csv.gz",
+      "actual_sha256": "406d03b0837f3aa0a7a1baa148f07292afc4e782f7fea1a5da88112ad96e3194",
+      "reference_sha256": "0b07d3a116d87c64285647f15b2672fd4726d6dde83c5527bf0f66d1c002c9be",
+      "actual_bytes": 1222200,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/mol_fold_3_paired_assay_metrics.csv.gz",
+      "actual_sha256": "29c94bfce675d7ea3485ca71cf37da5a65219237f3bdf60e3d25eb75ca845904",
+      "reference_sha256": "2a2ff1f9bd03e2b6f1b047cf9ef0fef06622e86a4b0c54bb95cde71666eb086b",
+      "actual_bytes": 5954,
+      "status": "completed scientific values match; only completion_file path metadata excluded"
+    },
+    {
+      "path": "own44/query_assay_pair_costs.csv",
+      "actual_sha256": "99c921af59e0d77b8f60b5125b1288667912cc124baff64431936db295548f93",
+      "reference_sha256": "80047156c80bd6c949330240aca6f2fb972f8218532f649a7f9a2214243bae6e",
+      "actual_bytes": 2481510,
+      "status": "incomplete/unverified after ENOSPC",
+      "reason": "incomplete file schema/row count"
+    }
+  ],
+  "archives_verified_before_cleanup": 5,
+  "removed_release_only_duplicates": [
+    {
+      "relative_path": "artifacts/frozen_predictions",
+      "bytes": 1107679716,
+      "reason": "Regenerable release-only verification copy; exact source ORX data and checksum-verified public archive preserved"
+    }
+  ],
+  "bytes_recovered": 1107679716,
+  "public_archive_restore_previously_tested": "provenance/relocation_restore_qa.json"
+}

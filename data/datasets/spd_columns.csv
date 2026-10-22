@@ -1,0 +1,11 @@
+column_index,gene,protein_index,construct_context
+0,KCNH2,54,source-specific existing method input; canonical gene protein feature does not assert same construct
+1,ADRB1,7,source-specific existing method input; canonical gene protein feature does not assert same construct
+2,SLC6A3,69,source-specific existing method input; canonical gene protein feature does not assert same construct
+3,CHRM1,19,source-specific existing method input; canonical gene protein feature does not assert same construct
+4,CHRM3,21,source-specific existing method input; canonical gene protein feature does not assert same construct
+5,DRD2,29,source-specific existing method input; canonical gene protein feature does not assert same construct
+6,SLC6A2,68,source-specific existing method input; canonical gene protein feature does not assert same construct
+7,SLC6A4,70,source-specific existing method input; canonical gene protein feature does not assert same construct
+8,NR3C1,61,source-specific existing method input; canonical gene protein feature does not assert same construct
+9,HRH1,43,source-specific existing method input; canonical gene protein feature does not assert same construct

@@ -1,0 +1,63 @@
+{
+  "dimensions": {
+    "molecules_total": 1399,
+    "molecules_frozen_spd": 930,
+    "score_only_extra_molecules": 469,
+    "proteins": 132,
+    "binding_records": 33050,
+    "binding_actual_assays": 105,
+    "binding_assay_groups": 82,
+    "binding_identities": 929,
+    "exact_binding_records": 4247,
+    "censored_binding_records": 28803,
+    "human_all_records": 54268,
+    "native_target_pairs_by_dataset": {
+      "dockstring": 45,
+      "own44": 465,
+      "spd": 45
+    }
+  },
+  "checks": {
+    "all_broad_anchor_identities_in_frozen_spd930": true,
+    "all_previous502anchor_records_match_exactly": true,
+    "frozen930_fingerprints_descriptors_and_kernel_preserved": true,
+    "frozen10_protein_features_preserved_exactly": true,
+    "group_disjoint_outer_and_inner_folds": true,
+    "no_new_molecular_fold_assignments": true,
+    "source_variants_not_averaged": true,
+    "source_missing_scores_not_imputed": true,
+    "experimental_values_not_imputed_or_dichotomized": true,
+    "no_label_models_fit": true,
+    "protein_canonical_sequences_are_not_assay_constructs": true,
+    "all_npz_no_pickle": true
+  },
+  "runtime": {
+    "python": "3.12.11",
+    "numpy": "1.26.4",
+    "pandas": "2.3.2",
+    "rdkit": "2025.03.6"
+  },
+  "data_sha256": {
+    "assays.csv": "376d10093d14f1f3d7ece9e6d1d43b7d78d871f3cd57686cc55fec57edc86f79",
+    "binding_records.csv.gz": "1beb41fd61ba57be232995c6ac2d53763dfd667f9d814d73662c878b61900785",
+    "dataset_contract.json": "9568154c7516e7562251e0b39df19a214dd7e859f7d3899a89e948c2897f7e30",
+    "datasets/broad_columns.csv": "d5c1ac9e221d50647cfe19bbbd29101fa5e0e3d828638f8aef776ba8838d50ed",
+    "datasets/dockstring.npz": "95c3f89b57a5007f6cab429cb7a10b2086e5b079f553e88e8ba30f10f0e2359a",
+    "datasets/dockstring_columns.csv": "728daf63b2e8217971d7f7f03c23f89e054b8975dc03f8f7ada6c57aa760049a",
+    "datasets/dockstring_rows.csv": "a63416ccd225ab025d4dd9a751a954b00e62cc087ecf227e69aa55f18376b42b",
+    "datasets/own44.npz": "bc43819c6bf95a8f5fc740d9f4e888f20fc58912f8c13c20b592094dc3b1ef18",
+    "datasets/own44_columns.csv": "82b91e8c7e4dbf8cd91457936c663837125516627d6db938fdc16873ef9deced",
+    "datasets/own44_rows.csv": "cf500cab417a2e2844fa2cc96b0eb9fd441875fa382f6b1a007f1e8941263a10",
+    "datasets/spd.npz": "195434e0db60a98723ad0e84b765fbcc5a8cb30331328fb6d8bc8fd5391c617e",
+    "datasets/spd_columns.csv": "c69327dab57ea56364522fa034f43fa5a4e532ba700210ea6afd130e9283c709",
+    "datasets/spd_rows.csv": "d2f7c4c1d37e6b3597c0d65e4819fce62fc97e7a408037a34900251759007cea",
+    "human_all_records.csv.gz": "dcdc4e9fd7b528bd5af04467e7384f3edfe3b5bf9d39536df916252ae990da33",
+    "molecule_features.npz": "fcef899212a69ccecad04a9c1583fa984a0616af62caa3d9fcbf959929b4931a",
+    "molecules.csv": "0e808802c25e1c5f4980bf2cc9b02cfbddc5b7d4e993021bb7bae7664e2d856f",
+    "protein_features.npz": "533245dd04bcb4eb8d03c519554ed7b8b06872a2bf41094b32241b474b5f196e",
+    "proteins.csv": "59958b8a2a1012051754953264849214582610011cf69be5d040d250e288adb3",
+    "splits/molecule_folds.csv": "b85ba8024c466da5c189017ab511c39601f2e713776f0ae9ac85e964e172259b",
+    "splits/native_target_pair_holdouts.csv": "7ea38a0e95d736f70fe37b0c606716a05ead2f246e6771ff2ece192b965b315b"
+  },
+  "licenses": "Input preparation does not establish redistribution rights. See SOURCES_AND_LICENSES.md; public release decision remains with root task."
+}

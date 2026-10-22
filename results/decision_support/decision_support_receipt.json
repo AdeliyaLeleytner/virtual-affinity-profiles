@@ -1,0 +1,787 @@
+{
+  "status": "passed",
+  "source_runs": [
+    "core_run02",
+    "fingerprint_run01",
+    "both_cold_run01"
+  ],
+  "continuous_tables": 68,
+  "endpoint_domain_support_rows": 272,
+  "main_rows": 4,
+  "compact_checks": 272,
+  "all_compact_checks_passed": true,
+  "helper_sha256": "78ee6c6ca64a90ab771942f88cb1dfe8c1c25bcd9caf63126f9a211f103f1525",
+  "input_manifest_sha256": "8dc47e7ceb873d065b64c1ebc0f16785a55b6c09b6ab983e05b48cef74c3e6e5",
+  "outputs_sha256": {
+    "decision_support.csv": "ba9fbd52e4f08538208b93534b2a7455c6978c77d13856f5e5f6db6d367cd80f",
+    "decision_support_full.csv": "a74d2cd7fb24d65d8e869805d46632ccd828031357986b64d06f57d0a2e8b2c4",
+    "decision_support_compact_check.csv": "daf477f236490e00dd8a0605c41223ba7a8087ff9b6aa48f672dae47ff142465",
+    "decision_support_input_manifest.csv": "8dc47e7ceb873d065b64c1ebc0f16785a55b6c09b6ab983e05b48cef74c3e6e5",
+    "decision_support_schema.json": "d880cdd2eee64b98098bb2dcc8eb7ec5d58f49534ce4f5a4d69039a5ab45b426",
+    "support_methods_note.tex": "00bc60fba311e30784676dea104168aa1c5b0bf8d9fe8f15b218d1c15748b3ad"
+  },
+  "point_table_metadata": [
+    {
+      "source_run": "core_run02",
+      "dataset_key": "dockstring__dockstring__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/dockstring__dockstring__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "dockstring__dockstring__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/dockstring__dockstring__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "dockstring__dockstring__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/dockstring__dockstring__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "dockstring__dockstring__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/dockstring__dockstring__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "own44__own44__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/own44__own44__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "own44__own44__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/own44__own44__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "own44__own44__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/own44__own44__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "own44__own44__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/own44__own44__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltz_affinity__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltz_affinity__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltz_affinity__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltz_affinity__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltz_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltzina_vina_far_affinity__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltzina_vina_far_affinity__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltzina_vina_far_affinity__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltzina_vina_far_affinity__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_far_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltzina_vina_zero_affinity__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltzina_vina_zero_affinity__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltzina_vina_zero_affinity__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__boltzina_vina_zero_affinity__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__boltzina_vina_zero_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__gnina__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__gnina__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__gnina__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__gnina__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__gnina__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__nesso_affinity__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__nesso_affinity__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__nesso_affinity__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__nesso_affinity__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__nesso_affinity__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__raw_ad4__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__raw_ad4__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__raw_ad4__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__raw_ad4__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__raw_ad4__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__raw_gnina_own__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__raw_gnina_own__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__raw_gnina_own__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__raw_gnina_own__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__raw_gnina_own__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__vina__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__vina__native_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__vina__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "core_run02",
+      "dataset_key": "spd__vina__native_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/core_run02/spd__vina__native_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "fingerprint_run01",
+      "dataset_key": "dockstring__dockstring__all_binding_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/fingerprint_run01/dockstring__dockstring__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "fingerprint_run01",
+      "dataset_key": "dockstring__dockstring__all_binding_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/fingerprint_run01/dockstring__dockstring__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "fingerprint_run01",
+      "dataset_key": "dockstring__dockstring__all_binding_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/fingerprint_run01/dockstring__dockstring__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "fingerprint_run01",
+      "dataset_key": "dockstring__dockstring__all_binding_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/fingerprint_run01/dockstring__dockstring__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "fingerprint_run01",
+      "dataset_key": "own44__own44__all_binding_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "fingerprint_run01",
+      "dataset_key": "own44__own44__all_binding_genes__all_records",
+      "regime": "new_molecules_known_proteins",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_molecules_known_proteins/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "fingerprint_run01",
+      "dataset_key": "own44__own44__all_binding_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "fingerprint_run01",
+      "dataset_key": "own44__own44__all_binding_genes__all_records",
+      "regime": "new_proteins_known_molecules",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/fingerprint_run01/own44__own44__all_binding_genes__all_records/new_proteins_known_molecules/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "dockstring__dockstring__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/dockstring__dockstring__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "dockstring__dockstring__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/dockstring__dockstring__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "own44__own44__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/own44__own44__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "own44__own44__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/own44__own44__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__boltz_affinity__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__boltz_affinity__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__boltz_affinity__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__boltz_affinity__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__boltzina_vina_far_affinity__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__boltzina_vina_far_affinity__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__boltzina_vina_far_affinity__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__boltzina_vina_far_affinity__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__boltzina_vina_zero_affinity__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__boltzina_vina_zero_affinity__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__boltzina_vina_zero_affinity__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__boltzina_vina_zero_affinity__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__gnina__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__gnina__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__gnina__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__gnina__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__nesso_affinity__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__nesso_affinity__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__nesso_affinity__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__nesso_affinity__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__raw_ad4__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__raw_ad4__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__raw_ad4__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__raw_ad4__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__raw_gnina_own__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__raw_gnina_own__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__raw_gnina_own__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__raw_gnina_own__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__vina__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "learned_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__vina__native_genes__all_records/both_cold/learned_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    },
+    {
+      "source_run": "both_cold_run01",
+      "dataset_key": "spd__vina__native_genes__all_records",
+      "regime": "both_cold",
+      "comparison_support": "native_matched_common",
+      "point_table_id": "artifacts/profile_postprocessing/both_cold_run01/spd__vina__native_genes__all_records/both_cold/native_matched_common/paired_estimates.csv",
+      "declared_domains": [
+        "all_source_operational",
+        "metadata_matched_operational"
+      ]
+    }
+  ],
+  "new_fit": false,
+  "new_replay": false,
+  "scientific_thresholds": null,
+  "counting_code_sha256": "782a1d2b8f174cfe4dcbaef2d36e35fca45516d7d3e666649bcbb262a4088f7d",
+  "counting_pass_helper_sha256": "0e2122dceda1a182a6e74af85ca2b446c3f04c56a553946715af8e99d0235dc0",
+  "main_table_lookup": "Complete unique metadata key including source run, dataset, channel, scope, policy, regime, comparison support, domain and endpoint",
+  "main_table_finalized_from_verified_full_support": true,
+  "source_dataset_count": 22,
+  "continuous_read_columns": 12,
+  "read_chunk_size": 10000,
+  "zero_support_handling": "Both domains and endpoints are emitted from metadata; empty eligible sets return explicit zeros. Current source tables have no zero endpoint/domain rows.",
+  "source_replay_scope": "Completed core/fingerprint/both-cold dataset artifacts from the legacy replay; the later decoder-name parsing failure is outside this export scope.",
+  "prose_note": "manuscript/tables/support_methods_note.tex",
+  "publication_table_absolute_paths": false
+}
