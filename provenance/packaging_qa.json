@@ -67,7 +67,7 @@
     "followup": "Generic checker literals were rewritten without private-path prefixes or former-author names; final integrated release still requires refreshed scan."
   },
   "git": {
-    "branch": "codex/publication",
+    "branch": "publication",
     "remote_created": false,
     "commit_created": false
   },

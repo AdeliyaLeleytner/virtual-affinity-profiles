@@ -1,7 +1,7 @@
 {
   "scope": "Prospective analysis Git tree; this inventory excludes only its own bytes to avoid a self-hash cycle.",
   "files": 1421,
-  "bytes": 144109916,
+  "bytes": 144109910,
   "largest_file_bytes": 9540263,
   "archives_gitignored": true,
   "manuscript_and_submission_absent": true,
@@ -1208,8 +1208,8 @@
     },
     {
       "path": "provenance/packaging_qa.json",
-      "bytes": 3594,
-      "sha256": "a42bd80ef9bf6e04d97ae6940e7acbd53a85f531ee9abfb0a552c2eec1a93612"
+      "bytes": 3588,
+      "sha256": "cd6af242af52c94273704cf56cc3726ab7c22ed049b0c7f8bbf857351f38fb5f"
     },
     {
       "path": "provenance/prepared_inputs.json",
