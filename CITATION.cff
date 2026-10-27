@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "Please cite this reproducibility repository and the original data/model sources. A publication DOI will be added when available."
 type: software
-title: "When do virtual affinity profiles improve biological decisions?"
-version: 1.0.0
-date-released: 2026-10-22
+title: "Affinity panels dilute the target-specific signal that transfers to a held-out protein: reproducibility code, data and figures"
+version: 1.2.0
+date-released: 2026-10-27
 authors:
   - family-names: Leleytner
     given-names: Adeliya
