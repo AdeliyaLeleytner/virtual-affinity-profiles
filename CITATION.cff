@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this reproducibility repository and the original data/model sources. A publication DOI will be added when available."
 type: software
 title: "Affinity panels dilute the target-specific signal that transfers to a held-out protein: reproducibility code, data and figures"
-version: 1.2.0
-date-released: 2026-10-27
+version: 1.3.0
+date-released: "2026-10-27"
 authors:
   - family-names: Leleytner
     given-names: Adeliya
